@@ -1,0 +1,12 @@
+# Kondisi B: Naive RAG. Retrieval dense saja, tanpa reranking.
+extends: base.yaml
+
+condition: cond_b
+
+retrieval:
+  mode: dense
+  top_k_dense: 5
+  top_k_context: 5
+
+rerank:
+  enabled: false

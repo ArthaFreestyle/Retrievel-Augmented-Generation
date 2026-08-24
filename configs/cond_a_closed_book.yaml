@@ -1,0 +1,13 @@
+# Kondisi A: Closed-Book. Tidak ada retrieval sama sekali.
+# Instruksi abstain pada prompt TETAP disertakan (lihat generator.py) agar
+# perbandingan dengan B/C terhadap metrik abstain tetap adil.
+extends: base.yaml
+
+condition: cond_a
+
+retrieval:
+  mode: none
+  top_k_context: 0
+
+rerank:
+  enabled: false

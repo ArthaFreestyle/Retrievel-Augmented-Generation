@@ -1,0 +1,17 @@
+# Daftar sumber dokumen LPMB UNAIR yang diunduh oleh
+# notebooks/01_ingest_documents.ipynb (§6 notebook 01). Commit file ini
+# (bukan data/raw/ itu sendiri) agar orang lain dapat mengunduh ulang
+# korpus yang sama persis.
+#
+# Isi tiap entri secara manual seiring dokumen ditemukan di laman LPMB
+# (Download Center, Informasi Penting, Materi & Template).
+
+pdf_sources:
+  # - url: https://lpmb.unair.ac.id/...
+  #   program: BBK
+  #   year: 2026
+  #   title: "Edaran Pelaksanaan BBK 8"
+
+web_sources:
+  # - url: https://lpmb.unair.ac.id/...
+  #   label: "Halaman Informasi Penting"

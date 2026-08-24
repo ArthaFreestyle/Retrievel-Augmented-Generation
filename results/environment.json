@@ -1,0 +1,12 @@
+{
+  "python_version": "3.11.9",
+  "torch_version": "2.6.0+cu124",
+  "cuda_available": true,
+  "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "embedding_model": "BAAI/bge-m3",
+  "embedding_dim": 1024,
+  "reranker_model": "BAAI/bge-reranker-v2-m3",
+  "generator_model": "gemini-3.6-flash",
+  "judge_model": "gemini-3.6-flash",
+  "seed": 42
+}

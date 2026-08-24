@@ -1,0 +1,16 @@
+# Rahasia
+.env
+
+# Data mentah (unduh ulang via configs/sources.yaml, jangan commit) & cache LLM
+data/raw/
+cache/
+
+# Artefak besar/regenerable — dibangun ulang dari data/processed/
+indexes/
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/

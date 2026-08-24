@@ -1,0 +1,83 @@
+# Konfigurasi dasar. File cond_*.yaml meng-override sebagian kunci ini
+# lewat `extends: base.yaml` (lihat src/config.py::load_config).
+# Ketiga kondisi ablation TIDAK BOLEH punya salinan kode berbeda — hanya
+# konfigurasi yang berbeda (P1, lihat perancangan.md §1 dan §6).
+
+project:
+  name: skripsi-rag-lpmb
+seed: 42
+
+paths:
+  data_raw_pdf: data/raw/pdf
+  data_raw_web: data/raw/web
+  data_interim: data/interim
+  data_processed: data/processed
+  data_benchmark: data/benchmark
+  indexes_faiss: indexes/faiss
+  indexes_bm25: indexes/bm25
+  runs: runs
+  results: results
+  figures: figures
+  cache_db: cache/llm_cache.sqlite
+
+models:
+  # Semua kandidat di bawah muat pada 8 GB VRAM fp16.
+  embedding: BAAI/bge-m3
+  reranker: BAAI/bge-reranker-v2-m3
+  generator: gemini-3.6-flash
+  # Sebaiknya versi/model berbeda dari generator untuk menekan
+  # self-enhancement bias (lihat perancangan.md §9 risiko #3).
+  judge: gemini-3.1-pro-preview
+
+chunking:
+  # 2000 dipilih dari distribusi ukuran bagian (unit logis antar-heading)
+  # korpus contoh: median 826, p75 1871 -- 2000 menangkap ~81% bagian
+  # utuh tanpa dipecah lintas-chunk, naik dari ~48% pada 800. Setelah
+  # 2000 hasilnya landai (2400 cuma +3-4 poin), dan chunk lebih besar
+  # mulai mengencerkan embedding -- lihat README.
+  chunk_size: 2000
+  # Toleransi luapan ~1.3x: paragraf sepanjang (chunk_size, soft_max]
+  # dibiarkan jadi satu chunk sendiri TANPA dipaksa lewat recursive_chunk
+  # (pemotongan kalimat/kata yang mengorbankan koherensi semantik).
+  # Hanya paragraf > soft_max yang sungguh dipecah.
+  soft_max: 2600
+  # ~10% dari chunk_size, snap ke batas unit/kata (lihat
+  # _pack_pieces: overlap mengambil paragraf terakhir utuh bila muat,
+  # baru dipangkas ke batas kata kalau tidak).
+  chunk_overlap: 200
+  unit: char
+  # Chunk < ini dilebur ke chunk sebelumnya (bukan dibuang), kecuali
+  # lintas batas BAB atau tetangganya tabel -- lihat README, temuan
+  # chunk "yatim".
+  min_chunk_chars: 250
+  # Chunk non-tabel dengan fraksi karakter "." di atas ini dibuang --
+  # dot leader daftar isi ("Kegiatan .......................... 5"),
+  # bukan prosa sungguhan (lihat README, temuan TOC ikut terindeks).
+  # 0.20 dipilih empiris: chunk TOC di korpus contoh berkisar 0.24-0.88,
+  # chunk prosa asli tertinggi (termasuk lampiran berformat titik-titik
+  # isian, mis. "tanggal ..........") cuma 0.10 -- ada celah lebar.
+  max_dot_ratio: 0.20
+
+retrieval:
+  mode: hybrid       # none | dense | hybrid
+  top_k_dense: 5
+  top_k_bm25: 20
+  top_k_context: 5
+
+rerank:
+  enabled: false
+  top_n: 5
+
+generator:
+  temperature: 0.0
+  max_output_tokens: 1024
+  system_prompt_path: configs/prompts/system_prompt.txt
+
+experiment:
+  # Batas jumlah pertanyaan untuk dry-run murah (§8.2). Set null untuk
+  # eksekusi penuh setelah pipeline terverifikasi pada skala kecil.
+  limit: 20
+  run_id: null
+
+api:
+  gemini_api_key_env: GEMINI_API_KEY

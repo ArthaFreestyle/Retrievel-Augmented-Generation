@@ -1,0 +1,14 @@
+# Kondisi C: Hybrid (dense + BM25 via RRF) + cross-encoder reranking.
+extends: base.yaml
+
+condition: cond_c
+
+retrieval:
+  mode: hybrid
+  top_k_dense: 20
+  top_k_bm25: 20
+  top_k_context: 5
+
+rerank:
+  enabled: true
+  top_n: 5
