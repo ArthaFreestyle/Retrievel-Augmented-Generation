@@ -19,6 +19,24 @@ kecuali yang disebut di bawah) sudah ada.
   Alur saat ini mengasumsikan PDF sudah ditaruh manual di `data/raw/pdf/`
   (bukan diunduh dari `configs/sources.yaml`); fungsi unduh di `src/ingest.py`
   tetap tersedia untuk dipakai belakangan bila korpus diperluas dari web.
+  **Ekstraksi web (baru):** `snapshot_web_page` kini juga menulis sidecar
+  `{stem}.meta.json` (url asli + `retrieved_at`) di sebelah berkas HTML —
+  tanpa ini url sumber tidak bisa dipulihkan lagi dari nama berkas (slug
+  dipotong/diubah). `extract_text_html` (BeautifulSoup) membuang
+  `script`/`style`/`nav`/`header`/`footer`/`noscript` lalu mengembalikan
+  teks laman dibungkus sebagai satu "halaman" (`page=1`, sama skema
+  `list[{"page","text",...}]` dengan jalur PDF) supaya
+  `write_interim_text`/`is_extractable`/`build_document_record` dipakai
+  ulang tanpa cabang kode terpisah. Notebook 01 sekarang punya seksi
+  paralel untuk `data/raw/web/*.html` (baru men-scan snapshot yang sudah
+  ada, tidak mengunduh), dan perakitan record PDF+web digabung lewat
+  fungsi baru `ingest.assemble_documents()` (dipanggil dua kali, sekali
+  per sumber, `existing_ids` yang sama supaya `doc_id` tetap unik lintas
+  sumber) alih-alih loop terpisah yang identik untuk tiap sumber.
+  Diverifikasi end-to-end (`nbconvert --execute`) dengan 0 snapshot HTML
+  di korpus contoh saat ini (graceful, tidak mengganggu `documents.jsonl`
+  yang sudah ada) dan dites terpisah dengan satu sample HTML tiruan
+  (nav/script/footer terbuang, `source_url` terisi dari sidecar).
   **Ekstraksi tabel (revisi):** semula hanya memakai `page.extract_text()`
   pdfplumber untuk halaman bertabel, dengan alasan `extract_tables()` mentah
   menghasilkan noise `"| | | |"` pada tabel berkolom banyak-kosong. Ternyata

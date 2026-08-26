@@ -55,7 +55,12 @@ def download_pdf(url: str, dest_dir: str | Path, timeout: int = 30) -> Path:
 def snapshot_web_page(url: str, dest_dir: str | Path, timeout: int = 30) -> Path:
     """Simpan salinan HTML mentah sebuah laman ke dest_dir (arsip, karena
     laman LPMB berubah antar-periode). Nama berkas = slug(url) + tanggal
-    UTC, sehingga snapshot pada tanggal berbeda tidak saling menimpa."""
+    UTC, sehingga snapshot pada tanggal berbeda tidak saling menimpa.
+
+    Menulis juga sidecar `{dest_path.stem}.meta.json` berisi `{"url",
+    "retrieved_at"}` di sebelah berkas HTML — slug nama berkas dipotong/
+    diubah dari url aslinya, jadi tanpa sidecar ini url sumber tidak bisa
+    dipulihkan lagi saat ekstraksi (lihat read_web_snapshot_meta)."""
     import requests
 
     dest_dir = Path(dest_dir)
@@ -68,7 +73,52 @@ def snapshot_web_page(url: str, dest_dir: str | Path, timeout: int = 30) -> Path
     date_tag = datetime.now(timezone.utc).strftime("%Y%m%d")
     dest_path = dest_dir / f"{date_tag}__{slug}.html"
     dest_path.write_text(resp.text, encoding="utf-8")
+
+    retrieved_at = datetime.now(timezone.utc).astimezone().isoformat()
+    meta_path = dest_path.with_suffix(".meta.json")
+    meta_path.write_text(
+        json.dumps({"url": url, "retrieved_at": retrieved_at}, ensure_ascii=False),
+        encoding="utf-8",
+    )
     return dest_path
+
+
+def read_web_snapshot_meta(html_path: str | Path) -> dict[str, Any] | None:
+    """Baca sidecar `{html_path.stem}.meta.json` yang ditulis
+    snapshot_web_page() (url asli + retrieved_at). None jika tidak ada
+    (mis. snapshot ditaruh manual tanpa lewat snapshot_web_page)."""
+    meta_path = Path(html_path).with_suffix(".meta.json")
+    if not meta_path.exists():
+        return None
+    return json.loads(meta_path.read_text(encoding="utf-8"))
+
+
+def scan_local_html(dir_path: str | Path) -> list[Path]:
+    """Daftar semua *.html di dir_path (tidak rekursif), terurut nama."""
+    return sorted(Path(dir_path).glob("*.html"))
+
+
+def extract_text_html(html_path: str | Path) -> list[dict[str, Any]]:
+    """Ekstraksi teks utama dari satu snapshot HTML.
+
+    Beda dari PDF, laman web tidak berpaginasi — dibungkus sebagai satu
+    "halaman" (page=1) supaya konsumen hilir (write_interim_text,
+    is_extractable, build_document_record) yang sudah dirancang untuk
+    list[{"page", "text", ...}] tetap dipakai tanpa cabang kode terpisah.
+
+    Tag `script`/`style`/`nav`/`header`/`footer`/`noscript` dibuang
+    sebelum ekstraksi teks (murni derau navigasi/layout, bukan isi
+    laman), lalu baris kosong berlebih dirapikan."""
+    from bs4 import BeautifulSoup
+
+    html = Path(html_path).read_text(encoding="utf-8", errors="ignore")
+    soup = BeautifulSoup(html, "html.parser")
+    for tag in soup(["script", "style", "nav", "header", "footer", "noscript"]):
+        tag.decompose()
+
+    lines = [ln.strip() for ln in soup.get_text("\n").splitlines()]
+    text = "\n".join(ln for ln in lines if ln)
+    return [{"page": 1, "text": text, "tables": [], "method": "bs4"}]
 
 
 def extract_text_pymupdf(pdf_path: str | Path) -> list[dict[str, Any]]:
@@ -280,6 +330,58 @@ def build_document_record(
         "retrieved_at": datetime.now(timezone.utc).astimezone().isoformat(),
         "extractable": extractable,
     }
+
+
+def assemble_documents(
+    rows: Any,
+    extracted: dict[Any, list[dict[str, Any]]],
+    source_type: str,
+    existing_ids: set[str],
+    interim_dir: str | Path,
+) -> tuple[list[dict[str, Any]], list[str]]:
+    """Loop satu sumber (baris metadata + teks hasil ekstraksi per berkas)
+    -> record documents.jsonl + teks interim tertulis. Dipakai notebook 01
+    untuk PDF maupun web agar loop perakitan record tidak diduplikasi dua
+    kali antar-sumber (P4).
+
+    `rows` iterable via itertuples() (mis. DataFrame pandas) dengan kolom
+    title/year/local_path/filename/sha256/program, dan opsional
+    `source_url` (dipakai bila kolomnya ada, None bila tidak — hanya
+    snapshot web yang punya ini, lewat sidecar meta.json).
+
+    `existing_ids` dimutasi in-place supaya doc_id tetap unik lintas
+    PANGGILAN berturutan (mis. PDF dulu baru web, pada set yang sama).
+
+    Return: (records, filenames_not_extractable)."""
+    records: list[dict[str, Any]] = []
+    not_extractable: list[str] = []
+
+    for row in rows.itertuples():
+        pages = extracted[row.local_path]
+        doc_id = make_doc_id(row.title, row.year, existing_ids)
+        existing_ids.add(doc_id)
+
+        extractable = is_extractable(pages)
+        if not extractable:
+            not_extractable.append(row.filename)
+
+        write_interim_text(doc_id, pages, interim_dir)
+
+        records.append(
+            build_document_record(
+                doc_id=doc_id,
+                title=row.title,
+                source_type=source_type,
+                source_url=getattr(row, "source_url", None),
+                local_path=Path(*Path(row.local_path).parts[1:]).as_posix(),
+                program=row.program,
+                year=row.year,
+                n_pages=len(pages),
+                sha256=row.sha256,
+                extractable=extractable,
+            )
+        )
+    return records, not_extractable
 
 
 def write_documents_jsonl(records: list[dict[str, Any]], out_path: str | Path) -> None:

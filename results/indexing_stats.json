@@ -2,10 +2,10 @@
   "n_chunks": 114,
   "embedding_model": "BAAI/bge-m3",
   "embedding_dim": 1024,
-  "encode_seconds": 39.92,
-  "encode_chunks_per_second": 2.86,
-  "faiss_build_seconds": 0.72,
+  "encode_seconds": 110.07,
+  "encode_chunks_per_second": 1.04,
+  "faiss_build_seconds": 1.22,
   "faiss_index_bytes": 475539,
-  "bm25_build_seconds": 77.37,
+  "bm25_build_seconds": 48.55,
   "bm25_index_bytes": 119468
 }
