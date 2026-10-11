@@ -7,6 +7,7 @@ notebooks/01_ingest_documents.ipynb.
 from __future__ import annotations
 
 import hashlib
+import warnings
 import json
 import re
 from datetime import datetime, timezone
@@ -197,6 +198,53 @@ def _rows_to_markdown(rows: list[list[str | None]]) -> str:
     return "\n".join(lines)
 
 
+# Penanda baris judul (huruf tebal) di data/interim/*.txt. HARUS sinkron
+# dengan src/chunking.py::BOLD_MARK. Deteksi judul di chunking memakai
+# penanda ini (bukan pola nomor saja), karena butir daftar bernomor
+# ("2. Publikasi Jurnal ...") dan judul sub-bagian ("2. Tahap Pengusulan")
+# berpola sama -- yang membedakan hanya ketebalan hurufnya.
+BOLD_MARK = "[[B]] "
+ROW_SPLIT_CHARS = 2600  # tabel yang lebih panjang dari ini dipecah per baris (sekitar soft_max chunking)
+_NUMBERING_SPAN_RE = re.compile(r"^\s*(?:\d{1,3}|[A-Za-z])?\s*[.)]?\s*$")
+
+
+def _squash(s: str) -> str:
+    return re.sub(r"\s+", "", s)
+
+
+def _bold_line_keys(pdf_path: str | Path) -> dict[int, set[str]]:
+    """Per halaman: himpunan baris (spasi dibuang) yang seluruh teksnya
+    tebal menurut PyMuPDF. Span yang hanya berisi nomor butir ("9.") tidak
+    dihitung -- di PDF ini nomor kadang tidak ikut tebal padahal judulnya
+    tebal."""
+    import pymupdf
+
+    keys: dict[int, set[str]] = {}
+    doc = pymupdf.open(pdf_path)
+    try:
+        for i, page in enumerate(doc, start=1):
+            found: set[str] = set()
+            for block in page.get_text("dict")["blocks"]:
+                for line in block.get("lines", []):
+                    spans = [s for s in line["spans"] if s["text"].strip()]
+                    body = [s for s in spans if not _NUMBERING_SPAN_RE.match(s["text"])]
+                    if body and all(s["flags"] & 16 for s in body):
+                        found.add(_squash("".join(s["text"] for s in spans)))
+            keys[i] = found
+    finally:
+        doc.close()
+    return keys
+
+
+def _mark_bold_lines(text: str, bold_keys: set[str]) -> str:
+    out = []
+    for ln in text.splitlines():
+        if ln.strip() and _squash(ln) in bold_keys:
+            ln = BOLD_MARK + ln.strip()
+        out.append(ln)
+    return "\n".join(out)
+
+
 def extract_text_auto(pdf_path: str | Path) -> list[dict[str, Any]]:
     """Gabungkan PyMuPDF (default, teks umum) dengan pdfplumber (halaman
     yang terdeteksi memuat tabel via find_tables()) — lihat §6 notebook 01.
@@ -216,23 +264,96 @@ def extract_text_auto(pdf_path: str | Path) -> list[dict[str, Any]]:
     src/chunking.py untuk bagaimana blok tabel ini nanti dijadikan SATU
     chunk utuh yang tidak pernah dipecah.
 
+    Baris yang seluruhnya tebal diberi awalan BOLD_MARK (lihat
+    _bold_line_keys) -- dipakai chunking untuk membedakan judul asli dari
+    butir daftar.
+
     Return: [{"page": int, "text": str, "tables": list[str],
               "method": "pymupdf"|"pdfplumber_table"}, ...]
     """
     import pdfplumber
 
+    try:
+        from src import table_luaran
+    except ImportError:  # notebook: sys.path "../src"
+        import table_luaran
+    from src.table_clean import table_to_text
+
     pymupdf_by_page = {p["page"]: p["text"] for p in extract_text_pymupdf(pdf_path)}
+    bold_keys = _bold_line_keys(pdf_path)
 
     merged: list[dict[str, Any]] = []
     with pdfplumber.open(pdf_path) as pdf:
+        # Lintasan 1: kumpulkan tabel lolos-seleksi per halaman dan kelompokkan
+        # potongan antarhalaman (tabel di dasar halaman n + tabel di puncak
+        # halaman n+1 dengan jumlah kolom mentah sama = satu tabel).
+        found: dict[int, list[dict[str, Any]]] = {}
+        luaran_map, luaran_notes = table_luaran.extract_all(pdf)  # Tabel B-I Lampiran 2: satu baris = satu blok
+        for note in luaran_notes:
+            warnings.warn(f"tabel luaran: {note}")
+        last_open: dict[str, Any] | None = None  # tabel terakhir halaman sebelumnya, bila menjorok ke dasar
+        for i, page in enumerate(pdf.pages, start=1):
+            found[i] = []
+            for t in page.find_tables():
+                rows = t.extract()
+                md = _rows_to_markdown(rows)
+                if not md and table_luaran.table_key(i, t.bbox) not in luaran_map:
+                    continue
+                n_cols = max(len(r) for r in rows)
+                cont = (
+                    last_open is not None
+                    and last_open["n_cols"] == n_cols
+                    and t.bbox[1] < page.height * 0.2
+                    and not found[i]
+                )
+                item = {"rows": rows, "bbox": t.bbox, "md": md, "n_cols": n_cols,
+                        "lead": last_open["lead"] if cont else None}
+                if table_luaran.table_key(i, t.bbox) in luaran_map:
+                    item["luaran"] = table_luaran.table_key(i, t.bbox)
+                if cont:
+                    item["lead"]["frags"].append(rows)
+                    item["lead"]["frag_pages"].append(i)
+                else:
+                    item["frags"] = [rows]
+                    item["frag_pages"] = [i]
+                    item["lead"] = item
+                found[i].append(item)
+            tail = found[i][-1] if found[i] else None
+            last_open = tail if tail and tail["bbox"][3] > page.height * 0.8 else None
+
         for i, page in enumerate(pdf.pages, start=1):
             kept_tables_md: list[str] = []
             kept_bboxes: list[tuple[float, float, float, float]] = []
-            for t in page.find_tables():
-                md = _rows_to_markdown(t.extract())
-                if md:
-                    kept_tables_md.append(md)
-                    kept_bboxes.append(t.bbox)
+            kept_notes: list[str] = []
+            for item in found[i]:
+                kept_bboxes.append(item["bbox"])
+                if item.get("luaran"):
+                    # tiap baris jadi blok tabel sendiri (= satu chunk), di halaman tempat baris itu dimulai
+                    sep = f"\n=== AKHIR TABEL ===\n=== TABEL HALAMAN {i} #{len(kept_tables_md) + 1} ===\n"
+                    kept_tables_md.append(sep.join(luaran_map[item["luaran"]]))
+                    continue
+                lead = item["lead"]
+                if "txt" not in lead:  # hitung sekali per tabel (potongan antarhalaman sudah terkumpul)
+                    try:
+                        lead["txt"], lead["notes"], lines = table_to_text(lead["frags"], with_rows=True)
+                    except Exception:  # tabel janggal -> kembali ke Markdown, jangan gagalkan ingest
+                        lead["txt"], lead["notes"], lines = lead["md"], ["table_to_text gagal, dipakai Markdown"], []
+                    # tabel besar: satu baris = satu blok (= satu chunk), di halaman tempat baris itu berada
+                    lead["split"] = None
+                    if len(lines) > 1 and len(lead["txt"]) > ROW_SPLIT_CHARS:
+                        lead["split"] = {}
+                        for frag_no, line in lines:
+                            lead["split"].setdefault(lead["frag_pages"][frag_no], []).append(line)
+                if lead["split"] is not None:
+                    sep = f"\n=== AKHIR TABEL ===\n=== TABEL HALAMAN {i} #{len(kept_tables_md) + 1} ===\n"
+                    kept_tables_md.append(sep.join(lead["split"].get(i, [])))
+                elif lead is not item:
+                    kept_tables_md.append("")  # sambungan: isinya sudah dirender di tabel pembukanya
+                    continue
+                else:
+                    kept_tables_md.append(lead["txt"])
+                if lead is item:
+                    kept_notes += [f"hal. {i}: {n}" for n in lead["notes"]]
 
             if kept_bboxes:
 
@@ -245,10 +366,31 @@ def extract_text_auto(pdf_path: str | Path) -> list[dict[str, Any]]:
                         for (bx0, btop, bx1, bbot) in bboxes
                     )
 
-                narrative = page.filter(_outside_tables).extract_text() or ""
-                merged.append({"page": i, "text": narrative, "tables": kept_tables_md, "method": "pdfplumber_table"})
+                # Tabel disisipkan di POSISINYA (urut dari atas halaman) lewat
+                # pemotongan halaman per pita vertikal, bukan ditumpuk di akhir
+                # halaman -- supaya tabel mewarisi judul bagian yang benar saat
+                # satu halaman memuat beberapa judul.
+                filtered = page.filter(_outside_tables)
+                order = sorted(range(len(kept_bboxes)), key=lambda k: kept_bboxes[k][1])
+                parts: list[str] = []
+                y = 0.0
+                for n, k in enumerate(order, start=1):
+                    top, bottom = kept_bboxes[k][1], kept_bboxes[k][3]
+                    if top - y > 1:
+                        parts.append(filtered.crop((0, y, page.width, min(top, page.height))).extract_text() or "")
+                    if kept_tables_md[k]:
+                        parts.append(f"=== TABEL HALAMAN {i} #{n} ===\n{kept_tables_md[k]}\n=== AKHIR TABEL ===")
+                    y = max(y, bottom)
+                if page.height - y > 1:
+                    parts.append(filtered.crop((0, y, page.width, page.height)).extract_text() or "")
+                text = ("\n\n".join(_mark_bold_lines(t, bold_keys.get(i, set())) if not t.startswith("=== TABEL") else t for t in parts if t.strip()))
+                merged.append(
+                    {"page": i, "text": text, "tables": [t for t in kept_tables_md if t], "tables_inline": True,
+                     "table_notes": kept_notes, "method": "pdfplumber_table"}
+                )
             else:
-                merged.append({"page": i, "text": pymupdf_by_page.get(i, ""), "tables": [], "method": "pymupdf"})
+                text = _mark_bold_lines(pymupdf_by_page.get(i, ""), bold_keys.get(i, set()))
+                merged.append({"page": i, "text": text, "tables": [], "method": "pymupdf"})
     return merged
 
 
@@ -281,7 +423,8 @@ def write_interim_text(doc_id: str, pages: list[dict[str, Any]], out_dir: str | 
     dengan penanda halaman agar notebook 02 dapat memulihkan page_start/end.
 
     Tabel (jika ada di p["tables"], lihat extract_text_auto) disisipkan
-    setelah teks naratif halaman, masing-masing dibungkus penanda
+    setelah teks naratif halaman -- kecuali p["tables_inline"], yang berarti
+    tabel sudah tertanam di p["text"] pada posisinya -- masing-masing dibungkus penanda
     `=== TABEL HALAMAN {n} #{j} ===` / `=== AKHIR TABEL ===`. Format ini
     HARUS sinkron dengan src/chunking.py::_TABLE_BLOCK_RE, yang mem-parsing
     blok ini sebagai unit atomik (satu tabel = satu chunk, tidak pernah
@@ -292,7 +435,7 @@ def write_interim_text(doc_id: str, pages: list[dict[str, Any]], out_dir: str | 
     blocks = []
     for p in pages:
         block = f"=== HALAMAN {p['page']} ===\n{p['text']}"
-        for j, table_md in enumerate(p.get("tables") or [], start=1):
+        for j, table_md in enumerate([] if p.get("tables_inline") else (p.get("tables") or []), start=1):
             block += f"\n\n=== TABEL HALAMAN {p['page']} #{j} ===\n{table_md}\n=== AKHIR TABEL ==="
         blocks.append(block)
     out_path.write_text("\n\n".join(blocks), encoding="utf-8")

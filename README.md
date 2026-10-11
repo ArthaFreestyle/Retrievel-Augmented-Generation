@@ -53,13 +53,21 @@ kecuali yang disebut di bawah) sudah ada.
   "Mitra Sasaran" hal. 32 dokumen contoh) DITOLAK sebagai tabel, dan
   bbox-nya SENGAJA tidak dikecualikan dari teks naratif, supaya kontennya
   tetap muncul lewat extract_text() biasa alih-alih hilang.
-- `src/chunking.py` — fungsional, chunking *structure-aware*: heading `BAB`
-  = batas keras, sub-heading (`A.`, `2.1.`, dst) = metadata `section_heading`
-  saja (batas lunak). Paragraf > soft_max dipecah via kaskade
-  paragraf→kalimat→kata→karakter dengan overlap adaptif (tidak pernah
-  melanggar chunk_size pada sub-piece hasil pecahnya, beda dari overlap
-  naif yang bisa menduplikasi teks pada batas potongan besar — lihat
-  komentar di `_pack_pieces`; lihat juga catatan `soft_max` di bawah).
+- `src/chunking.py` — fungsional, chunking *structure-aware*. Judul dikenali
+  dari **huruf tebal** (ingest menandai baris tebal dengan `[[B]] ` di
+  `data/interim/*.txt`) DITAMBAH pola nomor — butir daftar ("2. Publikasi
+  Jurnal ...") berpola sama dengan judul sub-bagian tetapi tidak tebal, jadi
+  tidak lagi disalahartikan sebagai judul. SETIAP judul adalah batas keras;
+  teksnya tetap ada di awal chunk, dan `section_heading` berisi jalur judul
+  ("BAB 2 ... > 2.4. Tahapan Kegiatan > 4. Tahap Penyeleksian"). Halaman
+  sebelum BAB 1 (sampul, tim penyusun, daftar isi) dibuang. Kalimat yang
+  terputus di batas halaman disambung sebelum chunking. Baris berawalan
+  penanda butir ("a.", "1)") tidak digabung ke baris sebelumnya; splitter
+  memotong di batas paragraf → baris → kalimat → kata, dan overlap selalu
+  mulai di awal baris/kalimat (kosong bila tak ada yang muat). Tabel
+  disisipkan di posisinya pada halaman (bukan di akhir halaman) sehingga
+  mewarisi judul yang benar. Paragraf > soft_max dipecah dengan overlap
+  adaptif (lihat catatan `soft_max` di bawah).
   **Bug yang pernah ditemukan & diperbaiki:** overlap antar-chunk
   (`recursive_chunk` maupun `_pack_pieces`) awalnya memotong `chunk_overlap`
   karakter mentah dari ekor teks (`text[-n:]`) tanpa memperhatikan batas
