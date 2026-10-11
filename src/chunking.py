@@ -335,7 +335,7 @@ def _split_trailing_caption(text: str) -> tuple[str, str]:
         return text, ""
     start = matches[-1].start()
     caption = text[start:].strip()
-    if len(caption.split()) > 30:
+    if len(caption.split()) > 30 or caption.endswith("."):  # kalimat biasa yang kebetulan memuat "Tabel A."
         return text, ""
     return text[:start].rstrip(), re.sub(r"\s+", " ", caption)
 
@@ -456,6 +456,16 @@ def _extract_units(pages: list[dict[str, Any]], repeated_lines: set[str]) -> lis
                 i += 1
             flush()
 
+    # Judul tabel di ujung paragraf yang tabelnya tidak ada (dibuang saat ekstraksi, mis. bagan
+    # arsiran) tidak berguna: buang juga judulnya.
+    for k, u in enumerate(units):
+        nxt = units[k + 1] if k + 1 < len(units) else None
+        if u["type"] == "para" and (nxt is None or nxt["type"] != "table"):
+            rest, caption = _split_trailing_caption(u["text"])
+            if caption:
+                u["text"] = rest
+    units[:] = [u for u in units if u["type"] != "para" or u["text"].strip()]
+
     _merge_across_pages(units)
     return units
 
@@ -530,6 +540,7 @@ def _list_run_pieces(u: dict[str, Any], prefix: str, starts_section: bool, chunk
     """Potong list_run per butir; halaman tiap potongan dicari dari baris-barisnya."""
     parts = chunk_section(u["text"], max_chars=max(chunk_size - len(prefix) - 1, 200))
     lines, k, pieces = u["line_pages"], 0, []
+    title = prefix.split("\n")[-1] if prefix else (u["heading"] or "").rsplit(" > ", 1)[-1]
     for n, part in enumerate(parts):
         pages = []
         for ln in part.split("\n"):
@@ -540,6 +551,8 @@ def _list_run_pieces(u: dict[str, Any], prefix: str, starts_section: bool, chunk
             if k < len(lines):
                 pages += [lines[k][1], lines[k][2]]
                 k += 1
+        if n > 0 and not part.startswith("(lanjutan) ") and title:
+            part = f"(lanjutan) {title}\n{part}"  # daftar tanpa kalimat pengantar: pakai judul bagian
         pieces.append(
             {
                 "text": f"{prefix}\n{part}" if (n == 0 and prefix) else part,

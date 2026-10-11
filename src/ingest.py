@@ -245,6 +245,39 @@ def _mark_bold_lines(text: str, bold_keys: set[str]) -> str:
     return "\n".join(out)
 
 
+def _merged_cols(lead: dict[str, Any]) -> tuple[int, ...]:
+    """Jumlah kolom tabel pembuka setelah kolom-hantu digabung / yang berisi data (di-cache di tabelnya)."""
+    if "merged_cols" not in lead:
+        try:
+            try:
+                from src.table_clean import merged_cols
+            except ImportError:  # notebook: sys.path "../src"
+                from table_clean import merged_cols
+            lead["merged_cols"] = merged_cols(lead["frags"][0])
+        except Exception:
+            lead["merged_cols"] = ()
+    return lead["merged_cols"]
+
+
+def _pages_with_broken_block_order(pdf_path: str | Path) -> set[int]:
+    """Halaman yang urutan blok teks PyMuPDF-nya melompat ke atas (blok berikutnya mulai
+    > 20 pt di atas blok sebelumnya, di luar header/footer), mis. daftar "a. Lokal / b. Regional"
+    yang keluar sesudah teks di bawahnya. Teks halaman seperti itu dibaca per baris oleh pdfplumber."""
+    import pymupdf
+
+    broken: set[int] = set()
+    doc = pymupdf.open(pdf_path)
+    try:
+        for i, page in enumerate(doc, start=1):
+            h = page.rect.height
+            blocks = [b for b in page.get_text("blocks") if b[6] == 0 and b[4].strip() and b[3] > h * 0.07 and b[1] < h * 0.93]
+            if any(b[1] < a[1] - 20 and b[0] < a[2] for a, b in zip(blocks, blocks[1:])):
+                broken.add(i)
+    finally:
+        doc.close()
+    return broken
+
+
 def extract_text_auto(pdf_path: str | Path) -> list[dict[str, Any]]:
     """Gabungkan PyMuPDF (default, teks umum) dengan pdfplumber (halaman
     yang terdeteksi memuat tabel via find_tables()) — lihat §6 notebook 01.
@@ -277,9 +310,13 @@ def extract_text_auto(pdf_path: str | Path) -> list[dict[str, Any]]:
         from src import table_luaran
     except ImportError:  # notebook: sys.path "../src"
         import table_luaran
-    from src.table_clean import table_to_text
+    try:
+        from src.table_clean import table_to_text
+    except ImportError:  # notebook: sys.path "../src"
+        from table_clean import table_to_text
 
     pymupdf_by_page = {p["page"]: p["text"] for p in extract_text_pymupdf(pdf_path)}
+    broken_order = _pages_with_broken_block_order(pdf_path)
     bold_keys = _bold_line_keys(pdf_path)
 
     merged: list[dict[str, Any]] = []
@@ -302,7 +339,7 @@ def extract_text_auto(pdf_path: str | Path) -> list[dict[str, Any]]:
                 n_cols = max(len(r) for r in rows)
                 cont = (
                     last_open is not None
-                    and last_open["n_cols"] == n_cols
+                    and n_cols in (last_open["n_cols"], *_merged_cols(last_open["lead"]))
                     and t.bbox[1] < page.height * 0.2
                     and not found[i]
                 )
@@ -389,6 +426,10 @@ def extract_text_auto(pdf_path: str | Path) -> list[dict[str, Any]]:
                      "table_notes": kept_notes, "method": "pdfplumber_table"}
                 )
             else:
+                if i in broken_order:
+                    text = _mark_bold_lines(page.extract_text() or "", bold_keys.get(i, set()))
+                    merged.append({"page": i, "text": text, "tables": [], "method": "pdfplumber_order"})
+                    continue
                 text = _mark_bold_lines(pymupdf_by_page.get(i, ""), bold_keys.get(i, set()))
                 merged.append({"page": i, "text": text, "tables": [], "method": "pymupdf"})
     return merged

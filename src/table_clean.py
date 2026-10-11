@@ -52,6 +52,17 @@ def _apply_merges(rows, merges):
     return rows
 
 
+def merged_cols(rows):
+    """Jumlah kolom tabel pembuka setelah kolom-hantu digabung, dan jumlah kolom yang
+    berisi data: potongan lanjutan di halaman berikutnya (tanpa kolom-hantu/kolom kosong)
+    berjumlah kolom salah satunya."""
+    first = _clean(rows)
+    h = _header_rows(first)
+    first = _apply_merges(first, _ghost_merges(first, h))
+    used = [j for j in range(len(first[0])) if any(r[j] for r in first[h:])]
+    return len(first[0]), len(used)
+
+
 def _join_fragments(fragments, notes):
     first = _clean(fragments[0])
     h = _header_rows(first)
@@ -66,8 +77,12 @@ def _join_fragments(fragments, notes):
         if len(frag[0]) == raw_cols and merges:
             frag = _apply_merges(frag, merges)
         if len(frag[0]) != len(head[0]):
-            notes.append("jumlah kolom potongan lanjutan berbeda, periksa manual")
-            continue
+            # potongan lanjutan tanpa kolom kosong (yang di tabel pembuka berisi hantu/arsiran)
+            used = [j for j in range(len(head[0])) if any(r[j] for r in body)]
+            if len(frag[0]) != len(used):
+                notes.append("jumlah kolom potongan lanjutan berbeda, periksa manual")
+                continue
+            frag = [[r[used.index(j)] if j in used else "" for j in range(len(head[0]))] for r in frag]
         # judul yang diulang di halaman berikutnya (kadang ketempelan sisa sel dari halaman sebelumnya)
         if all(c.startswith(t) for c, t in zip(frag[0], head[0]) if t) and frag[0][0] == head[0][0]:
             for j, (c, t) in enumerate(zip(frag[0], head[0])):
@@ -97,7 +112,8 @@ def fix_table(fragments, drop=("No", "No."), ffill=True, with_pages=False):
                 parent = top[j]
             elif sub[j]:
                 top[j] = parent
-        header = [" ".join(x for x in (t, s) if x) for t, s in zip(top, sub)]
+        header = [(t + s) if t and re.match(r"[a-z]{1,2}\s", s) else " ".join(x for x in (t, s) if x)
+                  for t, s in zip(top, sub)]
     else:
         header = head[0]
     header = [h.replace("\n", " ") for h in header]
@@ -112,14 +128,34 @@ def fix_table(fragments, drop=("No", "No."), ffill=True, with_pages=False):
     src = [s for r, s in zip(body, src) if any(r)]
     body = [r for r in body if any(r)]
 
-    # satu sel menampung nilai untuk beberapa kelompok baris (sel tanpa garis pemisah di PDF)
+    # satu sel menampung nilai beberapa kelompok baris (kolom tanpa garis pemisah di PDF):
+    # bila jumlah barisnya habis dibagi jumlah kelompok dan tiap bagian memuat angka, bagi rata berurutan
     starts = [i for i, r in enumerate(body) if r[0]]
     for j, name in enumerate(header):
-        for a, b in zip(starts, starts[1:]):
-            if j and len(starts) >= 3 and body[a][j].count("\n") >= 3 and not body[b][j]:
-                notes.append(f"kolom '{name}': satu sel berisi nilai beberapa baris, tulis ulang manual")
-                break
+        if not j or len(starts) < 3:
+            continue
+        k = 0
+        while k < len(starts):
+            a = starts[k]
+            lines = body[a][j].split("\n") if body[a][j] else []
+            m = k + 1
+            while m < len(starts) and not body[starts[m]][j]:
+                m += 1
+            g = m - k
+            if g >= 3 and len(lines) >= 4:
+                per = len(lines) // g
+                parts = [" ".join(lines[x * per:(x + 1) * per]) for x in range(g)]
+                if len(lines) % g == 0 and all(re.search(r"\d", x) for x in parts):
+                    for x, part in enumerate(parts):
+                        body[starts[k + x]][j] = part
+                    notes.append(f"kolom '{name}': satu sel dibagi rata ke {g} kelompok baris, cocokkan dengan PDF")
+                else:
+                    notes.append(f"kolom '{name}': satu sel berisi nilai beberapa baris, periksa manual")
+            k = m
     body = [[c.replace("\n", " ") for c in r] for r in body]
+    # "Lokal: maks. 30 juta Regional: maks. 40 juta" -> beri koma di antara pasangan label: nilai
+    lab = re.compile(r"(?<=[^\s,;:]) (?=[A-Z][\w/-]*: )")
+    body = [[lab.sub(", ", c) if len(re.findall(r"(?:^| )[A-Z][\w/-]*: ", c)) >= 2 else c for c in r] for r in body]
 
     # sel gabungan vertikal: baris lanjutan mewarisi sel di atasnya
     if ffill:

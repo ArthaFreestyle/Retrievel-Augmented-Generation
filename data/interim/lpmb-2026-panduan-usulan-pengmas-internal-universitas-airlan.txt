@@ -709,8 +709,8 @@ Kegiatan: Batas unggah luaran; Waktu: 1 Desember 2027
 Tabel 2.3. Skema, Tim Pelaksana, Waktu, dan Pendanaan
 
 === TABEL HALAMAN 22 #2 ===
-Skema Pengabdian kepada Masyarakat: Skema Program Kemitraan Masyarakat Desa Binaan (PKM-DB) Pendanaan Fakultas; Tim Pelaksana: Ketua dengan maksimum 2 anggota; Waktu (tahun): 2; Biaya (juta Rp) Fakultas: Lokal: maks. 30 juta Regional: maks. 40 juta Nasional: maks. 50 juta
-Skema Pengabdian kepada Masyarakat: Skema Program Pengembangan Desa Binaan (PPDB) Pendanaan LPMB; Tim Pelaksana: Ketua dengan maksimum 3 anggota; Waktu (tahun): 2; Biaya (juta Rp) LPMB: Lokal: maks. 40 juta Regional: maks. 50 juta Nasional: maks. 60 juta
+Skema Pengabdian kepada Masyarakat: Skema Program Kemitraan Masyarakat Desa Binaan (PKM-DB) Pendanaan Fakultas; Tim Pelaksana: Ketua dengan maksimum 2 anggota; Waktu (tahun): 2; Biaya (juta Rp) Fakultas: Lokal: maks. 30 juta, Regional: maks. 40 juta, Nasional: maks. 50 juta
+Skema Pengabdian kepada Masyarakat: Skema Program Pengembangan Desa Binaan (PPDB) Pendanaan LPMB; Tim Pelaksana: Ketua dengan maksimum 3 anggota; Waktu (tahun): 2; Biaya (juta Rp) LPMB: Lokal: maks. 40 juta, Regional: maks. 50 juta, Nasional: maks. 60 juta
 === AKHIR TABEL ===
 
 15
@@ -793,46 +793,40 @@ Natuna, Lokasi Pengmas RSKKA, Lokasi Ekspedisi Patriot
 18
 
 === HALAMAN 26 ===
- 
-19 
- 
-  Kementerian Transmigrasi, Lokasi ACDH (Sebatik, Gili Iyang, 
-  Banyuwangi) 
-Selanjutnya khusus untuk lokasi dosen pengusul dari Fakultas Ilmu Kesehatan, Kedokteran 
-dan Ilmu Alam dibagi dengan proporsi sebagai berikut : 
-c. Nasional 
-: Daerah Bencana Sumatera (Aceh, Sumatera Utara, Sumatera Barat),  
-   Natuna, Lokasi Pengmas RSKKA, Lokasi Ekspedisi Patriot 
-   Kementerian Transmigrasi, Lokasi ACDH 
- 
+Kementerian Transmigrasi, Lokasi ACDH (Sebatik, Gili Iyang,
+Banyuwangi)
+Selanjutnya khusus untuk lokasi dosen pengusul dari Fakultas Ilmu Kesehatan, Kedokteran
+dan Ilmu Alam dibagi dengan proporsi sebagai berikut :
+a. Lokal : Kabupaten Banyuwangi, Kabupaten Situbondo
+b. Regional : Kabupaten Probolinggo, Kabupaten Tuban, Kabupaten Ngawi,
+Kabupaten Bojonegoro, Kabupaten Madiun, Kabupaten Gresik,
+Kabupaten Lumajang, Kabupaten Lamongan, Kota Surabaya
+c. Nasional : Daerah Bencana Sumatera (Aceh, Sumatera Utara, Sumatera Barat),
+Natuna, Lokasi Pengmas RSKKA, Lokasi Ekspedisi Patriot
+Kementerian Transmigrasi, Lokasi ACDH
 [[B]] 2.8. Pendanaan
-a. Sumber dana program pengabdian kepada masyarakat berasal dari RKAT Fakultas dan 
-RKAT LPMB 
-b. Besaran dana yang diterima ditetapkan berdasarkan hasil dari tim reviewer LPMB 
-UNAIR 
-c. Pencairan dana melalui dua tahap;  
-● Tahap satu 70%, setelah penerbitan SK Rektor atau Kontrak Pelaksanaan 
-Pengabdian kepada Masyarakat, 
-● Tahap dua 30%, setelah mengikuti monitoring dan evaluasi (monev 
-internal/lapangan), seminar hasil, mengunggah seluruh laporan kemajuan, laporan 
-akhir, SPTJM dilampiri bukti pengeluaran secara lengkap. 
+a. Sumber dana program pengabdian kepada masyarakat berasal dari RKAT Fakultas dan
+RKAT LPMB
+b. Besaran dana yang diterima ditetapkan berdasarkan hasil dari tim reviewer LPMB
+UNAIR
+c. Pencairan dana melalui dua tahap;
+● Tahap satu 70%, setelah penerbitan SK Rektor atau Kontrak Pelaksanaan
+Pengabdian kepada Masyarakat,
+● Tahap dua 30%, setelah mengikuti monitoring dan evaluasi (monev
+internal/lapangan), seminar hasil, mengunggah seluruh laporan kemajuan, laporan
+akhir, SPTJM dilampiri bukti pengeluaran secara lengkap.
 [[B]] 2.9. Ketentuan Anggaran
-Pelaksanaan penggunaan anggaran program pengabdian kepada masyarakat harus 
-mengacu pada ketentuan perundang-undangan dan peraturan keuangan yang berlaku. 
-Pengusul diwajibkan membuat Rencana Anggaran Biaya (RAB) pelaksanaan dengan 
-mengacu pada: 
-1. Peraturan Menteri Keuangan (PMK) Republik Indonesia Nomor 32 Tahun 2025 
-Tentang Standar Biaya Masukan (SBM) Tahun Anggaran 2026 dan Peraturan Menteri 
-Keuangan Republik Indonesia Nomor 92 Tahun 2024 Tentang Standar Biaya Keluaran 
-(SBK) Tahun Anggaran 2025 Sub Output Pengabdian kepada Masyarakat. 
-2. Tata cara pengadaan barang dan jasa mengikuti peraturan yang berlaku terkait 
-pembelian barang dan jasa dengan menerapkan prinsip-prinsip transaparan, efektif dan 
-a. Lokal  
-: Kabupaten Banyuwangi, Kabupaten Situbondo 
-b. Regional 
-: Kabupaten Probolinggo, Kabupaten Tuban, Kabupaten Ngawi,  
-  Kabupaten Bojonegoro, Kabupaten Madiun, Kabupaten Gresik, 
-  Kabupaten Lumajang, Kabupaten Lamongan, Kota Surabaya 
+Pelaksanaan penggunaan anggaran program pengabdian kepada masyarakat harus
+mengacu pada ketentuan perundang-undangan dan peraturan keuangan yang berlaku.
+Pengusul diwajibkan membuat Rencana Anggaran Biaya (RAB) pelaksanaan dengan
+mengacu pada:
+1. Peraturan Menteri Keuangan (PMK) Republik Indonesia Nomor 32 Tahun 2025
+Tentang Standar Biaya Masukan (SBM) Tahun Anggaran 2026 dan Peraturan Menteri
+Keuangan Republik Indonesia Nomor 92 Tahun 2024 Tentang Standar Biaya Keluaran
+(SBK) Tahun Anggaran 2025 Sub Output Pengabdian kepada Masyarakat.
+2. Tata cara pengadaan barang dan jasa mengikuti peraturan yang berlaku terkait
+pembelian barang dan jasa dengan menerapkan prinsip-prinsip transaparan, efektif dan
+19
 
 === HALAMAN 27 ===
 efisien.
@@ -854,29 +848,22 @@ tabel berikut:
 2.6. Tabel Rencana Anggaran Biaya (RAB)
 
 === TABEL HALAMAN 27 #1 ===
-Kelompok RAB: Teknologi dan Inovasi; Komposis i Biaya: Minim. 40 % Maks. 10 % Maks. 20 % Maks. 25 %; Item RAB: Alat Teknologi Tepat Guna; Satuan: Unit
-Kelompok RAB: Teknologi dan Inovasi; Komposis i Biaya: Minim. 40 % Maks. 10 % Maks. 20 % Maks. 25 %; Item RAB: Bahan baku produksi; Satuan: Paket
-Kelompok RAB: Teknologi dan Inovasi; Komposis i Biaya: Minim. 40 % Maks. 10 % Maks. 20 % Maks. 25 %; Item RAB: Barang komponen produksi; Satuan: Unit
-Kelompok RAB: Biaya Upah dan Jasa; Item RAB: HR Pembantu teknis/Asisten Pelaksanaan; Satuan: OJ
-Kelompok RAB: Biaya Upah dan Jasa; Item RAB: HR Pembantu lapangan; Satuan: OH
-Kelompok RAB: Biaya Perjalanan; Item RAB: Perjalanan dalam negeri/Perjalanan antar kabupaten, Tiket, Transport Lokal; Satuan: OK (kali)
-Kelompok RAB: Biaya Perjalanan; Item RAB: Penginapan, Uang Harian, Uang Saku; Satuan: OH
-Kelompok RAB: Biaya Pelatihan; Item RAB: Biaya Paket Ruangan dan Konsumsi, Biaya Konsumsi; Satuan: OK (kali)
+Kelompok RAB: Teknologi dan Inovasi; Komposisi Biaya: Minim. 40 %; Item RAB: Alat Teknologi Tepat Guna; Satuan: Unit
+Kelompok RAB: Teknologi dan Inovasi; Komposisi Biaya: Minim. 40 %; Item RAB: Bahan baku produksi; Satuan: Paket
+Kelompok RAB: Teknologi dan Inovasi; Komposisi Biaya: Minim. 40 %; Item RAB: Barang komponen produksi; Satuan: Unit
+Kelompok RAB: Biaya Upah dan Jasa; Komposisi Biaya: Maks. 10 %; Item RAB: HR Pembantu teknis/Asisten Pelaksanaan; Satuan: OJ
+Kelompok RAB: Biaya Upah dan Jasa; Komposisi Biaya: Maks. 10 %; Item RAB: HR Pembantu lapangan; Satuan: OH
+Kelompok RAB: Biaya Perjalanan; Komposisi Biaya: Maks. 20 %; Item RAB: Perjalanan dalam negeri/Perjalanan antar kabupaten, Tiket, Transport Lokal; Satuan: OK (kali)
+Kelompok RAB: Biaya Perjalanan; Komposisi Biaya: Maks. 20 %; Item RAB: Penginapan, Uang Harian, Uang Saku; Satuan: OH
+Kelompok RAB: Biaya Pelatihan; Komposisi Biaya: Maks. 25 %; Item RAB: Biaya Paket Ruangan dan Konsumsi, Biaya Konsumsi; Satuan: OK (kali)
+Kelompok RAB: Biaya Lainnya; Komposisi Biaya: Maks. 5 %; Item RAB: Biaya pendaftaran Luaran KI berupa paten Biaya pendaftaran Luaran KI berupa paten sederhana; Satuan: Paket Paket
+Kelompok RAB: Biaya Lainnya; Komposisi Biaya: Maks. 5 %; Item RAB: Biaya pendaftaran Luaran KI berupa hak cipta lagu, musik, tari, koreografi, pewayangan dan pantomim; Satuan: Paket
+Kelompok RAB: Biaya Lainnya; Komposisi Biaya: Maks. 5 %; Item RAB: Biaya pendaftaran Luaran KI berupa hak cipta alat peraga, Biaya pembuatan dokumen video, Biaya pembuatan dokumen poster, Biaya publikasi di media massa, Biaya pendaftaran seminar nasional/internasional di dalam negeri, Biaya publikasi artikel di Jurnal Nasional, Biaya publikasi artikel di Jurnal Internasional; Satuan: Paket
 === AKHIR TABEL ===
 
 20
 
 === HALAMAN 28 ===
-=== TABEL HALAMAN 28 #1 ===
-Biaya pendaftaran Luaran KI berupa paten Biaya pendaftaran Luaran KI berupa paten sederhana Biaya pendaftaran Luaran KI berupa hak cipta lagu, musik, tari, koreografi, pewayangan dan pantomim: Biaya pendaftaran Luaran KI berupa hak cipta alat peraga; Paket Paket Paket: Paket
-Biaya pendaftaran Luaran KI berupa paten Biaya pendaftaran Luaran KI berupa paten sederhana Biaya pendaftaran Luaran KI berupa hak cipta lagu, musik, tari, koreografi, pewayangan dan pantomim: Biaya pembuatan dokumen video; Paket Paket Paket: Paket
-Biaya pendaftaran Luaran KI berupa paten Biaya pendaftaran Luaran KI berupa paten sederhana Biaya pendaftaran Luaran KI berupa hak cipta lagu, musik, tari, koreografi, pewayangan dan pantomim: Biaya pembuatan dokumen poster; Paket Paket Paket: Paket
-Biaya pendaftaran Luaran KI berupa paten Biaya pendaftaran Luaran KI berupa paten sederhana Biaya pendaftaran Luaran KI berupa hak cipta lagu, musik, tari, koreografi, pewayangan dan pantomim: Biaya publikasi di media massa; Paket Paket Paket: Paket
-Biaya pendaftaran Luaran KI berupa paten Biaya pendaftaran Luaran KI berupa paten sederhana Biaya pendaftaran Luaran KI berupa hak cipta lagu, musik, tari, koreografi, pewayangan dan pantomim: Biaya pendaftaran seminar nasional/internasional di dalam negeri; Paket Paket Paket: Paket
-Biaya pendaftaran Luaran KI berupa paten Biaya pendaftaran Luaran KI berupa paten sederhana Biaya pendaftaran Luaran KI berupa hak cipta lagu, musik, tari, koreografi, pewayangan dan pantomim: Biaya publikasi artikel di Jurnal Nasional; Paket Paket Paket: Paket
-Biaya pendaftaran Luaran KI berupa paten Biaya pendaftaran Luaran KI berupa paten sederhana Biaya pendaftaran Luaran KI berupa hak cipta lagu, musik, tari, koreografi, pewayangan dan pantomim: Biaya publikasi artikel di Jurnal Internasional; Paket Paket Paket: Paket
-=== AKHIR TABEL ===
-
 Di dalam pelaksanaan pengabdian kepada masyarakat, pelaksana bertanggung jawab
 penuh atas segala pengeluaran, oleh karena itu pelaksana diminta untuk menyimpan segala
 bukti pengeluaran/belanja tersebut. Apabila ada transaksi yang kemudian timbul

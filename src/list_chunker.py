@@ -76,7 +76,7 @@ def chunk_section(text, max_chars=2000):
     preamble, units = _units(text)
     if not units:
         return [text.strip()]
-    carry = _lead_in(preamble)
+    carry = _lead_in(preamble) or (preamble[0] if preamble else "")   # tanpa kalimat pengantar: pakai judul bagian
     blocks = []
     for u in units:
         if sum(len(x) + 1 for x in u) <= max_chars or len(u) == 1:
