@@ -20,6 +20,11 @@ from __future__ import annotations
 import re
 from typing import Any
 
+try:
+    from src.table_clean import clean_pages
+except ImportError:  # notebook: sys.path "../src"
+    from table_clean import clean_pages
+
 DOC_TITLE = "Panduan Usulan Pengmas Internal UNAIR 2026 > Lampiran 2"
 _KEYS = ["kategori", "jenis", "status", "bukti", "target", "kriteria", "isian", "pendukung", "tidak_valid"]
 _BULLET_RE = re.compile(r"[•●]")
@@ -82,7 +87,7 @@ def _centang_text(page, table) -> str:
 
 
 def _is_header_table(page, table) -> bool:
-    txt = re.sub(r"\s+", " ", page.crop(table.bbox).extract_text() or "")
+    txt = re.sub(r"\s+", " ", page.crop(table.bbox, strict=False).extract_text() or "")
     return "Transaksi" in txt and ("Kelayakan" in txt or "Capaian" in txt)
 
 
@@ -91,7 +96,7 @@ def _caption(page, table) -> str:
     top = table.bbox[1]
     if top < 5:
         return ""
-    txt = page.crop((0, 0, page.width, top)).extract_text() or ""
+    txt = page.crop((0, 0, page.width, top), strict=False).extract_text() or ""
     lines = [ln.strip() for ln in txt.split("\n") if ln.strip()]
     for k in range(len(lines) - 1, -1, -1):
         if _CAPTION_RE.match(lines[k]):
@@ -101,7 +106,7 @@ def _caption(page, table) -> str:
 
 def _header_bottom(page, table) -> float:
     ws = [
-        w for w in page.crop(table.bbox).extract_words()
+        w for w in page.crop(table.bbox, strict=False).extract_words()
         if w["text"] in ("Capaian", "Kelayakan")
     ]
     return max(w["bottom"] for w in ws) + 1 if ws else table.bbox[1]
@@ -134,7 +139,7 @@ def extract_all(pdf) -> tuple[dict[tuple, list[str]], list[str]]:
     notes: list[str] = []
     state: dict[str, Any] | None = None
 
-    for i, page in enumerate(pdf.pages, start=1):
+    for i, page in enumerate(clean_pages(pdf), start=1):
         for t in page.find_tables():
             key = table_key(i, t.bbox)
             bounds = _bounds(t)
@@ -144,7 +149,7 @@ def extract_all(pdf) -> tuple[dict[tuple, list[str]], list[str]]:
                 continue
             if _is_header_table(page, t):
                 caption = _caption(page, t)
-                head_txt = re.sub(r"\s+", " ", page.crop(t.bbox).extract_text() or "")
+                head_txt = re.sub(r"\s+", " ", page.crop(t.bbox, strict=False).extract_text() or "")
                 if caption or state is None or i != state["page"] + 1:
                     if not caption:
                         notes.append(f"hal. {i}: judul tabel luaran tidak ditemukan")

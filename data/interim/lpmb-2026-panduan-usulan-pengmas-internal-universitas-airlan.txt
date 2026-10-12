@@ -739,7 +739,7 @@ Tambahan (IKT) Universitas Airlangga yang diukur berbasis hasil pemetaan kinerja
 tertera pada Tabel 2.4.
 Tabel 2.5. Indikator Kinerja Pengabdian Kepada Masyarakat
 
-=== TABEL HALAMAN 23 #2 ===
+=== TABEL HALAMAN 23-25 #2 ===
 Jenis Luaran: Publikasi di jurnal ilmiah; Indikator Capaian: Artikel di Jurnal Internasional, Artikel Ilmiah pada jurnal nasional terakreditasi SINTA 1- 6
 Jenis Luaran: Artikel ilmiah dimuat di prosiding cetak atau elektronik; Indikator Capaian: Nasional, Lokal, Internasional
 Jenis Luaran: Artikel di media massa cetak atau elektronik; Indikator Capaian: Media massa online selain platform Unair, Media sosial
@@ -847,7 +847,7 @@ Komponen biaya pada program pengabdian kepada masyarakat mengacu pada ketentuan 
 tabel berikut:
 2.6. Tabel Rencana Anggaran Biaya (RAB)
 
-=== TABEL HALAMAN 27 #1 ===
+=== TABEL HALAMAN 27-28 #1 ===
 Kelompok RAB: Teknologi dan Inovasi; Komposisi Biaya: Minim. 40 %; Item RAB: Alat Teknologi Tepat Guna; Satuan: Unit
 Kelompok RAB: Teknologi dan Inovasi; Komposisi Biaya: Minim. 40 %; Item RAB: Bahan baku produksi; Satuan: Paket
 Kelompok RAB: Teknologi dan Inovasi; Komposisi Biaya: Minim. 40 %; Item RAB: Barang komponen produksi; Satuan: Unit
@@ -1025,7 +1025,7 @@ e. Bahan Ajar Perkuliahan (buku ajar, diktat, modul/handout, video pembelajaran,
 powerpoint materi, contoh kasus untuk pembelajaran, petunjuk praktikum, dll)
 [[B]] 3.9. Jenis Lokasi dan Pendanaan
 
-=== TABEL HALAMAN 32 #1 ===
+=== TABEL HALAMAN 32-33 #1 ===
 Mitra Sasaran: Lokal; Mitra Pelaksana: Lokal; Jenis Lokasi SPMS: Lokal; Jenis Pendanaan: Lokal; Besaran Dana RAB: Maks. 30 Juta
 Mitra Sasaran: Lokal; Mitra Pelaksana: Regional; Jenis Lokasi SPMS: Regional; Jenis Pendanaan: Lokal; Besaran Dana RAB: Maks. 30 Juta
 Mitra Sasaran: Lokal; Mitra Pelaksana: Nasional; Jenis Lokasi SPMS: Nasional; Jenis Pendanaan: Lokal; Besaran Dana RAB: Maks. 30 Juta
@@ -1704,7 +1704,7 @@ Bidang Fokus Pengabdian: Bidang Kesehatan; Tema Pengabdian: Peningkatan Kualitas
 Bidang Fokus Pengabdian: Bidang Kesehatan; Tema Pengabdian: Promosi Kesehatan dan Pemberdayaan Masyarakat; Topik Pengabdian: a. Pengembangan media promosi kesehatan dan teknologi komunikasi, informasi dan edukasi (KIE) b. Peningkatan komunikasi, informasi dan edukasi (KIE) pencegahan dan pemberantasan penyakit menular dan pengendalian faktor resiko penyakit tidak menular c. Fasilitasi pengembangan upaya kesehatan bersumber masyarakat d. Penguatan masyarakat dalam melakukan advokasi kesehatan e. Peningkatan kesadaran masyarakat terhadap penggunaan bahan makanan tambahan, bahan berbahaya, dan zat adiktif lainnya f. Peningkatan pengetahuan masyarakat untuk dapat memanfaatkan TOGA yang ada di sekitar tempat tinggal.
 === AKHIR TABEL ===
 === TABEL HALAMAN 51 #1 ===
-Bidang Fokus Pengabdian: Bidang Kesehatan; Tema Pengabdian: Peningkatan Lingkungan Sehat; Topik Pengabdian: a. Peningkatan kesadaran penyediaan sanitasi dasar. b. Pemeliharaan dan pengawasan kualitas lingkungan yang berbasis masyarakat., c. Pengendalian dampak resiko pencemaran lingkungan. d. Pengembangan wilayah sehat.
+Bidang Fokus Pengabdian: Bidang Kesehatan; Tema Pengabdian: Peningkatan Lingkungan Sehat; Topik Pengabdian: a. Peningkatan kesadaran penyediaan sanitasi dasar. b. Pemeliharaan dan pengawasan kualitas lingkungan yang berbasis masyarakat. c. Pengendalian dampak resiko pencemaran lingkungan. d. Pengembangan wilayah sehat.
 === AKHIR TABEL ===
 
 44
@@ -1739,7 +1739,7 @@ Bidang Fokus Pengabdian: Bidang Sosial dan Kemasyarakatan; Tema Pengabdian: Pend
 Bidang Fokus Pengabdian: Bidang Sosial dan Kemasyarakatan; Tema Pengabdian: Gender dan Seksualitas; Topik Pengabdian: a. Pengembangan modul kesehatan reproduksi. b. Peningkatan pengarusutamaan (mainstreaming) gender. c. Pengembangan pendidikan seksualitas untuk remaja dan remaja dewasa. d. Pengembangan lingkungan kerja yang berwawasan gender. e. Politik berwawasan gender. f. Pengembangan gerakan bebas penyakit menular seksual (PMS). g. Penanggulangan trafficking dan pelacuran anak. h. Perlindungan hukum terhadap perempuan dan anak. i. Peningkatan pemahaman masyarakat tentang efek negatif kawin dini dan perceraian. j. Peningkatan kualitas hidup perempuan. k. Peningkatan pelayanan informasi dan kesehatan di wilayah pelacuran. l. Perlindungan terhadap penyalahgunaan obat dan kosmetik.
 === AKHIR TABEL ===
 === TABEL HALAMAN 53 #1 ===
-Bidang Fokus Pengabdian: Bidang Sosial dan Kemasyarakatan; Tema Pengabdian: Pengentasan Kemiskinan; Topik Pengabdian: a. Pengembangan model pengentasan kemiskinan. b. Pemberdayaan keluarga., c. Mengembangkan model penanganan pekerja anak dan anak jalanan.
+Bidang Fokus Pengabdian: Bidang Sosial dan Kemasyarakatan; Tema Pengabdian: Pengentasan Kemiskinan; Topik Pengabdian: a. Pengembangan model pengentasan kemiskinan. b. Pemberdayaan keluarga. c. Mengembangkan model penanganan pekerja anak dan anak jalanan.
 === AKHIR TABEL ===
 
 46
@@ -1761,33 +1761,16 @@ Bidang Fokus Pengabdian: Bidang Lingkungan; Tema Pengabdian: Manajemen Krisis da
 Bidang Fokus Pengabdian: Bidang Lingkungan; Tema Pengabdian: Manajemen lingkungan; Topik Pengabdian: a. Pengelolaan limbah industri, domestik dan pertanian. b. Pengelolaan lingkungan pesisir,laut dan perairan. c. Pengelolaan lingkungan perkotaan dan pedesaan. d. Pemodelan pola pencemaran lingkungan (buangan limbah cair dan gas). e. Pengendalian Ekotoksikologi. f. Pemantauan dan monitoring kualitas lingkungan: AMDAL, UKL-UPL (Upaya Pengelolaan Lingkungan dan Pemantauan Lingkungan). g. Penyusunan kebijakan yang berwawasan lingkungan.
 === AKHIR TABEL ===
 === TABEL HALAMAN 54 #1 ===
-Bidang Fokus Pengabdian: Bidang Lingkungan; Tema Pengabdian: Pengembangan Kawasan dan Budidaya; Topik Pengabdian: a. Pemanfaatan limbah menjadi bahan yang ramah lingkungan dan bermanfaat. b. Pembenahan kawasan kumuh.
+Bidang Fokus Pengabdian: Bidang Lingkungan; Tema Pengabdian: Pengembangan Kawasan dan Budidaya Masyarakat Yang Ramah Lingkungan; Topik Pengabdian: a. Pemanfaatan limbah menjadi bahan yang ramah lingkungan dan bermanfaat. b. Pembenahan kawasan kumuh. c. Peningkatan kesadaran tentang kelestarian lingkungan hidup. d. Pemanfaatan lingkungan hidup secara produktif. e. Penguatan lembaga sosial kemasyarakatan yang berwawasan lingkungan
 === AKHIR TABEL ===
 
 47
 
 === HALAMAN 55 ===
- 
-48 
- 
-Masyarakat Yang 
-Ramah Lingkungan 
- 
-c. Peningkatan kesadaran tentang kelestarian lingkungan 
-hidup. 
-d. Pemanfaatan lingkungan hidup secara produktif. 
-e. Penguatan 
-lembaga 
-sosial 
-kemasyarakatan 
-yang 
-berwawasan lingkungan 
- 
 [[B]] Keterangan:
-Tema dan topik yang tercantum pada tabel di atas masih bersifat dinamis. Perubahan akan 
-dilakukan jika ada pertimbangan strategis dan mendesak. 
- 
- 
+Tema dan topik yang tercantum pada tabel di atas masih bersifat dinamis. Perubahan akan
+dilakukan jika ada pertimbangan strategis dan mendesak.
+48
 
 === HALAMAN 56 ===
 [[B]] Lampiran 2. Kriteria Tahapan Luaran Pengabdian kepada Masyarakat dan Validitas
@@ -2491,8 +2474,8 @@ Lampiran 9. Indikator Luaran Pelaksanaan Pengabdian kepada Masyarakat
 === TABEL HALAMAN 79 #1 ===
 No A: 1.; Indikator Capaian Identitas: Mitra Sasaran; Pilihan/Isian: ● Masyarakat Ekonomi Produktif ● Masyarakat Ekonomi Non-Produktif ● Masyarakat Mengarah ke Ekonomi Produktif
 No A: 2.; Indikator Capaian Identitas: Status Sosial Mitra
-No A: 2.; Indikator Capaian Identitas: Ma syarakat Ekonomi Produktif; Pilihan/Isian: Kelompok Petani • Kelompok Nelayan • Kelompok Peternak • Kelompok Industri Rumah Tangga • Dll…….Sebutkan •
-No A: 2.; Indikator Capaian Identitas: Ma syarakat Ekonomi Non- Produktif; Pilihan/Isian: Kelompok Guru (PAUD, SD, SMP, • SMA/SMK/Pesantren) Kelompok Siswa Olimpiade (Kimia, Fisika, • Matematika) Kelompok Karang Taruna • Kelompok tenaga Kesehatan • Puskesmas/Posyandu Kelompok dasawisma • Kelompok Pokdarwis • Kelompok PKK • Dll…….Sebutkan •
+No A: 2.; Indikator Capaian Identitas: Masyarakat Ekonomi Produktif; Pilihan/Isian: Kelompok Petani • Kelompok Nelayan • Kelompok Peternak • Kelompok Industri Rumah Tangga • Dll…….Sebutkan •
+No A: 2.; Indikator Capaian Identitas: Masyarakat Ekonomi Non- Produktif; Pilihan/Isian: Kelompok Guru (PAUD, SD, SMP, • SMA/SMK/Pesantren) Kelompok Siswa Olimpiade (Kimia, Fisika, • Matematika) Kelompok Karang Taruna • Kelompok tenaga Kesehatan • Puskesmas/Posyandu Kelompok dasawisma • Kelompok Pokdarwis • Kelompok PKK • Dll…….Sebutkan •
 No A: 3.; Indikator Capaian Identitas: Jumlah Mitra; Pilihan/Isian: …….. Orang
 No A: 4.; Indikator Capaian Identitas: Pendidikan Mitra; Pilihan/Isian: S-3 • S-2 • S-1 • Diploma • SMA • SMP • SD • Tidak • berpendidikan; Jumlah…….. Jumlah…….. Jumlah…….. Jumlah…….. Jumlah…….. Jumlah…….. Jumlah…….. Jumlah……..
 No A: 5.; Indikator Capaian Identitas: Bidang Permasalahan Mitra; Pilihan/Isian: Energi • Sosial Humaniora •
@@ -2503,10 +2486,13 @@ No A: 5.; Indikator Capaian Identitas: Bidang Permasalahan Mitra; Pilihan/Isian:
 
 === HALAMAN 80 ===
 === TABEL HALAMAN 80 #1 ===
-Indikator Capaian: Bidang level keberdayaan yang dicapai; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Peningkatan Pengetahuan • Peningkatan Keterampilan • Peningkatan Kesehatan • Peningkatan Pendapatan • Peningkatan Kualitas Pelayanan • Peningkatan Kualitas Produk • Peningkatan Jumlah Produk • Peningkatan Jenis Produk • Peningkatan Kapasitas Produk • Keberhasilan ekspor • Keberhasilan pemasaran antar pulau • Peningkatan Jumlah Aset • Peningkatan Jumlah Omzet • Peningkatan Jumlah Tenaga Kerja • Peningkatan Kemampuan Manajemen • Peningkatan Revenue generation • Peningkatan Income generating • Keberhasilan produk bersertifikasi • Keberhasilan Produk Terstandarisasi • Keberhasilan Menjadi Lembaga Berbadan • Hukum
+Pilihan/Isian: Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •
 === AKHIR TABEL ===
 === TABEL HALAMAN 80 #1 ===
-Indikator Capaian: Jarak ke Mitra Sasaran; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: < 50 KM • 50 – 100 KM • 101 – 200 KM • > 200 KM •
+Indikator Capaian: Bidang level keberdayaan yang dicapai; Pilihan/Isian: Peningkatan Pengetahuan • Peningkatan Keterampilan • Peningkatan Kesehatan • Peningkatan Pendapatan • Peningkatan Kualitas Pelayanan • Peningkatan Kualitas Produk • Peningkatan Jumlah Produk • Peningkatan Jenis Produk • Peningkatan Kapasitas Produk • Keberhasilan ekspor • Keberhasilan pemasaran antar pulau • Peningkatan Jumlah Aset • Peningkatan Jumlah Omzet • Peningkatan Jumlah Tenaga Kerja • Peningkatan Kemampuan Manajemen • Peningkatan Revenue generation • Peningkatan Income generating • Keberhasilan produk bersertifikasi • Keberhasilan Produk Terstandarisasi • Keberhasilan Menjadi Lembaga Berbadan • Hukum
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 80 #1 ===
+Indikator Capaian: Jarak ke Mitra Sasaran; Pilihan/Isian: < 50 KM • 50 – 100 KM • 101 – 200 KM • > 200 KM •
 === AKHIR TABEL ===
 === TABEL HALAMAN 80 #1 ===
 Indikator Capaian: Jenis Kelamin Tim Pelaksana
@@ -2516,86 +2502,92 @@ Indikator Capaian: Jenis Kelamin Tim Pelaksana
 
 === HALAMAN 81 ===
 === TABEL HALAMAN 81 #1 ===
-Indikator Capaian: Perempuan; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: ………. Orang
+Indikator Capaian: Laki-Laki; Pilihan/Isian: ………. Orang
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 81 #1 ===
+Indikator Capaian: Perempuan; Pilihan/Isian: ………. Orang
 === AKHIR TABEL ===
 === TABEL HALAMAN 81 #1 ===
 Indikator Capaian: Jenis Kelamin Mitra Sasaran
 === AKHIR TABEL ===
 === TABEL HALAMAN 81 #1 ===
-Indikator Capaian: Laki-Laki; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: ………. Orang
+Indikator Capaian: Laki-Laki; Pilihan/Isian: ………. Orang
 === AKHIR TABEL ===
 === TABEL HALAMAN 81 #1 ===
-Indikator Capaian: Perempuan; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: ………. Orang
+Indikator Capaian: Perempuan; Pilihan/Isian: ………. Orang
 === AKHIR TABEL ===
 === TABEL HALAMAN 81 #1 ===
-Indikator Capaian: Ju mlah Mahasiswa; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: ………. Orang
+Indikator Capaian: Jumlah Mahasiswa; Pilihan/Isian: ………. Orang
 === AKHIR TABEL ===
 === TABEL HALAMAN 81 #1 ===
-Indikator Capaian: Je nis Kelamin Mahasiswa
+Indikator Capaian: Jenis Kelamin Mahasiswa
 === AKHIR TABEL ===
 === TABEL HALAMAN 81 #1 ===
-Indikator Capaian: Laki-Laki; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: ………. Orang
+Indikator Capaian: Laki-Laki; Pilihan/Isian: ………. Orang
 === AKHIR TABEL ===
 === TABEL HALAMAN 81 #1 ===
-Indikator Capaian: Perempuan; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: ………. Orang
+Indikator Capaian: Perempuan; Pilihan/Isian: ………. Orang
 === AKHIR TABEL ===
 === TABEL HALAMAN 81 #1 ===
-Indikator Capaian: M etode Pelaksanaan Pengabdian Tahap 1; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Sosialisasi • Penyuluhan • FGD • …………….Penjelasan
+Indikator Capaian: Metode Pelaksanaan Pengabdian Tahap 1; Pilihan/Isian: Sosialisasi • Penyuluhan • FGD • …………….Penjelasan
 === AKHIR TABEL ===
 === TABEL HALAMAN 81 #1 ===
-Indikator Capaian: M etode Pelaksanaan Pengabdian Tahap 2; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Pelatihan • Pendampingan • ……………..Penjelasan
+Indikator Capaian: Metode Pelaksanaan Pengabdian Tahap 2; Pilihan/Isian: Pelatihan • Pendampingan • ……………..Penjelasan
 === AKHIR TABEL ===
 === TABEL HALAMAN 81 #1 ===
-Indikator Capaian: M etode Pelaksanaan Pengabdian Tahap 3; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Penerapan Teknologi dan Inovasi • Pendidikan • Demplot/Percontohan • Rancang Bangun • ………..Penjelasan
+Indikator Capaian: Metode Pelaksanaan Pengabdian Tahap 3; Pilihan/Isian: Penerapan Teknologi dan Inovasi • Pendidikan • Demplot/Percontohan • Rancang Bangun • ………..Penjelasan
 === AKHIR TABEL ===
 === TABEL HALAMAN 81 #1 ===
-Indikator Capaian: M etode Pelaksanaan Pengabdian Tahap 4; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Pendampingan/Evaluasi •
+Indikator Capaian: Metode Pelaksanaan Pengabdian Tahap 4; Pilihan/Isian: Pendampingan/Evaluasi •
 === AKHIR TABEL ===
 === TABEL HALAMAN 81 #1 ===
-Indikator Capaian: M etode Pelaksanaan Kegiatan Tahap 5; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Rencana keberlanjutan • ……………Penjelasan
+Indikator Capaian: Metode Pelaksanaan Kegiatan Tahap 5; Pilihan/Isian: Rencana keberlanjutan • ……………Penjelasan
 === AKHIR TABEL ===
 === TABEL HALAMAN 81 #1 ===
-Indikator Capaian: W aktu Efektif Pelaksanaan; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: …….Bulan
+Indikator Capaian: Waktu Efektif Pelaksanaan; Pilihan/Isian: …….Bulan
 === AKHIR TABEL ===
 === TABEL HALAMAN 81 #1 ===
-Indikator Capaian: K eberlanjutan Program; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Berlanjut • Berhenti •
+Indikator Capaian: Keberlanjutan Program; Pilihan/Isian: Berlanjut • Berhenti •
 === AKHIR TABEL ===
 === TABEL HALAMAN 81 #1 ===
-Indikator Capaian: Te knologi dan Inovasi yang diterapkan; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Hard ex Alat Pencacah Sampah • …………………………………… •, Soft ex Metode Pendidikan Holistik • …………………………………… •
+Indikator Capaian: Te knologi dan Inovasi yang diterapkan; Pilihan/Isian: Hard ex Alat Pencacah Sampah • …………………………………… •, Soft ex Metode Pendidikan Holistik • …………………………………… •
 === AKHIR TABEL ===
 === TABEL HALAMAN 81 #1 ===
-Indikator Capaian: K apasitas Produksi Sebelum Program; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: ………(ton/kg/dsb.)
+Indikator Capaian: Kapasitas Produksi Sebelum Program; Pilihan/Isian: ………(ton/kg/dsb.)
 === AKHIR TABEL ===
 === TABEL HALAMAN 81 #1 ===
-Indikator Capaian: K apasitas Produksi Setelah Program; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: ………(ton/kg/dsb.)
+Indikator Capaian: Kapasitas Produksi Setelah Program; Pilihan/Isian: ………(ton/kg/dsb.)
 === AKHIR TABEL ===
 === TABEL HALAMAN 81 #1 ===
-Indikator Capaian: Omzet Sebelum Program; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: …….Rupiah
+Indikator Capaian: Omzet Sebelum Program; Pilihan/Isian: …….Rupiah
 === AKHIR TABEL ===
 === TABEL HALAMAN 81 #1 ===
-Indikator Capaian: O mzet Setelah Program; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: …….Rupiah
+Indikator Capaian: Omzet Setelah Program; Pilihan/Isian: …….Rupiah
 === AKHIR TABEL ===
 
 75
 
 === HALAMAN 82 ===
 === TABEL HALAMAN 82 #1 ===
-Indikator Capaian: N ilai keberdayaan setelah program (Sesuai level keberdayaan yang dipilih)
+Indikator Capaian: Nilai keberdayaan sebelum program (sesuai level keberdayaan yang dipilih)
 === AKHIR TABEL ===
 === TABEL HALAMAN 82 #1 ===
-Indikator Capaian: Su mber Pendanaan Lainnya
+Indikator Capaian: Nilai keberdayaan setelah program (Sesuai level keberdayaan yang dipilih)
 === AKHIR TABEL ===
 === TABEL HALAMAN 82 #1 ===
-Indikator Capaian: Sumber Pendanaan; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: …………Isian
+Indikator Capaian: Sumber Pendanaan Lainnya
 === AKHIR TABEL ===
 === TABEL HALAMAN 82 #1 ===
-Indikator Capaian: Jumlah Pendanaan; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: …………Isian
+Indikator Capaian: Sumber Pendanaan; Pilihan/Isian: …………Isian
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 82 #1 ===
+Indikator Capaian: Jumlah Pendanaan; Pilihan/Isian: …………Isian
 === AKHIR TABEL ===
 === TABEL HALAMAN 82 #1 ===
 Indikator Capaian: Kontribusi Mitra Sasaran
 === AKHIR TABEL ===
 === TABEL HALAMAN 82 #1 ===
-Indikator Capaian: Peran Mitra dalam Kegiatan; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Objek Kegiatan • Subjek Kegiatan •
+Indikator Capaian: Peran Mitra dalam Kegiatan; Pilihan/Isian: Objek Kegiatan • Subjek Kegiatan •
 === AKHIR TABEL ===
 === TABEL HALAMAN 82 #1 ===
 Indikator Capaian: Peran Mitra dalam Kegiatan
@@ -2607,22 +2599,22 @@ Indikator Capaian: Aktif (sebutkan kegiatan yang dilaksanakan)
 Indikator Capaian: Pasif (Jelaskan alas an pasif)
 === AKHIR TABEL ===
 === TABEL HALAMAN 82 #1 ===
-Indikator Capaian: Peran Pemerintah Daerah; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Dukungan dana • Dukungan kebijakan • Dukungan pelaksanaan kegiatan •
+Indikator Capaian: Peran Pemerintah Daerah; Pilihan/Isian: Dukungan dana • Dukungan kebijakan • Dukungan pelaksanaan kegiatan •
 === AKHIR TABEL ===
 === TABEL HALAMAN 82 #1 ===
-Indikator Capaian: Kontribusi Pendanaan; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: …..Rupiah
+Indikator Capaian: Kontribusi Pendanaan; Pilihan/Isian: …..Rupiah
 === AKHIR TABEL ===
 === TABEL HALAMAN 82 #1 ===
 Indikator Capaian: Luaran Wajib Program
 === AKHIR TABEL ===
 === TABEL HALAMAN 82 #1 ===
-Indikator Capaian: Artikel Ilmiah pada jurnal nasional terakreditasi SINTA 1-6; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Sesuai dengan isian luaran publikasi di Cybercampus V2
+Indikator Capaian: Artikel Ilmiah pada jurnal nasional terakreditasi SINTA 1-6; Pilihan/Isian: Sesuai dengan isian luaran publikasi di Cybercampus V2
 === AKHIR TABEL ===
 === TABEL HALAMAN 82 #1 ===
-Indikator Capaian: Publikasi Media Massa; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Sesuai dengan isian luaran publikasi Media Massa di Cybercampus V2
+Indikator Capaian: Publikasi Media Massa; Pilihan/Isian: Sesuai dengan isian luaran publikasi Media Massa di Cybercampus V2
 === AKHIR TABEL ===
 === TABEL HALAMAN 82 #1 ===
-Indikator Capaian: Publikasi YouTube; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: ….
+Indikator Capaian: Publikasi YouTube; Pilihan/Isian: ….
 === AKHIR TABEL ===
 === TABEL HALAMAN 82 #1 ===
 Indikator Capaian: Peningkatan Daya Saing
@@ -2634,7 +2626,7 @@ Indikator Capaian: Meningkat (Jelaskan)
 Indikator Capaian: Tidak Meningkat (Jelaskan)
 === AKHIR TABEL ===
 === TABEL HALAMAN 82 #1 ===
-Indikator Capaian: Peningkatan Penerapan Teknologi dan Inovasi; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Participatory Rural Appraisal (PRA) • Logical Framework Approach (LFA) • Focus Group Discussion (FGD) • Oriented-Project Planning (OPP) • Rapial Rural Appaisal (RPA) • Action Research •
+Indikator Capaian: Peningkatan Penerapan Teknologi dan Inovasi; Pilihan/Isian: Participatory Rural Appraisal (PRA) • Logical Framework Approach (LFA) • Focus Group Discussion (FGD) • Oriented-Project Planning (OPP) • Rapial Rural Appaisal (RPA) • Action Research •
 === AKHIR TABEL ===
 === TABEL HALAMAN 82 #1 ===
 Indikator Capaian: Meningkat (Jelaskan)
@@ -2662,6 +2654,9 @@ Indikator Capaian: Jasa (Jelaskan)
 
 === HALAMAN 83 ===
 === TABEL HALAMAN 83 #1 ===
+Indikator Capaian: Transfer Knowledge untuk mitra
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 83 #1 ===
 Indikator Capaian: Ada (Jelaskan)
 === AKHIR TABEL ===
 === TABEL HALAMAN 83 #1 ===
@@ -2677,7 +2672,7 @@ Indikator Capaian: Tidak Ada (Jelaskan)
 Indikator Capaian: Penyelesaian masalah yang diterapkan
 === AKHIR TABEL ===
 === TABEL HALAMAN 83 #1 ===
-Indikator Capaian: Perubahan pola pikir yang dihasilkan; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Masyarakat Terlibat • Masyarakat Memanfaatkan • Perubahan pola pikir, sikap, dan keuntungan •
+Indikator Capaian: Perubahan pola pikir yang dihasilkan; Pilihan/Isian: Masyarakat Terlibat • Masyarakat Memanfaatkan • Perubahan pola pikir, sikap, dan keuntungan •
 === AKHIR TABEL ===
 === TABEL HALAMAN 83 #1 ===
 Indikator Capaian: Jelaskan
@@ -2686,7 +2681,7 @@ Indikator Capaian: Jelaskan
 Indikator Capaian: Luaran Tambahan Program
 === AKHIR TABEL ===
 === TABEL HALAMAN 83 #1 ===
-Indikator Capaian: HKI; Indikator Capaian Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Paten • Paten Sederhana • Merk • Hak Cipta • Desain Industri • DTLST • Indikasi Geografis • Rahasia Dagang • PVT •
+Indikator Capaian: HKI; Pilihan/Isian: Paten • Paten Sederhana • Merk • Hak Cipta • Desain Industri • DTLST • Indikasi Geografis • Rahasia Dagang • PVT •
 === AKHIR TABEL ===
 === TABEL HALAMAN 83 #1 ===
 Indikator Capaian: Buku ber-ISBN
@@ -2713,10 +2708,11 @@ No A: C; Perempuan; Indikator Capaian Identitas Pelaksana: Identitas Mitra Sasar
 
 === HALAMAN 84 ===
 === TABEL HALAMAN 84 #1 ===
-Indikator Capaian: Masyarakat Ekonomi Non Produktif; Indikator Capaian Anggota Koperasi • Kelompok Petani/ Nelayan/ Peternak • Kelompok Industri Rumh Tangga •: Kelompok Pendidikan (PAUD, SD, SMP, • SMA/SMK/Pesantren) Kelompok PKK/ Karang Taruna • Puskesmas/ Posyandu • Kelompok dasawisma • Kelompok Pokdarwis • Kelompok PKK • Dll…… sebutkan •
-Indikator Capaian: Jumlah Mitra; Indikator Capaian Anggota Koperasi • Kelompok Petani/ Nelayan/ Peternak • Kelompok Industri Rumh Tangga •: .........Orang
-Indikator Capaian: Pendidikan Mitra; Indikator Capaian Anggota Koperasi • Kelompok Petani/ Nelayan/ Peternak • Kelompok Industri Rumh Tangga •: S-3 • S-2 • S-1 • Diploma • Sma • Smp • Sd • Tidak • Berpendidikan; Pilihan / Isian: Jumlah…….. Jumlah…….. Jumlah…….. Jumlah…….. Jumlah…….. Jumlah…….. Jumlah…….. Jumlah……..
-Indikator Capaian: Bidang Permasalahan Mitra; Indikator Capaian Anggota Koperasi • Kelompok Petani/ Nelayan/ Peternak • Kelompok Industri Rumh Tangga •: Energi • Sosial Humaniora • Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •
+Pilihan / Isian: Anggota Koperasi • Kelompok Petani/ Nelayan/ Peternak • Kelompok Industri Rumh Tangga •
+Indikator Capaian: Masyarakat Ekonomi Non Produktif; Pilihan / Isian: Kelompok Pendidikan (PAUD, SD, SMP, • SMA/SMK/Pesantren) Kelompok PKK/ Karang Taruna • Puskesmas/ Posyandu • Kelompok dasawisma • Kelompok Pokdarwis • Kelompok PKK • Dll…… sebutkan •
+Indikator Capaian: Jumlah Mitra; Pilihan / Isian: .........Orang
+Indikator Capaian: Pendidikan Mitra; Pilihan / Isian: S-3 • S-2 • S-1 • Diploma • Sma • Smp • Sd • Tidak • Berpendidikan; Jumlah…….. Jumlah…….. Jumlah…….. Jumlah…….. Jumlah…….. Jumlah…….. Jumlah…….. Jumlah……..
+Indikator Capaian: Bidang Permasalahan Mitra; Pilihan / Isian: Energi • Sosial Humaniora • Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan • Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •
 === AKHIR TABEL ===
 
 •
@@ -2808,13 +2804,14 @@ Indikator Capaian: Mitra Sasaran; Pilihan / Isian: Masyarakat Ekonomi Produktif 
 
 === HALAMAN 87 ===
 === TABEL HALAMAN 87 #1 ===
+Pilihan / Isian: Masyarakat Ekonomi Non-Produktif •
 Indikator Capaian: Status Sosial Mitra
-Indikator Capaian: Masyarakat Ekonomi Produktif; Indikator Capaian Masyarakat Ekonomi Non-Produktif •: Pengusaha Mikro/UMKM • Anggota Koperasi • Kelompok Petani/ Nelayan/ Peternak • Kelompok Industri Rumh Tangga •
-Indikator Capaian: Masyarakat Ekonomi Produktif; Indikator Capaian Masyarakat Ekonomi Non-Produktif •: Kelompok Pendidikan (PAUD, SD, SMP, • SMA/SMK/Pesantren) Kelompok PKK/ Karang Taruna • Puskesmas/ Posyandu •
-Indikator Capaian: Masyarakat Mengarah ke Ekonomi Produktif; Indikator Capaian Masyarakat Ekonomi Non-Produktif •: Kelompok dasawisma • Kelompok Pokdarwis • Kelompok PKK • Kelompok pengajian • Kelompok ibu-ibu rumah tangga • Dll…….Sebutkan •
-Indikator Capaian: Jumlah Mitra; Indikator Capaian Masyarakat Ekonomi Non-Produktif •: .........Orang
-Indikator Capaian: Pendidikan Mitra; Indikator Capaian Masyarakat Ekonomi Non-Produktif •: S-3 • S-2 • S-1 • Diploma • Sma • Smp • Sd • Tidak • Berpendidikan; Pilihan / Isian: Jumlah…….. Jumlah…….. Jumlah…….. Jumlah…….. Jumlah…….. Jumlah…….. Jumlah…….. Jumlah……..
-Indikator Capaian: Bidang Permasalahan Mitra; Indikator Capaian Masyarakat Ekonomi Non-Produktif •: Energi • Sosial Humaniora • Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan •
+Indikator Capaian: Masyarakat Ekonomi Produktif; Pilihan / Isian: Pengusaha Mikro/UMKM • Anggota Koperasi • Kelompok Petani/ Nelayan/ Peternak • Kelompok Industri Rumh Tangga •
+Indikator Capaian: Masyarakat Ekonomi Produktif; Pilihan / Isian: Kelompok Pendidikan (PAUD, SD, SMP, • SMA/SMK/Pesantren) Kelompok PKK/ Karang Taruna • Puskesmas/ Posyandu •
+Indikator Capaian: Masyarakat Mengarah ke Ekonomi Produktif; Pilihan / Isian: Kelompok dasawisma • Kelompok Pokdarwis • Kelompok PKK • Kelompok pengajian • Kelompok ibu-ibu rumah tangga • Dll…….Sebutkan •
+Indikator Capaian: Jumlah Mitra; Pilihan / Isian: .........Orang
+Indikator Capaian: Pendidikan Mitra; Pilihan / Isian: S-3 • S-2 • S-1 • Diploma • Sma • Smp • Sd • Tidak • Berpendidikan; Jumlah…….. Jumlah…….. Jumlah…….. Jumlah…….. Jumlah…….. Jumlah…….. Jumlah…….. Jumlah……..
+Indikator Capaian: Bidang Permasalahan Mitra; Pilihan / Isian: Energi • Sosial Humaniora • Kemaritiman • Kesehatan • Teknologi Informasi dan Komunikasi • Pangan •
 === AKHIR TABEL ===
 
 •
@@ -2822,16 +2819,19 @@ Indikator Capaian: Bidang Permasalahan Mitra; Indikator Capaian Masyarakat Ekono
 
 === HALAMAN 88 ===
 === TABEL HALAMAN 88 #1 ===
-Indikator Capaian: Bidang level keberdayaan yang dicapai (Minimal 2); Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Peningkatan Pengetahuan • Peningkatan Keterampilan • Peningkatan Kesehatan • Peningkatan Pendapatan • Peningkatan Kualitas Pelayanan • Peningkatan Kualitas Produk • Peningkatan Jumlah Produk • Peningkatan Jenis Produk • Peningkatan Kapasitas Produksi • Keberhasilan ekspor • Keberhasilan pemasaran antar pulau • Peningkatan Jumlah Aset • Peningkatan Jumlah Omzet • Peningkatan Jumlah Tenaga Kerja • Peningkatan Kemampuan Manajemen • Peningkatan Revenue generating • Peningkatan Income generating • Keberhasilan produk bersertifikasi • Keberhasilan Produk Terstandarisasi • Keberhasilan Menjadi Lembaga Berbadan Hukum •
+Pilihan / Isian: Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •
 === AKHIR TABEL ===
 === TABEL HALAMAN 88 #1 ===
-Indikator Capaian: Jarak ke Mitra; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: < 50 KM • 50 - 100 KM • 101 - 200 KM • > 200 KM •
+Indikator Capaian: Bidang level keberdayaan yang dicapai (Minimal 2); Pilihan / Isian: Peningkatan Pengetahuan • Peningkatan Keterampilan • Peningkatan Kesehatan • Peningkatan Pendapatan • Peningkatan Kualitas Pelayanan • Peningkatan Kualitas Produk • Peningkatan Jumlah Produk • Peningkatan Jenis Produk • Peningkatan Kapasitas Produksi • Keberhasilan ekspor • Keberhasilan pemasaran antar pulau • Peningkatan Jumlah Aset • Peningkatan Jumlah Omzet • Peningkatan Jumlah Tenaga Kerja • Peningkatan Kemampuan Manajemen • Peningkatan Revenue generating • Peningkatan Income generating • Keberhasilan produk bersertifikasi • Keberhasilan Produk Terstandarisasi • Keberhasilan Menjadi Lembaga Berbadan Hukum •
 === AKHIR TABEL ===
 === TABEL HALAMAN 88 #1 ===
-Indikator Capaian: Kapasitas Produksi per Tahun; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: ....................................... •
+Indikator Capaian: Jarak ke Mitra; Pilihan / Isian: < 50 KM • 50 - 100 KM • 101 - 200 KM • > 200 KM •
 === AKHIR TABEL ===
 === TABEL HALAMAN 88 #1 ===
-Indikator Capaian: Sarana dan Prasana; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Ada dan Saran Lengkap •
+Indikator Capaian: Kapasitas Produksi per Tahun; Pilihan / Isian: ....................................... •
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 88 #1 ===
+Indikator Capaian: Sarana dan Prasana; Pilihan / Isian: Ada dan Saran Lengkap •, Ada dan Saran Belum Lengkap • Belum Ada •
 === AKHIR TABEL ===
 
 •
@@ -2842,65 +2842,68 @@ Indikator Capaian: Sarana dan Prasana; Indikator Capaian Material Maju • Keben
 Indikator Capaian: Jenis Kelamin Mitra
 === AKHIR TABEL ===
 === TABEL HALAMAN 89 #1 ===
-Indikator Capaian: Laki-laki; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: ..............Orang
+Indikator Capaian: Laki-laki; Pilihan / Isian: ..............Orang
 === AKHIR TABEL ===
 === TABEL HALAMAN 89 #1 ===
-Indikator Capaian: Perempuan; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: ..............Orang
+Indikator Capaian: Perempuan; Pilihan / Isian: ..............Orang
 === AKHIR TABEL ===
 === TABEL HALAMAN 89 #1 ===
-Indikator Capaian: Metode Pelaksanaan Pengabdian Tahap 1; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Sosialisasi • Penyuluhan • Fgd • ................Penjelasan •
+Indikator Capaian: Metode Pelaksanaan Pengabdian Tahap 1; Pilihan / Isian: Sosialisasi • Penyuluhan • Fgd • ................Penjelasan •
 === AKHIR TABEL ===
 === TABEL HALAMAN 89 #1 ===
-Indikator Capaian: Metode Pelaksanaan Pengabdian Tahap 2; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Pelatihan • Pendampingan • ................Penjelasan •
+Indikator Capaian: Metode Pelaksanaan Pengabdian Tahap 2; Pilihan / Isian: Pelatihan • Pendampingan • ................Penjelasan •
 === AKHIR TABEL ===
 === TABEL HALAMAN 89 #1 ===
-Indikator Capaian: Metode Pelaksanaan Pengabdian Tahap 3; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Penerapan Teknologi dan Inovasi • Pendidikan • Demplot/ Percontohan • Rancang Bangun • ....................Penjelasan •
+Indikator Capaian: Metode Pelaksanaan Pengabdian Tahap 3; Pilihan / Isian: Penerapan Teknologi dan Inovasi • Pendidikan • Demplot/ Percontohan • Rancang Bangun • ....................Penjelasan •
 === AKHIR TABEL ===
 === TABEL HALAMAN 89 #1 ===
-Indikator Capaian: Metode Pelaksanaan Pengabdian Tahap 4; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Pendampingan/ Evaluasi •
+Indikator Capaian: Metode Pelaksanaan Pengabdian Tahap 4; Pilihan / Isian: Pendampingan/ Evaluasi •
 === AKHIR TABEL ===
 === TABEL HALAMAN 89 #1 ===
-Indikator Capaian: Metode Pelaksanaan Pengabdian Tahap 5; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Rencana Berkelanjutan • ...............Penjelasan •
+Indikator Capaian: Metode Pelaksanaan Pengabdian Tahap 5; Pilihan / Isian: Rencana Berkelanjutan • ...............Penjelasan •
 === AKHIR TABEL ===
 === TABEL HALAMAN 89 #1 ===
-Indikator Capaian: Waktu Efektif Pelaksanaan; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: .....Bulan
+Indikator Capaian: Waktu Efektif Pelaksanaan; Pilihan / Isian: .....Bulan
 === AKHIR TABEL ===
 === TABEL HALAMAN 89 #1 ===
-Indikator Capaian: Teknologi dan Inovasi yang diterapkan; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Hard ex Alat Pencacah Sampah • ………………………. •, Soft ex Metode Pendidikan Holistik • …………………………………… •
+Indikator Capaian: Teknologi dan Inovasi yang diterapkan; Pilihan / Isian: Hard ex Alat Pencacah Sampah • ………………………. •, Soft ex Metode Pendidikan Holistik • …………………………………… •
 === AKHIR TABEL ===
 === TABEL HALAMAN 89 #1 ===
-Indikator Capaian: Keberlanjutan Program; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: Berlajut • Berhenti •
+Indikator Capaian: Keberlanjutan Program; Pilihan / Isian: Berlajut • Berhenti •
 === AKHIR TABEL ===
 === TABEL HALAMAN 89 #1 ===
-Indikator Capaian: Kontribusi Pendanaan Mitra; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: ……….Rupiah
+Indikator Capaian: Kontribusi Pendanaan Mitra; Pilihan / Isian: ……….Rupiah
 === AKHIR TABEL ===
 === TABEL HALAMAN 89 #1 ===
-Indikator Capaian: Kapasitas Produksi Sebelum Program; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: …….(ton/kg/dsb.)
+Indikator Capaian: Kapasitas Produksi Sebelum Program; Pilihan / Isian: …….(ton/kg/dsb.)
 === AKHIR TABEL ===
 === TABEL HALAMAN 89 #1 ===
-Indikator Capaian: Kapasitas Produksi Setelah Program; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: …….(ton/kg/dsb.)
+Indikator Capaian: Kapasitas Produksi Setelah Program; Pilihan / Isian: …….(ton/kg/dsb.)
 === AKHIR TABEL ===
 === TABEL HALAMAN 89 #1 ===
-Indikator Capaian: Omzet Sebelum Program; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: ……..Rupiah
+Indikator Capaian: Omzet Sebelum Program; Pilihan / Isian: ……..Rupiah
 === AKHIR TABEL ===
 === TABEL HALAMAN 89 #1 ===
-Indikator Capaian: Omzet Setelah Program; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: …..Rupiah
+Indikator Capaian: Omzet Setelah Program; Pilihan / Isian: …..Rupiah
 === AKHIR TABEL ===
 
 83
 
 === HALAMAN 90 ===
 === TABEL HALAMAN 90 #1 ===
-Indikator Capaian: Sumber Pendanaan; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: ……….Isian
+Indikator Capaian: Sumber Pendanaan Lainnya
 === AKHIR TABEL ===
 === TABEL HALAMAN 90 #1 ===
-Indikator Capaian: Jumlah Pendanaan; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: ……….Rupiah
+Indikator Capaian: Sumber Pendanaan; Pilihan / Isian: ……….Isian
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 90 #1 ===
+Indikator Capaian: Jumlah Pendanaan; Pilihan / Isian: ……….Rupiah
 === AKHIR TABEL ===
 === TABEL HALAMAN 90 #1 ===
 Indikator Capaian: Mitra Pemberi Dana
 === AKHIR TABEL ===
 === TABEL HALAMAN 90 #1 ===
-Indikator Capaian: Jumlah staf; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: …….Orang; Pilihan / Isian: …….Orang
+Indikator Capaian: Jumlah staf; Pilihan / Isian: …….Orang
 === AKHIR TABEL ===
 === TABEL HALAMAN 90 #1 ===
 Indikator Capaian: pemda/pemkab/pemkot yang
@@ -2909,13 +2912,13 @@ Indikator Capaian: pemda/pemkab/pemkot yang
 Indikator Capaian: berpartisipasi
 === AKHIR TABEL ===
 === TABEL HALAMAN 90 #1 ===
-Indikator Capaian: Jumlah Staff CSR yang; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: …….Orang
+Indikator Capaian: Jumlah Staff CSR yang; Pilihan / Isian: …….Orang
 === AKHIR TABEL ===
 === TABEL HALAMAN 90 #1 ===
 Indikator Capaian: Berpartisipasi
 === AKHIR TABEL ===
 === TABEL HALAMAN 90 #1 ===
-Indikator Capaian: Jumlah Pendanaan dari; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: ……Rupiah
+Indikator Capaian: Jumlah Pendanaan dari; Pilihan / Isian: ……Rupiah
 === AKHIR TABEL ===
 === TABEL HALAMAN 90 #1 ===
 Indikator Capaian: pemda/pemkab/pemkot
@@ -2924,7 +2927,7 @@ Indikator Capaian: pemda/pemkab/pemkot
 Indikator Capaian: Jumlah Pendanaan dari CSR; Pilihan / Isian: ……Rupiah
 === AKHIR TABEL ===
 === TABEL HALAMAN 90 #1 ===
-Indikator Capaian: Jumlah Pendanaan dari; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: ……Rupiah; Pilihan / Isian: ……Rupiah
+Indikator Capaian: Jumlah Pendanaan dari; Pilihan / Isian: ……Rupiah
 === AKHIR TABEL ===
 === TABEL HALAMAN 90 #1 ===
 Indikator Capaian: Sumber Lainnya
@@ -2942,7 +2945,7 @@ Indikator Capaian: Peran Pemda/Pemkab/Pemkot; Pilihan / Isian: Memimpin persiapa
 Indikator Capaian: Pemda/Pemkab/Pemkot; Pilihan / Isian: , Menetapkan teknis pelaksanaan •, Mengubah strategi pendekatan di lapangan •, Mengelola Keuangan •, Menetapkan jadwal kegiatan •
 === AKHIR TABEL ===
 === TABEL HALAMAN 90 #1 ===
-Indikator Capaian: Kontribusi Pendanaan; Indikator Capaian Material Maju • Kebencanaan • Ketahanan dan Keamanan • Transportasi •: …………Rupiah •; Pilihan / Isian: …………Rupiah •
+Indikator Capaian: Kontribusi Pendanaan; Pilihan / Isian: …………Rupiah •
 === AKHIR TABEL ===
 === TABEL HALAMAN 90 #1 ===
 Indikator Capaian: Pemerintahan Daerah
@@ -2961,6 +2964,9 @@ Indikator Capaian: Luaran Wajib Program; Pilihan / Isian: •
 84
 
 === HALAMAN 91 ===
+=== TABEL HALAMAN 91 #1 ===
+Indikator Capaian: Artikel pada Jurnal Nasional Terakreditasi SINTA 1-6; Pilihan / Isian: Sesuai dengan isian luaran pada publikasi di •
+=== AKHIR TABEL ===
 === TABEL HALAMAN 91 #1 ===
 Indikator Capaian: Terakreditasi SINTA 1-6; Pilihan / Isian: , Cybercampus V2
 === AKHIR TABEL ===
@@ -3058,6 +3064,9 @@ Indikator Capaian: Meningkat (Jelaskan)
 85
 
 === HALAMAN 92 ===
+=== TABEL HALAMAN 92 #1 ===
+Indikator Capaian: Tidak Meningkat (Jelaskan)
+=== AKHIR TABEL ===
 === TABEL HALAMAN 92 #1 ===
 Indikator Capaian: Perbaikan Tata Nilai
 === AKHIR TABEL ===
@@ -3413,6 +3422,14 @@ NIK/NIP …………………..
 === HALAMAN 96 ===
 Lampiran 13. Seleksi Administrasi
 [[B]] Penilaian Seleksi Administrasi
+
+=== TABEL HALAMAN 96 #1 ===
+Komponen Penilaian: Ketua Dan Anggota Pengmas Memenuhi Persyaratan Sesuai Dengan Panduan (Status Kepegawaian, Tidak Sedang Tugas Belajar)
+Komponen Penilaian: Proposal Disusun Sesuai Dengan Template
+Komponen Penilaian: Jumlah Kata Per Bagian Proposal Sesuai Dengan Ketentuan
+Komponen Penilaian: Referensi/Pustaka Menggunakan Penomoran Sesuai Dengan Urutan Pengutipan dan jumlah referensi sama dengan jumlah kutipan
+Kolom Indikator Ya, Indikator Tidak dikosongkan (diisi oleh penilai).
+=== AKHIR TABEL ===
 
 90
 

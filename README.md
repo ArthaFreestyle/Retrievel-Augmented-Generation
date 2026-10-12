@@ -193,6 +193,23 @@ tiap notebook secara berurutan. Notebook 04 (build benchmark QA) adalah
 langkah berikutnya, dan mengonsumsi `data/processed/chunks.jsonl` +
 `indexes/`.
 
+## OCR slide (Tesseract)
+
+Dua panduan BBK (Internasional dan Penyetaraan) adalah slide yang diekspor ke PDF, sehingga lapisan
+teksnya tidak utuh. Keduanya diekstraksi dalam **mode slide** (`ocr: true` di `configs/ingest_docs.yaml`):
+halaman di-OCR dengan Tesseract `ind+eng`, `--psm 1` (psm 3 menyelang-nyelingkan kolom), judul slide
+dan subjudul HURUF KAPITAL jadi `section_heading`, dan halaman foto/tangkapan layar/jadwal berderau
+dikosongkan lewat `skip_pages` (nomor halaman tidak bergeser). Ini pengecualian atas Batasan Masalah
+butir 2, hanya untuk dua dokumen itu.
+
+- Mesin: Tesseract 5.4.0.20240606 (UB-Mannheim, `winget install UB-Mannheim.TesseractOCR`) + `pytesseract`.
+- Data bahasa: `data/tessdata/{ind,eng}.traineddata` dari repo `tesseract-ocr/tessdata_fast`, ikut di-commit
+  (sekitar 5 MB) supaya hasil OCR bisa diulang persis sama.
+- Jadwal keberangkatan BBK Internasional (hal. 6-7) tidak dipakai karena OCR merusak tanggal; ambil dari laman web LPMB.
+- Keterbatasan: diagram alur (Penyetaraan hal. 6, Internasional hal. 8) terbaca sebagai kotak-kotak yang
+  menyelip di antara butir daftar; isi pokoknya ada di laman web "Pendaftaran BBK Penyetaraan 2026".
+  Kesalahan baca kecil ("wajik" untuk "wajib") tidak dikejar; periksa sampel angka, tanggal, dan syarat.
+
 ## Mulai
 
 ```bash

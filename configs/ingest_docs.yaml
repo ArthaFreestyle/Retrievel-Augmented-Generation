@@ -1,0 +1,31 @@
+# Pengaturan ekstraksi per dokumen (kunci = nama berkas persis di data/raw/pdf/). Dibaca notebook 01.
+#   ocr: true        slide yang diekspor jadi gambar -> mode slide + OCR Tesseract (ind+eng), lihat src/ingest.py
+#   skip_pages: [..] halaman yang dikosongkan (tetap dihitung di n_pages; nomor halaman tidak bergeser)
+#   titles: {hal: judul}   judul slide yang tidak terbaca OCR, disalin apa adanya dari slide asli (bukan karangan)
+#   fixes: [{page, old, new}]  koreksi teks OCR yang sudah dicek terhadap PDF (hasil data/processed/cek_ocr_bbk.csv)
+# Alasan tiap halaman yang dilewati/diganti judulnya dicatat di sini dan di metodologi.
+"Panduan BBK Jenis INTERNASIONAL 2026.pdf":
+  ocr: true
+  skip_pages:
+    - 1    # sampul (hanya "Lembaga Pengabdian Masyarakat Berkelanjutan / BBK INTERNASIONAL")
+    - 6    # jadwal keberangkatan Batch 1 (tabel): OCR merusak tanggal/nama; pakai jadwal dari laman web LPMB
+    - 7    # jadwal keberangkatan Batch 2: idem
+    - 9    # foto kegiatan
+    - 10   # foto kegiatan
+    - 12   # "Thank You"
+    - 13   # contoh KHS: sampah OCR
+    # hal. 2, 14, 15 SENGAJA tidak dibuang walau berderau: memuat aturan yang tidak ada di tempat lain
+    # (hal. 2: kegiatan dapat disetarakan maks. 1 tahun setelah pelaksanaan; hal. 14-15: BBK Pertukaran Pelajar
+    # wajib melampirkan LoA dan MoU/PKS, cara melapor student mobility di Cybercampus V2)
+  titles:
+    8: "ALUR PENDAFTARAN DAN PELAKSANAAN BBK INTERNASIONAL"   # judul slide; diagram alurnya sendiri tetap berderau
+  fixes: []
+"Panduan BBK Jenis Penyetaraan 2026.pdf":
+  ocr: true
+  skip_pages:
+    - 1    # sampul
+    - 12   # "Terima Kasih"
+  titles:
+    2: "Definisi"                                             # OCR membaca "Definisi S"
+    3: "1. KKN Penyetaraan berdasarkan Proses"                # judul di kotak samping kiri, tidak terbaca OCR
+  fixes: []

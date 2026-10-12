@@ -3,6 +3,7 @@ import re
 
 LEADER = re.compile(r"\s*(?:[.…·_]\s?){4,}\s*")
 ISIAN = "[diisi]"
+MIN_LABEL = 3
 SURAT = re.compile(r"<KOP|bertanda tangan di bawah ini|Meterai", re.I)
 JUDUL = re.compile(r"^(Lampiran \d+\.[^\n]*)", re.M)
 LABEL = re.compile(r"([A-Z][A-Za-z/().\- ]{2,40}?)\s*:?\s*\[diisi\]")
@@ -28,10 +29,12 @@ def ringkas_form(text, heading=""):
     for m in LABEL.finditer(t):
         lab = re.sub(r"\s+", " ", m.group(1)).strip(" :.-")
         lab = lab.split("  ")[-1]
+        if lab.count("(") != lab.count(")"):   # potongan kalimat ("Nama Lengkap)") bukan label
+            continue
         if 2 < len(lab) <= 40 and lab.lower() not in {x.lower() for x in labels}:
             labels.append(lab)
     out = "; ".join(judul) if judul else "Formulir"
     out += " — templat isian, bukan ketentuan."
-    if labels:
+    if len(labels) >= MIN_LABEL:   # label terbaca sedikit biasanya salah baca; cukup judulnya
         out += " Isian: " + ", ".join(labels[:25]) + "."
     return out

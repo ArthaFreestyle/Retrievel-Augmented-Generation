@@ -278,7 +278,152 @@ def _pages_with_broken_block_order(pdf_path: str | Path) -> set[int]:
     return broken
 
 
-def extract_text_auto(pdf_path: str | Path) -> list[dict[str, Any]]:
+TESSDATA_DIR = Path(__file__).resolve().parent.parent / "data" / "tessdata"  # berisi ind.traineddata + eng.traineddata
+_TESSERACT_EXE = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
+
+_OCR_REAL_LINE_RE = re.compile(r"[A-Za-z0-9]{2}")
+_OCR_NUM_RE = re.compile(r"^(\d{1,2})\.(?=[^\s\d.])")           # "2.Sudah" -> "2. Sudah"
+_OCR_ONE_RE = re.compile(r"^(?:[lI|]\.|Il|lI|ll)\s?(?=[A-Z])")    # OCR membaca "1." sebagai "l." / "Il"
+
+
+def ocr_page(pdf_path: str | Path, page_no: int, dpi: int = 200, lang: str = "ind+eng") -> str:
+    """OCR satu halaman PDF (nomor 1-based) dengan Tesseract; untuk slide yang diekspor jadi gambar."""
+    import io
+    import shutil
+
+    import pymupdf
+    import pytesseract
+    from PIL import Image
+
+    pytesseract.pytesseract.tesseract_cmd = shutil.which("tesseract") or _TESSERACT_EXE
+    doc = pymupdf.open(pdf_path)
+    try:
+        png = doc[page_no - 1].get_pixmap(dpi=dpi).tobytes("png")
+    finally:
+        doc.close()
+    text = pytesseract.image_to_string(
+        Image.open(io.BytesIO(png)), lang=lang, config=f'--tessdata-dir {TESSDATA_DIR.as_posix()} --psm 1'
+    )
+    lines = [re.sub(r"[ \t]+", " ", ln).strip() for ln in text.splitlines()]
+    lines = [ln if _OCR_REAL_LINE_RE.search(ln) else "" for ln in lines]  # buang baris derau ("|", "I", "—")
+    lines = [_OCR_ONE_RE.sub("1. ", _OCR_NUM_RE.sub(r"\g<1>. ", ln)) for ln in lines]
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(lines)).strip()
+
+
+# Penanda judul slide / subjudul slide di data/interim/*.txt. HARUS sinkron dengan src/chunking.py.
+SLIDE_TITLE = "[[T]] "
+SLIDE_SUB = "[[U]] "
+_SLIDE_TITLE_PART_MAX = 25   # judul yang dipecah kotak/baris pendek ("2. KKN / Penyetaraan / berdasarkan ...") disatukan
+
+
+def _restore_first_item(lines: list[str]) -> list[str]:
+    """Butir "1." yang hilang dibaca OCR: paragraf tepat di bawah judul/subjudul besar yang disusul
+    paragraf berawalan "2." adalah butir 1."""
+    blocks, cur = [], []
+    for ln in lines + [""]:
+        if ln.strip():
+            cur.append(ln)
+        elif cur:
+            blocks.append(cur)
+            cur = []
+    changed = False
+    for i in range(1, len(blocks) - 1):
+        head = blocks[i - 1]
+        if (
+            re.match(r"2[.)]\s", blocks[i + 1][0])
+            and not re.match(r"\d{1,2}[.)]\s", blocks[i][0])
+            and len(head) == 1
+            and head[0].isupper()
+        ):
+            blocks[i][0] = "1. " + blocks[i][0]
+            changed = True
+    if not changed:
+        return lines
+    return "\n\n".join("\n".join(b) for b in blocks).split("\n")
+
+
+def _mark_slide(text: str) -> str:
+    """Baris pertama halaman = judul slide (bila sangat pendek, disambung dengan baris-baris pendek
+    sesudahnya); baris HURUF KAPITAL pendek di tengah slide = subjudul. Baris di dalam blok tabel tidak disentuh."""
+    lines = text.split("\n")
+    # judul = baris pertama yang memuat >= 4 huruf/angka (menyisihkan derau OCR dari ikon, mis. "ay")
+    first = next((k for k, ln in enumerate(lines) if sum(c.isalnum() for c in ln) >= 4), None)
+    if first is None or lines[first].startswith("=== TABEL"):
+        return text
+    parts, k = [lines[first].strip()], first + 1
+    if len(parts[0]) <= 12:
+        while k < len(lines) and len(parts) < 6:
+            ln = lines[k].strip()
+            if ln and len(ln) <= _SLIDE_TITLE_PART_MAX and not ln.startswith("==="):
+                parts.append(ln)
+            elif ln:
+                break
+            k += 1
+    lines = _restore_first_item(lines)
+    out = lines[:first] + [SLIDE_TITLE + " ".join(parts)]
+    in_table = False
+    for ln in lines[k:]:
+        if ln.startswith("=== TABEL"):
+            in_table = True
+        elif ln.startswith("=== AKHIR TABEL"):
+            in_table = False
+        s = ln.strip()
+        if not in_table and not s.startswith("===") and s.isupper() and sum(c.isalpha() for c in s) >= 6 and len(s) <= 45 and " " in s:
+            ln = SLIDE_SUB + s
+        out.append(ln)
+    return "\n".join(out)
+
+
+def _apply_ocr(
+    pdf_path: str | Path,
+    pages: list[dict[str, Any]],
+    skip_pages: Any = (),
+    titles: dict[int, str] | None = None,
+    fixes: list[dict[str, Any]] | None = None,
+) -> None:
+    """Mode slide (in-place). Halaman tanpa tabel dipakai teks OCR bila OCR memuat setidaknya
+    setengah teks lapisan aslinya (slide yang isinya gambar tidak punya lapisan teks yang utuh);
+    OCR memakai --psm 1 sehingga kolom tidak diselang-seling. Judul dan subjudul slide diberi
+    penanda (_mark_slide) karena huruf tebal bukan penanda judul di slide. skip_pages dikosongkan.
+
+    titles {halaman: judul}: judul yang dipakai apa adanya (disalin dari slide asli) untuk halaman yang
+    judulnya tidak terbaca OCR; baris judul OCR yang rusak (diawali beberapa huruf judul itu) dibuang.
+    fixes [{page, old, new}]: koreksi teks OCR yang sudah dicek terhadap PDF. Keduanya konfigurasi per
+    dokumen (configs/ingest_docs.yaml), bukan penulisan ulang isi."""
+    titles, fixes = titles or {}, fixes or []
+    for pg in pages:
+        if pg["page"] in skip_pages:
+            pg["text"], pg["tables"], pg["method"] = "", [], "skipped"
+            continue
+        if pg["method"] != "pdfplumber_table":
+            native = pg["text"].strip()
+            text = ocr_page(pdf_path, pg["page"])
+            if len(text) >= 0.5 * len(native):
+                pg["text"], pg["method"] = text, "ocr"
+        for fx in fixes:
+            if fx["page"] == pg["page"]:
+                if fx["old"] not in pg["text"]:
+                    warnings.warn(f"koreksi OCR tidak cocok di hal. {pg['page']}: {fx['old']!r}")
+                pg["text"] = pg["text"].replace(fx["old"], fx["new"])
+        if pg["page"] in titles:
+            title = titles[pg["page"]]
+            lines = pg["text"].split("\n")
+            first = next((k for k, ln in enumerate(lines) if ln.strip()), None)
+            if first is not None and lines[first].lower().startswith(title.lower()[:6]):
+                del lines[first]
+            pg["text"] = SLIDE_TITLE + title + "\n" + _mark_slide("\n".join(lines)).replace(SLIDE_TITLE, "")
+        else:
+            pg["text"] = _mark_slide(pg["text"])
+
+
+def extract_text_auto(
+    pdf_path: str | Path,
+    ocr: bool = False,
+    skip_pages: Any = (),
+    titles: dict[int, str] | None = None,
+    fixes: list[dict[str, Any]] | None = None,
+) -> list[dict[str, Any]]:
     """Gabungkan PyMuPDF (default, teks umum) dengan pdfplumber (halaman
     yang terdeteksi memuat tabel via find_tables()) — lihat §6 notebook 01.
 
@@ -311,13 +456,14 @@ def extract_text_auto(pdf_path: str | Path) -> list[dict[str, Any]]:
     except ImportError:  # notebook: sys.path "../src"
         import table_luaran
     try:
-        from src.table_clean import table_to_text
+        from src.table_clean import clean_pages, table_to_text
     except ImportError:  # notebook: sys.path "../src"
-        from table_clean import table_to_text
+        from table_clean import clean_pages, table_to_text
 
     pymupdf_by_page = {p["page"]: p["text"] for p in extract_text_pymupdf(pdf_path)}
-    broken_order = _pages_with_broken_block_order(pdf_path)
-    bold_keys = _bold_line_keys(pdf_path)
+    # slide berkolom: urutan blok PyMuPDF sudah benar per kolom; pembacaan per baris pdfplumber malah menyelang-nyeling kolom
+    broken_order = set() if ocr else _pages_with_broken_block_order(pdf_path)
+    bold_keys = {} if ocr else _bold_line_keys(pdf_path)  # slide: huruf tebal bukan penanda judul
 
     merged: list[dict[str, Any]] = []
     with pdfplumber.open(pdf_path) as pdf:
@@ -329,13 +475,11 @@ def extract_text_auto(pdf_path: str | Path) -> list[dict[str, Any]]:
         for note in luaran_notes:
             warnings.warn(f"tabel luaran: {note}")
         last_open: dict[str, Any] | None = None  # tabel terakhir halaman sebelumnya, bila menjorok ke dasar
-        for i, page in enumerate(pdf.pages, start=1):
+        for i, page in enumerate(clean_pages(pdf), start=1):
             found[i] = []
             for t in page.find_tables():
                 rows = t.extract()
                 md = _rows_to_markdown(rows)
-                if not md and table_luaran.table_key(i, t.bbox) not in luaran_map:
-                    continue
                 n_cols = max(len(r) for r in rows)
                 cont = (
                     last_open is not None
@@ -343,6 +487,9 @@ def extract_text_auto(pdf_path: str | Path) -> list[dict[str, Any]]:
                     and t.bbox[1] < page.height * 0.2
                     and not found[i]
                 )
+                # potongan lanjutan satu baris (tanpa baris judul) ditolak _rows_to_markdown, tapi tetap bagian tabel pembukanya
+                if not md and not cont and table_luaran.table_key(i, t.bbox) not in luaran_map:
+                    continue
                 item = {"rows": rows, "bbox": t.bbox, "md": md, "n_cols": n_cols,
                         "lead": last_open["lead"] if cont else None}
                 if table_luaran.table_key(i, t.bbox) in luaran_map:
@@ -362,8 +509,10 @@ def extract_text_auto(pdf_path: str | Path) -> list[dict[str, Any]]:
             kept_tables_md: list[str] = []
             kept_bboxes: list[tuple[float, float, float, float]] = []
             kept_notes: list[str] = []
+            kept_spans: list[str] = []  # rentang halaman tiap tabel ("23-25" bila bersambung), sejajar kept_tables_md
             for item in found[i]:
                 kept_bboxes.append(item["bbox"])
+                kept_spans.append(str(i))
                 if item.get("luaran"):
                     # tiap baris jadi blok tabel sendiri (= satu chunk), di halaman tempat baris itu dimulai
                     sep = f"\n=== AKHIR TABEL ===\n=== TABEL HALAMAN {i} #{len(kept_tables_md) + 1} ===\n"
@@ -389,6 +538,9 @@ def extract_text_auto(pdf_path: str | Path) -> list[dict[str, Any]]:
                     continue
                 else:
                     kept_tables_md.append(lead["txt"])
+                    fp = lead["frag_pages"]
+                    if fp[-1] != fp[0]:  # tabel utuh dirender di halaman pembukanya; catat sampai halaman mana isinya
+                        kept_spans[-1] = f"{fp[0]}-{fp[-1]}"
                 if lead is item:
                     kept_notes += [f"hal. {i}: {n}" for n in lead["notes"]]
 
@@ -414,12 +566,12 @@ def extract_text_auto(pdf_path: str | Path) -> list[dict[str, Any]]:
                 for n, k in enumerate(order, start=1):
                     top, bottom = kept_bboxes[k][1], kept_bboxes[k][3]
                     if top - y > 1:
-                        parts.append(filtered.crop((0, y, page.width, min(top, page.height))).extract_text() or "")
+                        parts.append(filtered.crop((0, y, page.width, min(top, page.height)), strict=False).extract_text() or "")
                     if kept_tables_md[k]:
-                        parts.append(f"=== TABEL HALAMAN {i} #{n} ===\n{kept_tables_md[k]}\n=== AKHIR TABEL ===")
+                        parts.append(f"=== TABEL HALAMAN {kept_spans[k]} #{n} ===\n{kept_tables_md[k]}\n=== AKHIR TABEL ===")
                     y = max(y, bottom)
                 if page.height - y > 1:
-                    parts.append(filtered.crop((0, y, page.width, page.height)).extract_text() or "")
+                    parts.append(filtered.crop((0, y, page.width, page.height), strict=False).extract_text() or "")
                 text = ("\n\n".join(_mark_bold_lines(t, bold_keys.get(i, set())) if not t.startswith("=== TABEL") else t for t in parts if t.strip()))
                 merged.append(
                     {"page": i, "text": text, "tables": [t for t in kept_tables_md if t], "tables_inline": True,
@@ -432,6 +584,8 @@ def extract_text_auto(pdf_path: str | Path) -> list[dict[str, Any]]:
                     continue
                 text = _mark_bold_lines(pymupdf_by_page.get(i, ""), bold_keys.get(i, set()))
                 merged.append({"page": i, "text": text, "tables": [], "method": "pymupdf"})
+    if ocr:
+        _apply_ocr(pdf_path, merged, skip_pages, titles, fixes)
     return merged
 
 

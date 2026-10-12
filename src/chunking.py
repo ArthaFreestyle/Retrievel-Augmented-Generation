@@ -22,19 +22,25 @@ from typing import Any
 
 try:  # dipakai sebagai paket (src.chunking) maupun modul biasa (notebook: sys.path "../src")
     from src.form_detect import is_form, ringkas_form
-    from src.list_chunker import _kind as _list_kind, chunk_section, merge_siblings
+    from src.list_chunker import _kind as _list_kind, chunk_section, merge_siblings, pack_rows
 except ImportError:
     from form_detect import is_form, ringkas_form
-    from list_chunker import _kind as _list_kind, chunk_section, merge_siblings
+    from list_chunker import _kind as _list_kind, chunk_section, merge_siblings, pack_rows
 
 _PAGE_MARKER_RE = re.compile(r"^=== HALAMAN (\d+) ===$", re.MULTILINE)
 _PAGE_NUMBER_LINE_RE = re.compile(r"^\s*[ivxlcdm]{1,6}\s*$|^\s*\d{1,4}\s*$", re.IGNORECASE)
 _SENTENCE_SPLIT_RE = re.compile(r"(?<=[.!?])\s+")
 # Format HARUS sinkron dengan src/ingest.py::write_interim_text.
-_TABLE_BLOCK_RE = re.compile(r"=== TABEL HALAMAN \d+ #\d+ ===\n(.*?)\n=== AKHIR TABEL ===", re.DOTALL)
-_TABLE_SPLIT_RE = re.compile(r"(=== TABEL HALAMAN \d+ #\d+ ===\n.*?\n=== AKHIR TABEL ===)", re.DOTALL)
+# Rentang halaman ("23-25") dicatat bila satu tabel utuh bersambung ke halaman berikutnya.
+_TABLE_BLOCK_RE = re.compile(r"=== TABEL HALAMAN (\d+)(?:-(\d+))? #\d+ ===\n(.*?)\n=== AKHIR TABEL ===", re.DOTALL)
+_TABLE_SPLIT_RE = re.compile(r"(=== TABEL HALAMAN \d+(?:-\d+)? #\d+ ===\n.*?\n=== AKHIR TABEL ===)", re.DOTALL)
 # HARUS sinkron dengan src/ingest.py::BOLD_MARK.
 BOLD_MARK = "[[B]] "
+# Judul/subjudul slide (mode slide ingest, HARUS sinkron dengan src/ingest.py::SLIDE_TITLE/SLIDE_SUB):
+# pada slide, huruf tebal bukan penanda judul, jadi judulnya ditandai langsung dan bertingkat tetap.
+SLIDE_TITLE = "[[T]] "
+SLIDE_SUB = "[[U]] "
+_SLIDE_LEVELS = {SLIDE_TITLE: 1, SLIDE_SUB: 2}
 
 _HEADING_PATTERNS = [
     re.compile(r"^BAB\s+[IVXLCDM\d]+\b.*$", re.IGNORECASE),  # "BAB 2", "BAB II ..."
@@ -77,7 +83,7 @@ def _extract_table_blocks(raw_page_text: str) -> tuple[str, list[str]]:
     halaman berdiri sendiri).
 
     Return: (teks_naratif_tanpa_blok_tabel, [markdown_tabel, ...])."""
-    tables = [t.strip() for t in _TABLE_BLOCK_RE.findall(raw_page_text)]
+    tables = [m.group(3).strip() for m in _TABLE_BLOCK_RE.finditer(raw_page_text)]
     narrative = _TABLE_BLOCK_RE.sub("", raw_page_text)
     return narrative, tables
 
@@ -96,6 +102,9 @@ def _detect_repeated_lines(pages: list[dict[str, Any]], min_ratio: float = 0.3) 
     return {line for line, c in counts.items() if c / n_pages >= min_ratio}
 
 
+_LONE_BULLET_RE = re.compile(r"^[•●▪◦·]$")  # baris berisi satu penanda butir saja
+
+
 def clean_text(raw_text: str, repeated_lines: set[str] | None = None) -> str:
     """Buang header/footer berulang & baris nomor halaman berdiri sendiri,
     normalisasi karakter (NFKC, kutip lengkung) & whitespace. Awalan
@@ -108,7 +117,7 @@ def clean_text(raw_text: str, repeated_lines: set[str] | None = None) -> str:
         if not stripped:
             lines.append("")
             continue
-        if stripped in repeated_lines or _PAGE_NUMBER_LINE_RE.match(stripped):
+        if stripped in repeated_lines or _PAGE_NUMBER_LINE_RE.match(stripped) or _LONE_BULLET_RE.match(stripped) or stripped.upper() == "LAMPIRAN":  # kata "LAMPIRAN" sendirian = sampul bagian
             continue
         lines.append((BOLD_MARK if bold else "") + re.sub(r"[ \t]+", " ", stripped))
     text = "\n".join(lines)
@@ -176,9 +185,11 @@ class _HeadingPath:
     def __init__(self) -> None:
         self.stack: list[tuple[int, str, bool]] = []  # (level, teks, butir_bernomor)
 
-    def push(self, text: str) -> str | None:
-        level = _heading_level(text)
-        is_item = level == -1
+    def push(self, text: str, level: int | None = None) -> str | None:
+        """level eksplisit (judul slide) dipakai apa adanya; selain itu diturunkan dari teks judul."""
+        explicit = level is not None
+        level = _heading_level(text) if level is None else level
+        is_item = level == -1 and not explicit
         if is_item:
             # Butir bernomor/berhuruf: satu tingkat di bawah judul terdekat
             # yang BUKAN butir, sehingga "1.", "2.", "3." bersaudara.
@@ -357,7 +368,7 @@ def _extract_units(pages: list[dict[str, Any]], repeated_lines: set[str]) -> lis
     halaman tetap terbaca."""
     units: list[dict[str, Any]] = []
     path = _HeadingPath()
-    has_bold = any(BOLD_MARK in p["text"] for p in pages)
+    has_bold = any(BOLD_MARK in p["text"] or SLIDE_TITLE in p["text"] for p in pages)
 
     for p in pages:
         first_on_page = True
@@ -392,7 +403,15 @@ def _extract_units(pages: list[dict[str, Any]], repeated_lines: set[str]) -> lis
                             units.pop()
                         units.append({"type": "heading", "text": caption, "page": p["page"], "path": path.push(caption)})
                 if m:
-                    units.append({"type": "table", "text": _normalize_chars(m.group(1).strip()), "page": p["page"], "heading": path.path})
+                    units.append(
+                        {
+                            "type": "table",
+                            "text": _normalize_chars(m.group(3).strip()),
+                            "page": p["page"],
+                            "page_end": int(m.group(2) or p["page"]),
+                            "heading": path.path,
+                        }
+                    )
                     first_on_page = False
                 continue
 
@@ -405,6 +424,23 @@ def _extract_units(pages: list[dict[str, Any]], repeated_lines: set[str]) -> lis
                 if not body:
                     flush()
                     prev_blank = True
+                    i += 1
+                    continue
+                slide_mark = next((m for m in _SLIDE_LEVELS if body.startswith(m)), None)
+                if slide_mark:
+                    flush()
+                    title = body[len(slide_mark):].strip()
+                    units.append(
+                        {
+                            "type": "heading",
+                            "text": title,
+                            "page": p["page"],
+                            "path": path.push(title, level=_SLIDE_LEVELS[slide_mark]),
+                        }
+                    )
+                    first_on_page = False
+                    prev_blank = False
+                    after_heading = True
                     i += 1
                     continue
                 body = re.sub(r"^(\d+\.|[A-Z]\.)(?=[^\s\d.])", r"\1 ", body)
@@ -420,12 +456,16 @@ def _extract_units(pages: list[dict[str, Any]], repeated_lines: set[str]) -> lis
                     max_lines = 5 if is_bab else 3
                     while i < len(lines) and len(heading_lines) < max_lines:
                         nb, nbody = _split_marker(lines[i])
-                        if not nbody or detect_section_heading(nbody):
-                            break
-                        # judul tabel yang tidak tebal dan terpotong baris: baris penuh lalu sisanya
-                        wrapped_caption = (
-                            body.startswith("Tabel ") and not bold and len(heading_lines[-1]) >= 70 and len(nbody.split()) <= 8
+                        # judul tabel yang terpotong baris: baris penuh lalu sisanya (mungkin berawalan angka: "1 berita ...")
+                        wrapped_caption = bool(
+                            nbody
+                            and body.startswith("Tabel ")
+                            and (not bold or not nbody[:1].isupper())
+                            and len(heading_lines[-1]) >= 70
+                            and len(nbody.split()) <= 8
                         )
+                        if not nbody or (detect_section_heading(nbody) and not wrapped_caption):
+                            break
                         if has_bold:
                             # Lanjutan judul bertingkat: tebal, dan (selain BAB) pendek.
                             if not wrapped_caption and (not nb or (not is_bab and len(nbody.split()) > 5)):
@@ -538,9 +578,9 @@ def _group_list_runs(units: list[dict[str, Any]], chunk_size: int) -> list[dict[
 
 def _list_run_pieces(u: dict[str, Any], prefix: str, starts_section: bool, chunk_size: int) -> list[dict[str, Any]]:
     """Potong list_run per butir; halaman tiap potongan dicari dari baris-barisnya."""
-    parts = chunk_section(u["text"], max_chars=max(chunk_size - len(prefix) - 1, 200))
-    lines, k, pieces = u["line_pages"], 0, []
     title = prefix.split("\n")[-1] if prefix else (u["heading"] or "").rsplit(" > ", 1)[-1]
+    parts = chunk_section(u["text"], max_chars=max(chunk_size - len(prefix) - 1, 200), fallback_title=title)
+    lines, k, pieces = u["line_pages"], 0, []
     for n, part in enumerate(parts):
         pages = []
         for ln in part.split("\n"):
@@ -600,7 +640,7 @@ def _units_to_pieces(
         text = f"{prefix}\n{u['text']}" if prefix else u["text"]
         if u["type"] == "table" and not prefix and u["heading"] and prev_table_heading == u["heading"]:
             # baris-baris tabel besar yang dipecah per baris: tiap baris membawa judul bagiannya
-            if u["heading"].rsplit(" > ", 1)[-1] not in text:
+            if re.sub(r"\s+", " ", u["heading"].rsplit(" > ", 1)[-1]) not in re.sub(r"\s+", " ", text):
                 text = f"{u['heading']}\n{text}"
         prev_table_heading = u["heading"] if u["type"] == "table" else None
 
@@ -848,7 +888,29 @@ def _merge_orphan_chunks(raw_chunks: list[dict[str, Any]], min_chunk_chars: int,
         result.append(ch)
         i += 1
 
-    return result, n_merged
+    # Lintasan 4: orphan yang tertinggal tepat sesudah tabel berjudul sama (mis. "Keterangan: ..."
+    # di bawah Lampiran 1) adalah catatan kaki tabel itu: ditempelkan di ujung tabel.
+    final: list[dict[str, Any]] = []
+    for ch in result:
+        prev = final[-1] if final else None
+        if (
+            prev is not None
+            and prev.get("is_table")
+            and not ch.get("is_table")
+            and len(ch["text"]) < min_chunk_chars
+            and prev["section_heading"] == ch["section_heading"]
+            and not ch.get("is_first_after_hard_break")
+        ):
+            final[-1] = {
+                **prev,
+                "text": f"{prev['text']}{_PARA_SEP}{ch['text']}",
+                "page_end": max(prev["page_end"], ch["page_end"]),
+            }
+            n_merged += 1
+            continue
+        final.append(ch)
+
+    return final, n_merged
 
 
 def _merge_sibling_chunks(chunks: list[dict[str, Any]], chunk_size: int, min_chunk_chars: int) -> list[dict[str, Any]]:
@@ -1001,6 +1063,8 @@ def build_chunk_records(
                 "is_form": is_form_chunk,
             }
         )
+
+    records = pack_rows(records, max_chars=chunk_size)   # baris tabel berjudul sama dikemas, setelah semua chunk jadi
 
     stats = {
         "n_front_matter_units_dropped": n_front_matter_units,

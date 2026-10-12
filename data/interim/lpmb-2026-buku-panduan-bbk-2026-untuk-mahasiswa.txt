@@ -1,0 +1,1789 @@
+=== HALAMAN 1 ===
+
+
+=== HALAMAN 2 ===
+[[B]] DAFTAR ISI
+Cover Buku ..................................................................................................................................... 1
+Daftar Isi ......................................................................................................................................... 2
+Bab I Pendahuluan .......................................................................................................................... 4
+1.1 Ketentuan Umum BBK ....................................................................................................... 4
+1.2 Dasar Hukum ...................................................................................................................... 5
+1.3 Paradigma BBK .................................................................................................................. 7
+1.4 Prinsip Dasar, Karakteristik Dan Status Dasar Penyelenggaraan BBK .............................. 8
+1.4.1 Prinsip Dasar................................................................................................................... 8
+1.4.2 Karakteristik ................................................................................................................. 10
+1.4.3 Status Dasar Penyelenggara .......................................................................................... 11
+1.5 Tujuan, Sasaran, Tema Dan Jenis BBK ............................................................................ 12
+1.5.1 Tujuan ........................................................................................................................... 12
+1.5.2 Sasaran .......................................................................................................................... 12
+1.5.3 Tema Dan Jenis ............................................................................................................ 12
+1.6 Pengelolaan Dan Persyaratan Umum ................................................................................ 13
+1.7 Struktur Organisasi ........................................................................................................... 14
+1.8 Uraian Tugas ..................................................................................................................... 14
+1.9 Beban Studi ....................................................................................................................... 14
+Bab II Jenis BBK .......................................................................................................................... 15
+2.1 BBK Reguler ..................................................................................................................... 15
+2.1.1 Tahapan Dan Waktu Pelaksanaan ................................................................................ 17
+2.1.2 Tahapan Persiapan ........................................................................................................ 17
+2.1.3 Prapenerjunan ............................................................................................................... 18
+2.1.4 Tahap Pelaksanaan ....................................................................................................... 20
+2.1.5 Penilaian Mahasiswa Peserta BBK ............................................................................... 22
+2.1.6 Evaluasi Kegiatan BBK ................................................................................................ 23
+2.2 BBK Tematik .................................................................................................................... 24
+2.2.1 Jenis BBK Tematik ....................................................................................................... 24
+2.2.2 Tahapan Dan Waktu Pelaksanaan ................................................................................ 25
+2
+
+=== HALAMAN 3 ===
+2.2.3 Tahap Persiapan ............................................................................................................ 25
+2.2.4 Prapenerjunan ............................................................................................................... 26
+2.2.5 Tahap Pelaksanaan ....................................................................................................... 27
+2.2.6 Penilaian Mahasiswa Peserta BBK ............................................................................... 28
+2.2.7 Evaluasi Kegiatan BBK ................................................................................................ 30
+2.3 BBK Penyetaraan ............................................................................................................... 30
+2.3.1 Syarat Peserta, Tahapan Dan Waktu Pelaksanaan ........................................................ 32
+2.3.2 Tahap Persiapan Dan Penerjunan ................................................................................. 32
+2.3.3 Tahap Pelaksanaan ....................................................................................................... 33
+2.3.4 Penilaian Mahasiswa Peserta BBK ............................................................................... 33
+2.3.5 Evaluasi Kegiatan BBK ................................................................................................ 34
+2.3.6 Beban Studi Dan Alokasi Waktu .................................................................................. 34
+2.4 BBK Internasional ............................................................................................................. 34
+Lampiran ....................................................................................................................................... 35
+Lampiran 1 ................................................................................................................................ 35
+Lampiran 2 ................................................................................................................................ 43
+Lampiran 3 ................................................................................................................................ 59
+Lampiran 4 ................................................................................................................................ 61
+Lampiran 5 ............................................................................................................................... 64
+Lampiran 6 ................................................................................................................................ 65
+Lampiran 7 ................................................................................................................................ 66
+Lampiran 8 ................................................................................................................................ 67
+3
+
+=== HALAMAN 4 ===
+[[B]] BAB I
+[[B]] PENDAHULUAN
+[[B]] 1.1 Ketentuan Umum KKN-BBK
+Kuliah Kerja Nyata-Belajar Bersama Komunitas Universitas Airlangga (KKN-BBK
+UNAIR) merupakan salah satu program dalam pendidikan tinggi di Universitas Airlangga,
+dimana BBK UNAIR merupakan salah satu bentuk pengintegrasian kegiatan pendidikan,
+penelitian dan pengabdian kepada masyarakat. BBK UNAIR merupakan bentuk kegiatan
+pembelajaran di luar kampus yang merupakan transformasi dari mata kuliah Kuliah
+Kerja Nyata (KKN) yang merupakan mata kuliah wajib bagi seluruh mahasiswa
+program Sarjana di UNAIR dan diselenggarakan secara mandiri oleh UNAIR. BBK
+UNAIR adalah bentuk kegiatan pembelajaran dengan cara memberikan pengalaman nyata
+kepada mahasiswa untuk hidup di tengah masyarakat di luar kampus selama 1-2 semester,
+secara langsung bersama-sama dengan masyarakat mengidentifikasi potensi dan
+menangani masalah sehingga diharapkan mampu mengembangkan potensi desa/daerah
+dan meramu solusi untuk masalah yang ada di desa. Kegiatan ini juga diharapkan dapat
+mengasah soft skills kemitraan, kerjasama tim lintas disiplin/keilmuan (lintas kompetensi) dan
+leadership mahasiswa dalam mengelola program pembangunan di wilayah perdesaan untuk
+mendukung pembangunan berkelanjutan.
+Program BBK UNAIR berdasar atas sinkronisasi atau sinergi antara masyarakat dengan
+kompetensi mahasiswa peserta BBK UNAIR dengan ketentuan sebagai berikut:
+1. Belajar Bersama Komunitas Universitas Airlangga (BBK UNAIR) merupakan salah satu
+program dalam pendidikan tinggi di Universitas Airlangga dan sebagai tanggung jawab
+moral sivitas akademika kepada masyarakat serta memahami isu-isu strategis dalam
+pembangunan berkelanjutan dan lingkungan serta beradaptasi dengan keberagaman.
+2. BBK UNAIR merupakan salah satu bentuk pengintegrasian kegiatan pendidikan
+inklusif, penelitian dan pengabdian kepada masyarakat yang berkelanjutan,
+mengindentifikasi potensi dan mengembangkan alternatif solusi bagi kehidupan
+masyarakat untuk mencapai tujuan pembangunan berkelanjutan.
+4
+
+=== HALAMAN 5 ===
+3. BBK UNAIR juga untuk mengembangkan kompetensi mahasiswa untuk berpikir kritis,
+kepemimpinan etis serta inovasi untuk memecahkan masalah sosial dan lingkungan untuk
+lebih berkelanjutan.
+4. BBK UNAIR dilaksanakan oleh mahasiswa dengan bimbingan para Dosen
+Pembimbing Lapangan (DPL) yang bersifat interdisipliner dan intrakurikuler.
+5. BBK UNAIR merupakan bagian integral dari kurikulum Universitas Airlangga yang
+mengandung unsur pendidikan dan unsur pengabdian masyarakat.
+6. Bersamaan dengan hal itu, mahasiswa juga sekaligus melakukan kegiatan belajar bersama
+masyarakat untuk mengembangkan inovasi dan proyek secara pragmatis dan
+interdisipliner untuk mendukung tujuan pembangunan berkelanjutan.
+7. BBK UNAIR memberikan kesempatan bagi mahasiswa untuk menjadi motivator
+dalam pemberdayaan masyarakat.
+8. BBK UNAIR melaksanakan berbagai aktivitas pembelajaran yang berkorelasi
+langsung dengan kebutuhan masyarakat baik berkaitan dengan kompetensi keilmuan
+maupun komitmen sosial bersama masyarakat.
+[[B]] 1.2 Dasar Hukum
+Dasar Hukum BBK UNAIR adalah sebagai berikut:
+1. Undang-Undang Nomor 20 Tahun 2003 tentang Sistem Pendidikan Nasional (Lembaran
+Negara Republik Indonesia Tahun 2003 Nomor 78, Tambahan Lembaran Negara Nomor
+4301);
+2. Undang-Undang Nomor 12 Tahun 2012 tentang Pendidikan Tinggi (Lembaran Negara
+Republik Indonesia Tahun 2003 Nomor 78, Tambahan Lembaran Negara Nomor 5336);
+3. Peraturan Pemerintah Nomor 57 Tahun 1954 tentang Pendirian Universitas Airlangga di
+Surabaya sebagaimana telah diubah dengan Peraturan Pemerintah Nomor 3 Tahun 1955
+tentang Perubahan Peraturan Pemerintah Nomor 57 Tahun 1954 (Lembaran Negara
+Republik Indonesia Tahun 1954 Nomor 99, Tambahan Lembaran Negara Republik
+Indonesia Nomor 695 juncto Lembaran Negara Republik Indonesia Tahun 1955 Nomor 4
+Tambahan Lembaran Republik Indonesia 748);
+5
+
+=== HALAMAN 6 ===
+4. Peraturan Pemerintah Nomor 30 Tahun 2014 tentang Statuta Universitas Airlangga
+(Lembaran Negara Republik Indonesia Tahun 2014 Nomor 100, Tambahan Lembaran
+Negara Nomor 5535);
+5. Peraturan Pemerintah Nomor 8 Tahun 2020 tentang Perubahan atas Peraturan Pemerintah
+Nomor 26 Tahun 2015 tentang Bentuk dan Mekanisme Pendanaan Perguruan Tinggi
+Negeri Badan Hukum (Lembaran Negara Republik Indonesia Tahun 2020 Nomor 28,
+Tambahan Lembaran Negara Republik Indonesia Nomor 6461);
+6. Peraturan Pemerintah Nomor 4 Tahun 2022 tentang Perubahan atas Peraturan Pemerintah
+Nomor 57 Tahun 2021 tentang Standar Nasional Pendidikan (Lembaran Negara Republik
+Indonesia Tahun 2021 Nomor 87, Tambahan Lembaran Negara Republik Indonesia
+Nomor 6676);
+7. Peraturan Presiden Republik Indonesia Nomor 8 Tahun 2012 Tentang Kerangka
+Kualifikasi Indonesia (Lembaran Negara Republik Indonesia Tahun 2022 Nomor 24);
+8. Peraturan Menteri Pendidikan dan Kebudayaan Republik Indonesia Nomor 73 Tahun
+2013 tentang Penerapan Kerangka Kualifikasi Nasional Indonesia Bidang Pendidikan
+Tinggi (Berita Negara Republik Indonesia Tahun 2013 Nomor 831);
+9. Peraturan Menteri Pendidikan dan Kebudayaan Republik Indonesia Nomor 81 Tahun
+2014 tentang Ijazah Sertifikat Kompetensi dan Sertifikat Profesi Pendidikan Tinggi
+(Berita Negara Republik Indonesia Tahun 2014 Nomor 1179);
+10. Peraturan Menteri Pendidikan dan Kebudayaan Republik Indonesia Nomor 3 Tahun 2020
+tentang Standar Nasional Perguruan Tinggi;
+11. Peraturan Presiden Nomor 62 Tahun 2021 tentang Kementerian Pendidikan, Kebudayaan,
+Riset dan Teknologi (Lembaran Negara Republik Indonesia Tahun 2021 Nomor 156);
+12. Keputusan Majelis Wali Amanat Universitas Airlangga Nomor 3/UN3.MWA/K/2020
+tentang Pengangkatan Rektor Universitas Airlangga Periode 2020-2025;
+13. Peraturan Rektor Universitas Airlangga Nomor 39 Tahun 2017 tentang Perubahan Atas
+Peraturan Rektor Nomor 42 Tahun 2016 tentang Organisasi dan Tata Kerja Universitas
+Airlangga;
+6
+
+=== HALAMAN 7 ===
+14. Peraturan Rektor Universitas Airlangga Nomor 18 Tahun 2022 tentang perubahan kedua
+atas Peraturan Rektor Nomor 22 Tahun 2021 tentang Pedoman Pendidikan Universitas
+Airlangga;
+15. Peraturan Rektor Universitas Airlangga Nomor 6 Tahun 2023 tentang Pedoman
+Pelaksanaan Merdeka Belajar Kampus Merdeka dalam Bentuk Belajar Bersama
+Komunitas.
+16. Peraturan Presiden Nomor 111 Tahun 2022 tentang Pelaksanaan Pencapaian Tujuan
+Pembangunan Berkelanjutan (TPB)/Sustainable Development Goals (SDGs) di Indonesia.
+[[B]] 1.3 Paradigma BBK
+1. Perubahan KKN menjadi BBK merupakan implementasi dari kebijakan Merdeka Belajar
+Kampus Merdeka (MBKM) yang bersifat interdisipliner dan multidisipliner.
+2. Dalam paradigma pembelajaran yang baru, Universitas Airlangga memandang
+pengetahuan adalah hasil konstruksi atau transformasi seseorang yang belajar, sehingga
+pengetahuan tidak lagi merupakan sesuatu yang sudah jadi dan siap untuk ditransfer.
+3. Belajar adalah mencari dan membangun pengetahuan secara aktif dan tidak lagi merupakan
+proses menerima pengetahuan (pasif).
+4. Mengajar adalah strategi untuk membantu mahasiswa dalam membangun pengetahuannya,
+dan tidak sekadar menyampaikan atau transfer pengetahuan kepada mahasiswa.
+5. Perubahan paradigma pembelajaran berimplikasi pada perubahan luaran yakni penilaian
+oleh masyarakat pemangku kepentingan dan tidak hanya oleh perguruan tinggi sendiri.
+6. Luaran baru perguruan tinggi merupakan kompetensi seseorang untuk dapat melakukan
+tindakan cerdas dan penuh tanggung jawab sebagai syarat untuk dianggap mampu oleh
+masyarakat dalam melaksanakan tugas-tugas di bidang pekerjaan tertentu.
+7. Mahasiswa mampu mengembangkan kompetensi pengabdian masyarakat dengan
+mengintegrasikan 17 tujuan pembangunan berkelanjutan atau Sustainable Development
+Goals (TPB/SDGs) yang inklusif, berkelanjutan dan berdampak.
+8. Kegiatan BBK UNAIR ini tidak hanya sekedar memberikan bantuan melainkan juga
+bertujuan untuk memberdayakan masyarakat dalam mencapai kemandirian dalam aspek
+sosial, ekonomi, lingkungan dan tata kelola yang sejalan dengan TPB/SDGs.
+7
+
+=== HALAMAN 8 ===
+[[B]] 1.4 Prinsip Dasar, Karakteristik dan Status Dasar Penyelenggaraan BBK
+[[B]] 1.4.1 Prinsip Dasar
+Prinsip dasar BBK UNAIR adalah sebagai berikut:
+1. Mengutamakan yang terabaikan. Prinsip ini lebih melihat pada adanya realitas bahwa
+sering terjadi dalam masyarakat, sebagian besar masyarakat tetap berada di pinggir arus
+pembangunan yang berjalan cepat. Sehingga prinsip utamanya adalah mengutamakan
+masyarakat yang terabaikan dalam hal hukum, pendidikan, dakwah Islam, ekonomi, sains
+dan teknologi, sehingga mereka lebih memiliki peran dan mendapatkan manfaat dalam
+kegiatan BBK.
+2. Pemberdayaan (penguatan) masyarakat. Memperhatikan bahwa masyarakat memiliki
+potensi (fisik maupun psikis) namun mereka belum tau bagaimana cara dan strategi yang
+dapat dilakukan agar potensi yang dimiliki dapat memberikan manfaat atau meningkatkan
+kesejahteraan masyarakat.
+3. Masyarakat sebagai pelaku dan mahasiswa sebagai fasilitator, memposisikan masyarakat
+sebagai pelaku langsung dalam proses pemberdayaan terkait dengan bidang-bidang yang
+menjadi orientasi program BBK, sedangkan mahasiswa lebih sebagai fasilitator yang
+membantu masyarakat untuk dapat memahami cara dan strategi pemecahan masalah yang
+mereka hadapi dalam kehidupannya.
+4. Saling belajar dan menghargai perbedaan, menekankan pada bagaimana mahasiswa dan
+masyarakat saling belajar bersama dalam kebersamaan, sehingga dalam proses BBK
+tercipta co-creation (gagasan bersama).
+5. Triangulasi menekankan pentingnya keterpaduan aspek tri dharma perguruan tinggi, yakni
+aspek pendidikan dan pengajaran, dan pengabdian masyarakat yang berbasiskan penelitian
+(research based).
+8
+
+=== HALAMAN 9 ===
+6. Mengoptimalkan hasil. Dalam melaksanakan program BBK diharapkan dapat dilakukan
+tahapan kegiatan secara optimal. Optimal diukur dari capaian yang bisa diperoleh
+berdasarkan target awal dan hasil akhir. Oleh karenanya, dalam program BBK ini tidak
+boleh bersikap setengah-setengah atau asal selesai. Sebaiknya, ada target produk atau
+keberhasilan yang paling optimal yang dijadikan parameternya.
+7. Orientasi praktis merupakan prinsip yang perlu ditekankan karena kegiatan ini lebih berada
+di arah praktis dan tidak lagi teoritis. Untuk mahasiswa, arah teoritis sudah dilakukan di
+kampus, dan di masyarakat, mahasiswa dianjurkan lebih berada pada aras praktis. Artinya,
+bekal keilmuan yang dimiliki dan dikuasai di kampus dapat diaplikasikan atau diabdikan
+dalam masyarakat ketika pelaksanaan BBK tersebut.
+8. Keberlanjutan dan selang waktu, merupakan prinsip yang dikedepankan dalam program
+BBK. Kita tidak ingin melaksanakan kegiatan di masyarakat yang bersifat sesaat dan tidak
+berkelanjutan. Model pemikiran sesaat tersebut harus ditinggalkan, karena orientasi BBK
+adalah penyelesaian masalah, termotivasi dan terinspirasinya masyarakat serta berdayanya
+masyarakat sesuai dengan potensi daerah yang dimiliki dengan menjadikan agama sebagai
+landasan pembangunan dan pemberdayaan.
+9. Belajar dari kesalahan. Prinsip ini adalah sebuah kebijaksanaan. Kesalahan harus dianggap
+sebagai guru, namun harus ada kesadaran yang mengikuti untuk meluruskan kesalahan itu.
+Oleh karenanya, dalam program BBK ini tidak perlu takut melakukan kesalahan sepanjang
+didasari atas niat yang baik mengabdikan diri kepada masyarakat. Kesalahan yang
+disengaja dan tidak diikuti untuk memperbaiki, tentunya bukan kebijaksanaan.
+10. Keterbukaan. Pelaksanaan program BBK memerlukan keterbukaan, karena apa yang
+dilaksanakan dalam program BBK ini adalah untuk kebaikan bersama. Jika prinsip terbuka
+9
+
+=== HALAMAN 10 ===
+ini dapat dikembangkan, tentu semua problem yang mungkin ada dalam masyarakat dapat
+diselesaikan secara baik.
+11. Kolaborasi. Pelaksanaan program BBK memerlukan kolaborasi dengan berbagai pihak.
+Kerja sama program diharapkan mengikuti model kerjasama hexa helix dengan melibatkan
+antara pemerintah, akademisi, dunia usaha, masyarakat, media, dan hukun dan regulasi.
+Dengan adanya kolaborasi ini diharapkan saling sinergi penguatan bagi masyarakat yang
+menjadi program BBK.
+[[B]] 1.4.2 Karakteristik
+BBK UNAIR dilaksanakan dengan karakteristik:
+1. Co-creation artinya pergeseran pemikiran dari organisasi sebagai penentu nilai ke proses
+yang lebih partisipatif di mana orang dan organisasi bersama-sama menghasilkan dan
+mengembangkan makna.
+2. Co-financing artinya program BBK dilaksanakan dengan pendanaan bersama antara
+mahasiswa, pelaksana, perguruan tinggi, pemerintah daerah serta mitra kerja dalam
+program yang disepakati.
+3. Flexibility artinya kemampuan untuk beradaptasi dan bekerja dengan efektif dalam situasi
+yang berbeda dan dengan berbagai individu atau kelompok. Fleksibilitas membutuhkan
+kemampuan memahami dan menghargai pandangan yang berbeda dan bertentangan
+mengenai suatu isu, menyesuaikan pendekatannya karena suatu perubahan situasi dan
+dapat menerima dengan mudah perubahan dalam organisasinya. BBK dilaksanakan
+berdasarkan suatu program yang sesuai dengan situasi dan kondisi pemerintah daerah,
+mitra kerja dan masyarakat setempat.
+10
+
+=== HALAMAN 11 ===
+4. Sustainability artinya keberlanjutan. Program yang dilaksanakan dalam BBK harus
+berkelanjutan dalam memberikan makna yang lebih berarti bagi masyarakat. BBK
+dilakukan secara berkesinambungan berdasarkan program kerja yang sesuai dengan tempat
+dan target tertentu.
+5. Locality artinya terjadi atau berlaku di suatu tempat, tidak merata atau bersifat setempat.
+Program BBK dilaksanakan setempat di lokasi BBK tersebut.
+6. Indigenous artinya program BBK selalu memperhatikan karakteristik daerah.
+7. Competencies artinya distribusi program berdasarkan kompetensi mahasiswa.
+8. Empowerment artinya program BBK selalu mengedepankan pemberdayaan masyarakat.
+9. Blended learning artinya semua kegiatan BBK belajar bersama masyarakat dilaksanakan
+secara luring dan daring.
+10. Inclusivity artinya semua kegiatan BBK mengikutsertakan seluruh kelompok masyarakat
+termasuk kelompok rentan (anak-anak, perempuan, penyandang disabilitas, lansia, korban
+bencana alam atau sosial, masyarakat miskin dan terpencil, dll).
+11. Collaboration, artiknya kegiatan BBK merupakan kolaborasi dengan berbagai elemen
+sesuai dengan model hexa helix.
+[[B]] 1.4.3 Status Dasar Penyelenggara
+1. Berdasar Keputusan Rektor Universitas Airlangga Nomor 4 Tahun 2018 tanggal 6 Februari
+2018 tentang Kuliah Kerja Nyata-Belajar Bersama Masyarakat, maka BBK wajib diikuti
+seluruh mahasiswa program studi sarjana (S1 dan DIV).
+2. Mahasiswa dapat mengikuti program BBK Unair jika sedang atau telah menempuh 80 sks.
+11
+
+=== HALAMAN 12 ===
+[[B]] 1.5 Tujuan, Sasaran, Tema dan Jenis BBK
+[[B]] 1.5.1 Tujuan
+1. Tujuan umum pelaksanaan BBK Unair adalah membangun kebersamaan sebagai
+mahasiswa Universitas Airlangga setelah menempuh 80 sks/saat menjelang akhir studi
+sebelum meraih gelar sarjana dengan melaksanakan program pembelajaran bersama di
+masyarakat dan bersama masyarakat serta belajar memberdayakan masyarakat dan
+membantu pemerintah memecahkan berbagai masalah.
+2. Tujuan khusus pelaksanaan BBK Unair adalah :
+a. Menanamkan jiwa Pancasila dan nilai-nilai nasionalisme, keuletan, etos kerja,
+tanggungjawab, kemandirian, kepemimpinan dan kewirausahaan.
+b. Meningkatkan sikap empati dan kepedulian mahasiswa terhadap masalah yang
+dialami masyarakat.
+c. Menerapkan kemampuan hard skills dan soft skills yang telah dipelajari secara
+teamwork dan interdisipliner.
+d. Meningkatkan daya saing bangsa.
+e. Menanamkan jiwa eksploratif, analitis, learning community dan learning society.
+f. Menciptakan inovasi dalam mendukung pencapaian TPB/SDGs.
+[[B]] 1.5.2 Sasaran
+BBK Unair diarahkan kepada tiga sasaran yaitu mahasiswa, masyarakat/pemerintah dan
+Universitas Airlangga.
+[[B]] 1.5.3 Tema dan Jenis
+1. Tema BBK Unair adalah Pemberdayaan Masyarakat.
+2. Sub-tema BBK Unair ditentukan berdasarkan hasil sinkronisasi, koordinasi dan hasil
+observasi lokasi BBK Unair dan disesuaikan dengan jenis BBK.
+3. Sub-tema BBK Unair merupakan hasil co-creation (gagasan bersama) yang disepakati
+mahasiswa, dosen, pemerintah daerah dan masyarakat dengan mengacu pada 4 bidang
+yaitu:
+a. Kesehatan
+b. Pemberdayaan masyarakat (pendidikan)
+c. Pemberdayaan ekonomi
+12
+
+=== HALAMAN 13 ===
+d. Lingkungan
+4. Dalam pelaksanaan program BBK sesuai Bidang garap, harus mencerminkan Tujuan
+Pembangunan Berkelanjutan (TPB/SDGs) sebanyak 17 goals. Tahun 2026 kegiatan BBK
+fokus pada 6 goals yaitu:
+1 (No Poverty)
+3 (Good Health and Well-Being)
+4 (Quality Education)
+8 (Decent Work and Economic Growth)
+17 (Partnerships for the Goals)
+5. Jenis BBK
+a. BBK Belajar Bersama Masyarakat/Reguler yang merupakan kegiatan akademik
+bersama masyarakat dalam bentuk kerja nyata di lokasi yang ditetapkan oleh Rektor.
+b. BBK Tematik, yaitu kegiatan BBK berdasarkan isu atau tema sebagai pokok sasaran
+kegiatan BBK yaitu Back to Village, Kebangsaan, Tanggap Bencana, Pemilu/Pilkada,
+Literasi, atau sesuai dengan model kerja sama dengan stakeholder.
+c. BBK Penyetaraan sebagai BBK yang merupakan kegiatan berupa riset, kompetisi
+karya ilmiah, keterlibatan/presentasi ilmiah di tingkat nasional yang diselenggarakan
+oleh Kementerian Pendidikan dan Kebudayaan, Program Kreativitas Mahasiswa
+Bidang Pengabdian Masyarakat (PKMM), Program Hibah Bina Desa (PHBD) dan di
+tingkat internasional yang diselenggarakan oleh Perguruan Tinggi di luar negeri atau
+lembaga- lembaga tingkat dunia, serta kegiatan pengabdian masyarakat dalam kondisi
+khusus antara lain: proyek kemanusiaan di bidang kesehatan, relawan bencana atau
+bentuk pengabdian lainnya termasuk yang diselenggarakan oleh organisasi
+mahasiswa internal kampus tingkat universitas, fakultas, maupun prodi.
+d. BBK Internasional yaitu kegiatan BBK secara bersama-sama atau kolaborasi antara
+mahasiswa dari perguruan tinggi asing dengan mahasiswa UNAIR untuk
+melaksanakan pengabdian masyarakat di Indonesia atau di negara lain.
+[[B]] 1.6 Pengelolaan dan Persyaratan Umum
+Syarat kepesertaan mengikuti BBK Unair adalah sedang menempuh minimal 80 (delapan
+puluh) sks.
+13
+
+=== HALAMAN 14 ===
+[[B]] 1.7 Struktur Organisasi
+Struktur organisasi pengelolaan BBK Unair terdiri dari:
+1. Pembina
+a. Rektor
+b. Wakil Rektor Bidang Akademik, Kemahasiswaan dan Alumni (AMA)
+c. Wakil Rektor Bidang Riset, Inovasi dan Community Development (RICD)
+2. Penanggung Jawab Akademik
+a. Direktur Pendidikan
+3. Penanggung Jawab Operasional
+a. Ketua Lembaga Pengabdian Masyarakat Berkelanjutan (LPMB)
+[[B]] 1.8 Uraian Tugas
+1. Tugas Penanggung Jawab Akademik yaitu penetapan standar kompetensi dan melaksanakan
+Monitoring dan Evaluation (MONEV).
+2. Tugas Penanggung Jawab Operasional yaitu pemilihan lokasi, kerjasama, persiapan,
+pelaksanaan dan evaluasi.
+[[B]] 1.9 Beban Studi
+1. Beban studi BBK Unair adalah tiga satuan kredit semester (3 sks).
+2. Alokasi waktu 1 sks = 170 menit
+a. 170 x 16 tatap muka x 3 SKS = 8160 menit/60 menit = 136 jam
+b. Kegiatan per hari efektif adalah 5 jam atau 300 menit
+c. Rincian Kegiatan:
+1) Periode Prapenerjunan (Pembekalan dan Survei) = 2 hari efektif adalah 10 jam
+atau 600 menit
+2) Periode Pelaksanaan = 25-26 hari efektif = 25-26 x 300 menit = 7.800
+menit
+14
+
+=== HALAMAN 15 ===
+ 
+15 
+ 
+ 
+[[B]] BAB II
+[[B]] JENIS BBK
+[[B]] 2.1 BBK Reguler
+BBK Reguler merupakan jenis BBK yang diselenggarakan oleh LPMB secara reguler 
+(berkala) berdasarkan kalender akademik universitas dan lokasi ditetapkan oleh Rektor. BBK 
+Reguler ini merupakan bentuk kerja nyata program kerja sesuai bidang garap berbasis pada SDGs 
+dengan menggunakan sistem terjun langsung ke masyarakat secara luar jaringan (luring/offline) 
+sesuai dengan kondisi dan program kerja yang sudah disusun dengan persetujuan  Dosen 
+Pembimbing Lapangan (DPL). 
+Berdasarkan pada tingkat krisis yang dialami oleh masyarakat, maka program yang akan 
+dilaksanakan oleh kelompok mahasiswa mengacu pada indikator target  Sustainable Development 
+Goals (SDGs) yang telah dicanangkan oleh PBB. Pada pelaksanaan BBK, maka bidang garap 
+BBK Reguler mengacu pada empat bidang pokok, yaitu: bidang kesehatan, perancangan bisnis, 
+pemberdayaan masyarakat (khususnya masyarakat miskin) dan lingkungan. Sesuai dengan bidang 
+garap tersebut, ragam aktivitas yang dapat dilaksanakan oleh mahasiswa meliputi: 
+1. Bidang Kesehatan 
+a. Peningkatan kesadaran tentang kesehatan serta pengembangan jaminan 
+kesehatan. 
+b. Meningkatkan pola hidup bersih dan sehat secara mandiri berupa PHBS dan 
+pengetahuan penyakit secara dini. 
+c. Mengembangkan alternatif bidang kesehatan seperti pemanfaatan TOGA. 
+d. Keluarga berencana. 
+e. Menumbuhkan kesadaran preventif terkait penyakit menular, tidak menular dan 
+kesehatan mental 
+f. Memberdayakan lingkungan rumah yang produktif, sehat dan menarik. 
+g. Memelihara kesehatan lingkungan atau kawasan pemukiman dengan menjaga 
+kesehatan lingkungan dari gangguan hewan peliharaan, polusi dan lain-lain 
+2. Bidang Pemberdayaan Ekonomi Masyarakat 
+a. Mengembangkan wirausaha baru baik dalam permodalan, proposal usaha, 
+perijinan maupun kegiatan pengembangan wirausaha lain. 
+b. Meningkatkan kualitas manajemen usaha pada sistem produksi, pemasaran, 
+keuangan dan lain-lain. 
+c. Desain produk unggulan seperti pengemasan dan pengajuan HAKI. 
+
+=== HALAMAN 16 ===
+ 
+16 
+ 
+ 
+d. Mengembangkan alternatif usaha baru dengan studi minat pasar, teknik 
+merumuskan dan merancang usaha baru. 
+e. Digitalisasi manajemen bisnis 
+f. Memaksimalkan hilirisasi usaha desa dengan berkolaborasi bersama Badan Usaha 
+Milik Desa (Bumdes) untuk membantu ketahanan nasional 
+3. Bidang Pemberdayaan Pendidikan Masyarakat  
+a. Meningkatkan kualitas hidup melalui pendidikan, kesadaran hukum dan hak-hak 
+sebagai warga serta mengurangi buta aksara. 
+b. Meningkatkan daya beli melalui wirausaha mandiri dengan menumbuhkan 
+kesadaran akan potensi diri, pemanfaatan waktu luang dan lain-lain. 
+c. Menumbuhkan budaya aktif, produktif dan partisipatif dalam berbagai bidang 
+seperti di kepemudaan, budaya, literasi, digitalisasi dan lain-lain. 
+d. Mendorong keterlibatan aktif masyarakat dalam bidang hukum dan tata kelola 
+melalui kerjasama dengan pemerintah desa dan organisasi kemasyarakatan 
+4. Bidang Lingkungan 
+a. Memberikan edukasi, pelatihan, dan promosi kepada masyarakat tentang 
+konservasi, pemanfaatan berkelanjutan, perlindungan kualitas, dan teknologi 
+pengelolaan air. 
+b. Memberikan edukasi, pelatihan, dan promosi kepada masyarakat tentang sanitasi 
+lingkungan sehat dengan mengurangi proporsi air limbah yang tidak diolah, 
+secara signifikan meningkatkan daur ulang serta penggunaan kembali barang daur 
+ulang yang aman. 
+c. Melakukan kegiatan yang bersifat melindungi dan merestorasi ekosistem terkait 
+sumber daya air, termasuk pegunungan, hutan, lahan basah, sungai, air tanah, dan 
+danau. 
+d. Mengembangkan teknologi dan proyek penyediaan sumber air baku alternatif 
+khususnya di pulau-pulau kecil dan terluar. 
+e. Mendukung dan memperkuat partisipasi masyarakat lokal dalam meningkatkan 
+pengelolaan air dan sanitasi. 
+f. Memberikan edukasi, pelatihan, dan promosi kepada masyarakat tentang 
+pengelolaan sampah domestik sehingga masyarakat dapat mengimplementasikan 
+perilaku konsumsi dan produksi yang bertanggung jawab. 
+g. Memberdayakan lingkungan fasilitas umum dan sosial yang produktif dan 
+berdaya guna. 
+h. Menumbuhkan kesadaran dan budaya tentang pemanfataan energi baru dan 
+terbarukan. 
+
+=== HALAMAN 17 ===
+ 
+17 
+ 
+ 
+i. Memberikan edukasi, pelatihan, dan promosi kepada masyarakat tentang efisiensi 
+dan hemat energi. 
+j. Mengembangkan teknologi dan proyek penyediaan energi baru dan terbarukan 
+khususnya di pulau-pulau kecil dan terluar. 
+k. Mendorong perilaku sadar bencana melalui edukasi dan aktifitas tentang 
+identifikasi bahaya, mitigasi, dan kesiapsiagaan bencana. 
+[[B]] 2.1.1 Tahapan dan Waktu Pelaksanaan
+Waktu pelaksanaan BBK Reguler dilakukan pada jeda antar semester. Pelaksanaan BBK 
+Reguler pada semester gasal berlangsung pada bulan Januari- Februari, sedangkan pelaksanaan 
+BBK Reguler semester genap berlangsung pada bulan Juli-Agustus. Sedangkan BBK penyetaraan 
+dan internasional sesuai dengan desain pelaksanaan kegiatan. 
+[[B]] 2.1.2 Tahapan Persiapan
+Tahap persiapan BBK Reguler yaitu berupa persiapan secara administratif agar kegiatan dapat 
+berjalan dengan lancar. Tahapan administrasi persiapan kegiatan BBK Reguler dapat dilihat pada 
+poin berikut: 
+1. Mahasiswa wajib memprogram mata Kuliah KKN di cybercampus V2 pada BBK 
+Berdampak dengan memilih Mahasiswa Berdampak-KKN pada saat KRS/KPRS 
+(jumlah sks merupakan akumulasi kuota maksimal yang bisa diambil oleh mahasiswa 
+baik di V1 maupun V2). 
+2. Maksimal dua minggu setelah KPRS, Wakil Dekan I mengirimkan daftar nama 
+mahasiswa yang memprogram BBK Reguler ke LPMB. 
+3. Daftar nama mahasiswa yang dikirimkan oleh Wakil Dekan I ke LPMB menjadi data awal 
+peserta BBK reguler. 
+4. Mahasiswa melakukan pendaftaran BBK Penyetaraan atau BBK Reguler, sehingga kemudian 
+dilakukan plotting (pengelompokan) dari daftar peserta BBK reguler berdasarkan 
+pertimbangan pemerataan bidang keilmuan yaitu life science, health science, social 
+science dan technique science untuk penentuan kelompok dan lokasi. Hasil plotting 
+(pengelompokan) diumumkan melalui Wakil Dekan I dan website LPMB. 
+5. Penentuan lokasi BBK Reguler sesuai dengan skema kerja sama dengan instansi atau 
+pemerintah daerah yang ditetapkan oleh Rektor.  
+6. Setelah pengumuman hasil plotting (pengelompokan) kelompok dan lokasi, 
+mahasiswa peserta BBK Reguler mengisi formulir kesediaan mengikuti kegiatan BBK 
+Reguler yang sudah disediakan oleh LPMB  dan segera menyusun Proposal Rencana 
+Kegiatan (PRK). 
+ 
+
+=== HALAMAN 18 ===
+ 
+18 
+ 
+ 
+[[B]] 2.1.3 Prapenerjunan
+Tahapan prapenerjunan BBK Reguler yaitu berupa kegiatan pembekalan, observasi atau survei 
+lokasi dan penyusunan Proposal Rencana Kegiatan (PRK). Tahapan kegiatan prapenerjunan BBK 
+Reguler dapat dilihat pada Gambar berikut: 
+[[B]] Gambar 2.2 Alur Tahapan Kegiatan Prapenerjunan BBK Reguler
+ 
+[[B]] 1. Pembekalan
+Pembekalan prapenerjunan BBK Reguler difokuskan untuk peserta BBK. Namun, 
+sebelumnya juga diadakan pelatihan untuk dosen yang disiapkan  sebagai Dosen 
+Pembimbing Lapangan (DPL). 
+a. Pembekalan untuk mahasiswa dilakukan oleh Koordinator, Pejabat Daerah 
+dan Dosen Pembimbing Lapangan (DPL). 
+b. Mahasiswa peserta BBK Reguler wajib mengikuti semua kegiatan 
+prapenerjunan. 
+c. Tujuan pembekalan adalah memberi penguatan bagi mahasiswa peserta agar 
+memiliki kesiapan mengikuti BBK Reguler baik secara fisik maupun non-fisik 
+agar semua target dapat dicapai secara efektif. 
+d. Materi pembekalan terdiri dari dua jenis yaitu 
+1) Materi isi untuk memberikan bekal dan wawasan tentang falsafah BBK 
+Reguler, penyelesaian masalah, pemberdayaan masyarakat, komunikasi 
+dan pembelajaran dalam masyarakat. 
+2) Materi proses untuk memberikan bekal berupa cara dan mekanisme 
+dalam perencanaan, pelaksanaan dan pelaporan. Materi proses juga 
+berkaitan dengan pemberian bekal berupa metode observasi, 
+instrumen/kuesioner, penyusunan program, serta metode- metode 
+dalam penyusunan proposal, pengembangan kerja sama, pembuatan 
+laporan, koordinasi di lokasi, pengisian portofolio dan metode lainnya 
+sesuai kebutuhan. 
+e. Alokasi waktu dan penilaian kinerja kegiatan prapenerjunan 
+1) Alokasi waktu kegiatan prapenerjunan adalah 5 jam. 
+
+=== HALAMAN 19 ===
+ 
+19 
+ 
+ 
+2) Penilaian 
+kinerja 
+mahasiswa 
+dalam 
+kegiatan 
+prapenerjunan 
+dimaksudkan untuk mengetahui kemampuan mahasiswa dalam 
+memahami dan mempraktikkan materi pembekalan. 
+3) Penilaian kinerja terhadap mahasiswa dalam kegiatan prapenerjunan 
+fokus pada kemampuan menerapkan materi pembekalan dalam bentuk 
+Proposal Rencana Kegiatan (PRK). 
+4) Penilaian 
+kinerja 
+mahasiswa 
+peserta 
+dilakukan 
+oleh 
+Dosen 
+Pembimbing Lapangan (DPL). 
+5) Hasil 
+penilaian 
+kinerja 
+mahasiswa 
+peserta 
+dalam 
+kegiatan 
+prapenerjunan merupakan bagian/komponen nilai akhir (kumulatif) 
+BBK Reguler. 
+[[B]] 2. Observasi (Survei Lokasi)
+Kegiatan dalam persiapan BBK Reguler meliputi observasi wilayah yang akan 
+dijadikan sebagai lokasi BBK Reguler 
+a. Konsep Observasi 
+Observasi merupakan proses pengumpulan informasi dan data di lokasi 
+masing- masing untuk menemukan masalah yang akan dijadikan program kerja 
+BBK Reguler. Sumber informasi dapat diperoleh dari berbagai pihak, di 
+antaranya: masyarakat, pejabat dan pihak terkait lainnya. 
+b. Tujuan Observasi 
+Tujuan observasi adalah untuk mendapatkan informasi dan data selengkap- 
+lengkapnya agar masalah yang ada dalam masyarakat dapat ter petakan secara 
+tepat. 
+c. Persyaratan Observasi 
+1) Persiapan memadai mahasiswa sebagai observer sebelum melakukan 
+observasi baik secara teoritis maupun empiris serta menguasai 
+karakteristik lokasi dan masyarakatnya. 
+2) Memastikan bahwa objek atau masalah yang dijadikan program akan 
+dapat terpecahkan dengan baik. 
+3) Mahasiswa sebagai observer mampu membangun hubungan baik 
+dengan masyarakat sasaran. 
+4) Mahasiswa melengkapi administrasi perijinan dari pemerintah daerah 
+setempat. 
+ 
+ 
+ 
+
+=== HALAMAN 20 ===
+ 
+20 
+ 
+ 
+d. Jenis Data Observasi 
+1) Data terkait dengan kebutuhan masyarakat. 
+2) Data terkait masalah yang harus dipecahkan di masyarakat. 
+3) Data potensi alam maupun masyarakat yang dapat dikembangkan. 
+4) Monografi desa. 
+e. Kegunaan Data 
+Data yang telah didapatkan dari kegiatan observasi kemudian digunakan 
+sebagai dasar dalam menyusun program kerja BBK Reguler. 
+[[B]] 3. Penyusunan Proposal Rencana Kegiatan (PRK)
+Setelah pembekalan materi dan observasi, masing-masing kelompok diwajibkan 
+menyusun Proposal Rencana Kegiatan (PRK). Format Proposal Rencana Kegiatan 
+(PRK) terdapat dalam lampiran. 
+[[B]] 2.1.4 Tahap Pelaksanaan
+Pelaksanaan BBK Reguler meliputi persiapan, pelepasan, pemberangkatan dan penerjunan 
+mahasiswa di lokasi BBK. 
+[[B]] 1. Persiapan Pelaksanaan
+a. Koordinasi antar kelompok dilakukan oleh mahasiswa peserta BBK Reguler 
+dengan arahan Dosen Pembimbing Lapangan (DPL) untuk mempersiapkan 
+pelaksanaan tahapan kegiatan selanjutnya. 
+b. Koordinasi Dosen Pembimbing Lapangan (DPL) dengan mahasiswa peserta 
+BBK- Reguler berfokus pada sosialisasi dan konsolidasi. 
+c. Mahasiswa 
+wajib mengikuti 
+sosialisasi dan konsolidasi 
+oleh Dosen 
+Pembimbing Lapangan (DPL). 
+d. Pembagian tugas kepada mahasiswa peserta BBK Reguler, penentuan pondokan 
+lokasi, program kerja dan lain-lain dilakukan oleh Dosen Pembimbing Lapangan 
+(DPL) bersama mahasiswa peserta pada saat konsolidasi. 
+[[B]] 2. Pelepasan, Pemberangkatan dan Transportasi
+a. Pembagian tugas kepada mahasiswa peserta BBK Reguler, penentuan pondokan 
+lokasi, program kerja dan lain-lain dilakukan oleh Dosen Pembimbing Lapangan 
+(DPL) bersama mahasiswa peserta pada saat konsolidasi. 
+b. Upacara pelepasan dipimpin oleh Rektor Universitas Airlangga. 
+
+=== HALAMAN 21 ===
+ 
+21 
+ 
+ 
+c. Pemberangkatan mahasiswa peserta BBK Reguler ke setiap lokasi BBK Reguler 
+dilakukan secara kelompok/rombongan sesuai lokasi dengan menggunakan 
+sarana transportasi yang disediakan oleh LPMB Universitas Airlangga.  
+[[B]] 3. Pelaksanaan Kegiatan di Lokasi
+a. Pelaksanaan kegiatan sesuai program kerja yang disusun berdasarkan tema 
+BBK Reguler yang telah disepakati melalui proses koordinasi dan sinkronisasi 
+dengan pemerintah setempat serta sesuai dengan kebutuhan masyarakat. 
+b. Setiap mahasiswa BBK Reguler wajib melaksanakan semua program yang 
+telah disusun dan kegiatan yang telah direncanakan. 
+c. Sebelum kegiatan dilaksanakan, setiap kelompok mendiskusikan rencana 
+kegiatan yang dihadiri oleh semua mahasiswa dan masyarakat atau mitra kerja 
+di lokasi kegiatan. 
+d. Hasil diskusi diteruskan ke forum tingkat unit yang diikuti oleh semua mahasiswa 
+dan didampingi oleh Dosen Pembimbing Lapangan (DPL), pejabat, tokoh 
+masyarakat setempat dan mitra kerja, sehingga rencana kegiatan mendapat 
+dukungan dari berbagai pihak. 
+e. Rencana kegiatan pada butir c tersebut dituangkan dalam Proposal Rencana 
+Kegiatan (PRK). 
+[[B]] 4. Laporan Kegiatan
+a. Mahasiswa wajib menuliskan semua kegiatan harian yang telah dilaksanakan 
+dal am format yang tersedia sebagai dasar pembuatan laporan akhir pelaksanaan 
+program BBK Reguler. 
+b. Laporan 
+Pelaksanaan 
+Kegiatan 
+(LPK) 
+dimaksudkan 
+sebagai 
+sarana 
+penyampaian informasi tentang kegiatan BBK Reguler dan pertanggung jawaban 
+program kegiatan yang dilakukan. 
+c. Laporan Pelaksanaan Kegiatan (LPK) BBK Reguler dikirim secara online 
+melalui format yang telah ditentukan. 
+d. Setiap kelompok wajib membuat 1 dokumentasi dalam bentuk video yang 
+diunggah ke YouTube LPMB dengan ketentuan video yang sudah ditentukan. 
+e. Setiap kelompok wajib membuat 1 artikel yang akan dijadikan sebagai book 
+chapter. Format penulisan artikel book chapter sesuai dengan lampiran. 
+
+=== HALAMAN 22 ===
+ 
+22 
+ 
+ 
+f. Setiap kelompok wajib membuat artikel berita dengan format penulisan yang 
+sudah ditentukan. Ketentuan penulisan ada di lampiran 
+[[B]] 2.1.5 Penilaian Mahasiswa Peserta BBK
+Penilaian mahasiswa peserta BBK merupakan gabungan dari nilai-nilai yang dicapai 
+mahasiswa dari setiap tahapan kegiatan yaitu prapenerjunan, pelaksanaan dan pelaporan. Penilaian 
+dilakukan oleh Dosen Pembimbing Lapangan (DPL). 
+Komponen penilaian BBK Reguler meliputi : 
+1. Prapenerjunan (10%) 
+Mahasiswa diwajibkan hadir pada kegiatan pembekalan BBK. 
+2. Proposal Rencana Kegiatan (PRK) (10%) 
+Rencana pelaksanaan kegiatan yang telah didiskusikan dengan Dosen Pembimbing 
+Lapangan (DPL) dan pihak terkait yang berisi permasalahan dan penggalian potensi yang 
+ada di lokasi BBK. 
+3. Pelaksanaan Program (50%) meliputi : 
+a. Soft Skills (kedisiplinan dan kerja sama) (20%) 
+1) Kedisiplinan yaitu kepatuhan terhadap proses kegiatan BBK yang meliputi : 
+ketepatan dalam penggunaan waktu, kepatuhan terhadap peraturan Universitas 
+Airlangga dan kepatuhan terhadap tata tertib yang berlaku di lokasi pelaksanaan 
+BBK termasuk norma dan sistem sosialnya. 
+2) Kerja sama yaitu kemampuan untuk bekerja sama antar mahasiswa dan 
+kemampuan untuk mengadakan kerja sama antara mahasiswa dengan pejabat, 
+pemuka masyarakat dan anggota masyarakat (interpersonal). 
+b. Pelaksanaan Program (30%) 
+1) Kemampuan untuk tanggap terhadap permasalahan yang ada di lokasi BBK. 
+2) Kemampuan dan keberhasilan mengungkapkan dan menyelesaikan masalah, 
+menggali dan memanfaatkan potensi. 
+3) Keterampilan dalam melaksanakan program pengembangan dan pembangunan 
+yang relevan. 
+4) Kemampuan mengevaluasi keberhasilan program yang telah dilakukan. 
+4. Laporan Akhir (30%) meliputi : 
+a. Laporan ini berisi hasil pelaksanaan kegiatan yang telah disusun dan dianalisis 
+keberhasilan program (laporan kegiatan gabungan dari laporan mingguan dengan 
+disertai lembar pengesahan) 
+b. Artikel Book Chapter 
+
+=== HALAMAN 23 ===
+c. Video kegiatan
+d. Artikel Berita
+e. Artikel Opini
+5. Nilai Akhir
+a. Nilai akhir BBK Reguler berdasarkan jumlah keseluruhan nilai dari Dosen
+Pembimbing Lapangan (DPL) dan ketepatan waktu pengumpulan laporan akhir
+(maksimal 1 minggu setelah penarikan).
+b. Nilai akhir berupa angka dan huruf sesuai Pedoman Pendidikan Universitas
+Airlangga.
+c. Nilai yang harus diperoleh mahasiswa peserta BBK Reguler minimal dalam huruf
+D, apabila mendapat nilai dengan huruf E maka mahasiswa tersebut diharuskan
+mengulang.
+d. Dosen Pembimbing Lapangan (DPL) harus menginput nilai di cybercampus
+paling lambat dua minggu setelah kegiatan BBK Reguler dinyatakan selesai.
+e. Jika peserta belum menyerahkan laporan sesuai dengan batas waktu yang telah
+ditentukan maka semua peserta mendapat nilai C.
+
+=== TABEL HALAMAN 23 #1 ===
+Pra Penerjunan: 10%; Proposal Kegiatan: 10%; Pelaksanaan Program Soft Skill: 20%; Pelaksanaan Program Hard Skill: 30%; Laporan Akhir: 30%; Nilai Akhir: 100%
+=== AKHIR TABEL ===
+
+=== TABEL HALAMAN 23 #2 ===
+Nilai Angka: 86 - 100; Nilai Huruf: A; Nilai Mutu: 4
+Nilai Angka: 78 – < 86; Nilai Huruf: AB; Nilai Mutu: 3,5
+Nilai Angka: 70 - < 78; Nilai Huruf: B; Nilai Mutu: 3
+Nilai Angka: 62 - < 70; Nilai Huruf: BC; Nilai Mutu: 2,5
+Nilai Angka: 54 - < 62; Nilai Huruf: C; Nilai Mutu: 2
+Nilai Angka: 40,0 – < 54; Nilai Huruf: D; Nilai Mutu: 1
+Nilai Angka: < 40; Nilai Huruf: E; Nilai Mutu: 0
+=== AKHIR TABEL ===
+
+[[B]] 2.1.6 Evaluasi Kegiatan BBK
+Keberhasilan mahasiswa dalam mengikuti BBK Reguler dievaluasi secara komprehensif
+untuk mengukur tercapainya kompetensi soft skills maupun hard skills mahasiswa. Evaluasi
+Program BBK Reguler dilaksanakan oleh LPMB Universitas Airlangga. Evaluasi dilakukan secara
+formatif dan sumatif.
+Evaluasi formatif yakni pada saat BBK berlangsung dengan tujuan untuk memastikan bahwa
+kegiatan dilaksanakan sesuai dengan ketentuan selain itu juga fokus pada tahap pelaksanaan terkait
+23
+
+=== HALAMAN 24 ===
+ 
+24 
+ 
+ 
+dengan pengelolaan, pelaksanaan kegiatan di lapangan, penyusunan laporan dan penilaian. 
+Evaluasi sumatif dilaksanakan pada saat BBK suatu periode dinyatakan selesai untuk menentukan 
+perbaikan-perbaikan yang diperlukan sehingga BBK pada periode selanjutnya dapat berlangsung 
+lebih baik dan juga fokus pada hasil terkait dengan kajian tentang capaian tujuan dan pengaruh 
+atau dampak baik bagi mahasiswa, pemerintah, masyarakat maupun Universitas Airlangga. 
+[[B]] 2.2 BBK Tematik
+Pengertian BBK Tematik secara umum adalah Kuliah Kerja Nyata yang orientasi program 
+kegiatannya terfokus pada bidang tertentu sesuai dengan permasalahan kemasyarakatan dan arah 
+kebijakan pembangunan yang diselenggarakan pemerintah wilayah tertentu setingkat Desa (dan 
+bisa berbasis Puskesmas Desa tersebut) atau Kabupaten/Kota. 
+BBK Tematik merupakan kegiatan BBK berdasarkan pada issue atau tema sebagai pokok 
+sasaran kegiatan BBK (merujuk pada Peraturan Rektor Unair No 4 tahun 2020, Bab II Pasal 2) 
+yang sudah dilaksanakan, adalah: Back to Village, Geliat, Kebangsaan, Citarum Harum, Brantas 
+Tuntas, UMKM dan Tangguh Bencana. 
+Berdasarkan Buku Pedoman Airlangga Smart Education (2020), kegiatan dilakukan 
+berlandaskan proyek solutif bagi problema riil di lokasi BBK. Berbagai inovasi program dengan 
+pendekatan interprofesional yang mempunyai dampak nyata bagi masyarakat yang bersifat 
+interprofessional care project terhadap problem riil di masyarakat dapat berupa, antara lain: video 
+edukasi, pelatihan ketrampilan tertentu dan program perbaikan sarana. 
+[[B]] 2.2.1 Jenis BBK Tematik
+[[B]] 2.2.1.1
+[[B]] Back to Village
+BBK Back to Village merupakan kegiatan pengabdian masyarakat yang dilaksanakan di 
+daerah asal mahasiswa.  
+[[B]] 2.2.1.2
+[[B]] Geliat
+BBK Geliat merupakan program Gerakan Ibu Hamil dan Anak Sehat untuk mendampingi ibu 
+hamil di Surabaya. 
+[[B]] 2.2.1.3
+[[B]] Kebangsaan
+BBK Kebangsaan merupakan kegiatan akademik sesuai program yang diadakan 
+penyelenggara yang diikuti oleh universitas-universitas di Indonesia. 
+[[B]] 2.2.1.4
+[[B]] Brantas Tuntas
+BBK Brantas Tuntas merupakan kegiatan mahasiswa BBK dalam mendukung program 
+pelestarian lingkungan hidup di wilayah Jawa Timur terutama di bantaran sungai Brantas. 
+
+=== HALAMAN 25 ===
+ 
+25 
+ 
+ 
+[[B]] 2.2.1.5
+[[B]] UMKM
+BBK UMKM merupakan kegiatan mahasiswa BBK di Surabaya yang melibatkan banyak 
+UMKM produktif yang langsung mengena di masyarakat luas di mana mahasiswa dapat berperan 
+dalam program pemasaran produk UMKM baik secara direct order maupun IT selling melalui e-
+commerce dan multi media serta ragam tema-tema lainnya sesuai dengan kondisi, perkembangan 
+dan kebutuhan masyarakat di luar kampus dengan konsep blended learning (daring dan atau 
+luring). 
+[[B]] 2.2.1.6
+[[B]] Tangguh Bencana
+Pelaksanaan BBK Tematik Tangguh Bencana (selanjutnya dituliskan BBK Tematik TB) 
+menjadi sangat penting mengingat wilayah Indonesia karena mempunyai potensi berbagai macam 
+bencana, baik bencana alam maupun bencana non alam, yang meliputi gempabumi, tsunami, 
+letusan gunung berapi, gerakan tanah (tanah longsor), banjir, banjir bandang, kekeringan, cuaca 
+ekstrim (putting beliung), gelombang ekstrim dan abrasi, kebakaran hutan dan lahan, epidemi dan 
+wabah penyakit, dan kegagalan teknologi di tingkat nasional, provinsi, kabupaten/ kota. 
+Berdasarkan World Risk Report (2016) menyatakan bahwa indeks risiko kebencanaan di 
+Indonesia menduduki peringkat 36 dari 171 negara. Hal tidak dapat dipungkiri karena sebagai 
+negara kepulauan terbesar yang berada di antara dua benua dan dua samudera sekaligus dua ring 
+of fire secara geografis berada di daerah rawan bencana dan mempunyai potensi kebencanaan 
+sangat besar. Oleh karena itu peran mahasiswa dalam pelaksanaan BBK Tematik PB sangat 
+penting dan vital, terutama dalam upaya peningkatan kapasitas masyarakat dalam memahami 
+bencana yang berpotensi terjadi di wilayah tempat tinggalnya. 
+[[B]] 2.2.2 Tahapan dan Waktu Pelaksanaan
+Waktu pelaksanaan BBK Tematik dapat dilakukan antar semester, seperti BBK Reguler pada 
+semester gasal berlangsung di bulan Januari-Februari dan semester genap di bulan Juli-Agustus 
+atau di luar semester regular dan/atau semester antara yang disesuaikan dengan tema dan syarat 
+yang berlaku. 
+[[B]] 2.2.3 Tahap Persiapan
+Mahasiswa peserta BBK Tematik dapat membuat kelompok mandiri dengan syarat tertentu 
+dan tahap Persiapan dilakukan seperti pada BBK Reguler. Syarat membentuk kelompok mandiri, 
+sebagai berikut: 
+1. Mahasiswa peserta BBK Tematik wajib memprogram mata kuliah Mahasiswa Berdampak-
+KKN di Cybercampus V2 pada saat KRS seperti pada BBK Reguler. 
+2. 1 kelompok maksimum terdiri dari 10 peserta yang berasal dari 3 bidang studi berbeda 
+(multi disipliner/multi Fakultas) berdasarkan pertimbangan pemerataan keilmuan. 
+
+=== HALAMAN 26 ===
+ 
+26 
+ 
+ 
+ 
+Mahasiswa peserta BBK Tematik mengajukan proposal kegiatan yang ditandatangani oleh 
+dosen pembimbing dan pimpinan Fakultas disetujui oleh LPMB, segera mengisi formulir 
+kesediaan mengikuti kegiatan BBK Tematik. 
+[[B]] 2.2.4 Prapenerjunan
+Kegiatan prapenerjunan merupakan inti dari tahap persiapan, meliputi pembekalan peserta 
+BBK Tematik yang dilakukan oleh Koordinator dan Dosen Pembimbing Lapangan (DPL). 
+Mahasiswa peserta BBK Tematik wajib mengikuti semua kegiatan dalam kegiatan prapenerjunan. 
+Tujuan pembekalan adalah memberi penguatan bagi peserta BBK agar memiliki kesiapan 
+mengikuti BBK Tematik baik secara fisik maupun non-fisik agar semua target dapat dicapai secara 
+efektif. Materi pembekalan terdiri dari dua jenis, yaitu: 
+1. Materi isi yaitu memberikan bekal, wawasan tentang falsafah BBK Tematik dan materi 
+khusus sesuai dengan tema BBK, penyelesaian masalah, pemberdayaan masyarakat dan 
+pembelajaran dalam masyarakat. 
+2. Materi Proses yaitu memberikan bekal berupa cara dan mekanisme dalam perencanaan, 
+pelaksanaan dan pelaporan. Materi proses juga berkaitan dengan pemberian bekal 
+berupa metode observasi, instrumen/kuesioner, penyusunan program, serta metode-
+metode dalam penyusunan proposal, pengembangan kerjasama, pembuatan laporan, 
+koordinasi di lokasi, pengisian portofolio dan metode lainnya sesuai kebutuhan. 
+ 
+Alokasi waktu dan penilaian kinerja kegiatan prapenerjunan BBK Tematik adalah sebagai 
+berikut: 
+1. Sesuai dengan alokasi kebutuhan BBK. 
+2. Penilaian kinerja mahasiswa dalam kegiatan prapenerjunan dimaksudkan untuk 
+mengetahui kemampuan mahasiswa dalam memahami dan mempraktikkan materi 
+pembekalan. 
+3. Penilaian kinerja terhadap mahasiswa dalam kegiatan prapenerjunan fokus pada 
+kemampuan menerapkan materi pembekalan dalam bentuk Proposal Rencana Kegiatan 
+(PRK) yang dipresentasikan. 
+4. Penilaian kinerja mahasiswa peserta dilakukan oleh Dosen Pembimbing Lapangan 
+(DPL) yang ditunjuk oleh LPMB. 
+5. Hasil penilaian kinerja mahasiswa peserta dalam kegiatan prapenerjunan merupakan 
+bagian/komponen nilai akhir sesuai dengan peraturan BBK. 
+
+=== HALAMAN 27 ===
+ 
+27 
+ 
+ 
+[[B]] 2.2.5 Tahap Pelaksanaan
+Pelaksanaan BBK Tematik meliputi persiapan, pelepasan, pemberangkatan dan penerjunan 
+mahasiswa di lokasi BBK Tematik. 
+[[B]] 1. Persiapan Pelaksanaan
+a. Koordinasi antar kelompok dilakukan oleh mahasiswa peserta BBK Tematik dengan 
+arahan yang fokus pada sosialisasi dan konsolidasi Dosen Pembimbing Lapangan 
+(DPL) dalam mempersiapkan pelaksanaan tahapan kegiatan selanjutnya. 
+b. Pembagian tugas kepada mahasiswa peserta BBK Tematik dalam menentukan 
+pondokan, lokasi, program kerja dan lain-lain dilakukan secara mandiri oleh 
+kelompok. 
+[[B]] 2. Pelepasan, Pemberangkatan dan Transportasi
+a. Upacara pelepasan dipimpin oleh Rektor Universitas Airlangga. 
+b. Pemberangkatan mahasiswa peserta BBK Tematik ke setiap lokasi dilakukan secara 
+kelompok/rombongan sesuai lokasi dengan menggunakan sarana transportasi  
+secara berkelompok menuju lokasi BBK. 
+[[B]] 3. Pelaksanaan Kegiatan di Lokasi
+a. Pelaksanaan kegiatan sesuai program kerja yang disusun berdasarkan tema BBK 
+yang telah disepakati melalui proses koordinasi dan sinkronisasi dengan pemerintah 
+daerah setempat serta sesuai dengan kebutuhan masyarakat. 
+b. Setiap mahasiswa BBK Tematik wajib melaksanakan semua program dan kegiatan 
+yang sudah disusun dan direncanakan sebelum BBK. 
+c. Setiap kelompok mahasiswa wajib mendiskusikan rencana kegiatan yang dihadiri 
+oleh semua anggotanya dan masyarakat atau mitra kerja di lokasi kegiatan. 
+d. Hasil diskusi diteruskan ke forum tingkat unit yang diikuti oleh anggota kelompok 
+daerah tujuan dan didampingi oleh Dosen Pembimbing Lapangan (DPL), pejabat, 
+tokoh masyarakat setempat serta mitra kerja, sehingga rencana kegiatan mendapat 
+dukungan dari berbagai pihak. 
+e. Rencana kegiatan pada butir c tersebut dituangkan dalam Proposal Rencana 
+Kegiatan (PRK).  
+[[B]] 4. Laporan Kegiatan
+a. Mahasiswa wajib menuliskan semua kegiatan harian yang telah dilaksanakan dalam 
+format yang tersedia sebagai dasar pembuatan laporan akhir pelaksanaan program 
+BBK. 
+
+=== HALAMAN 28 ===
+ 
+28 
+ 
+ 
+b. Laporan Pelaksanaan Kegiatan (LPK) dimaksudkan sebagai sarana penyampaian 
+informasi tentang kegiatan BBK dan pertanggung jawaban program kegiatan 
+yang dilakukan. 
+c. Laporan Pelaksanaan Kegiatan (LPK) dikirim secara online melalui format yang 
+ditentukan oleh LPMB.  
+d. Sesuai dengan peraturan BBK. 
+[[B]] 2.2.6 Penilaian Mahasiswa Peserta BBK
+Penilaian mahasiswa peserta BBK merupakan gabungan dari nilai-nilai yang dicapai 
+mahasiswa dari setiap tahapan kegiatan yaitu prapenerjunan, pelaksanaan dan pelaporan. Penilaian 
+dilakukan oleh Dosen Pembimbing Lapangan (DPL). 
+Komponen penilaian BBK Tematik meliputi : 
+1. Prapenerjunan (10%) 
+Mahasiswa diwajibkan hadir pada kegiatan pembekalan BBK. 
+2. Proposal Rencana Kegiatan (PRK) (10%) 
+Rencana pelaksanaan kegiatan yang telah didiskusikan dengan Dosen Pembimbing 
+Lapangan (DPL) dan pihak terkait yang berisi permasalahan dan penggalian potensi yang 
+ada di lokasi BBK. 
+3. Pelaksanaan Program (50%) meliputi : 
+a. Soft Skills (kedisiplinan dan kerja sama) (20%) 
+1) Kedisiplinan yaitu kepatuhan terhadap proses kegiatan BBK yang meliputi : 
+ketepatan dalam penggunaan waktu, kepatuhan terhadap peraturan Universitas 
+Airlangga dan kepatuhan terhadap tata tertib yang berlaku di lokasi pelaksanaan 
+BBK termasuk norma dan sistem sosialnya. 
+2) Kerja sama yaitu kemampuan untuk bekerja sama antar mahasiswa dan 
+kemampuan untuk mengadakan kerja sama antara mahasiswa dengan pejabat, 
+pemuka masyarakat dan anggota masyarakat (interpersonal). 
+b. Pelaksanaan Program (30%) 
+1) Kemampuan untuk tanggap terhadap permasalahan yang ada di lokasi BBK. 
+2) Kemampuan dan keberhasilan mengungkapkan dan menyelesaikan masalah, 
+menggali dan memanfaatkan potensi. 
+3) Keterampilan dalam melaksanakan program pengembangan dan pembangunan 
+yang relevan. 
+4) Kemampuan mengevaluasi keberhasilan program yang telah dilakukan. 
+ 
+
+=== HALAMAN 29 ===
+4. Laporan Akhir (30%) meliputi :
+a. Laporan ini berisi hasil pelaksanaan kegiatan yang telah disusun dan dianalisis
+keberhasilan program
+b. Artikel Book chapter
+c. Video kegiatan
+d. Artikel berita
+5. Nilai Akhir
+a. Nilai akhir BBK Tematik berdasarkan jumlah keseluruhan nilai dari Dosen
+Pembimbing Lapangan (DPL) dan ketepatan waktu pengumpulan laporan akhir
+(maksimal 1 minggu setelah penarikan).
+b. Nilai akhir berupa angka dan huruf sesuai Pedoman Pendidikan Universitas
+Airlangga.
+c. Nilai yang harus diperoleh mahasiswa peserta BBK Tematik minimal dalam huruf
+D, apabila mendapat nilai dengan huruf E maka mahasiswa tersebut diharuskan
+mengulang.
+d. Dosen Pembimbing Lapangan (DPL) harus menginput nilai di cybercampus
+paling lambat satu minggu setelah kegiatan BBK Tematik dinyatakan selesai.
+e. Jika peserta belum menyerahkan laporan sesuai dengan batas waktu yang telah
+ditentukan maka semua peserta mendapat nilai C.
+
+=== TABEL HALAMAN 29 #1 ===
+Pra Penerjunan: 10%; Proposal Kegiatan: 10%; Pelaksanaan Program Soft Skill: 20%; Pelaksanaan Program Hard Skill: 30%; Laporan Akhir: 30%; Nilai Akhir: 100%
+=== AKHIR TABEL ===
+
+=== TABEL HALAMAN 29 #2 ===
+Nilai Angka: 86 - 100; Nilai Huruf: A; Nilai Mutu: 4
+Nilai Angka: 78 – < 86; Nilai Huruf: AB; Nilai Mutu: 3,5
+Nilai Angka: 70 - < 78; Nilai Huruf: B; Nilai Mutu: 3
+Nilai Angka: 62 - < 70; Nilai Huruf: BC; Nilai Mutu: 2,5
+Nilai Angka: 54 - < 62; Nilai Huruf: C; Nilai Mutu: 2
+Nilai Angka: 40,0 – < 54; Nilai Huruf: D; Nilai Mutu: 1
+Nilai Angka: < 40; Nilai Huruf: E; Nilai Mutu: 0
+=== AKHIR TABEL ===
+
+29
+
+=== HALAMAN 30 ===
+ 
+30 
+ 
+ 
+[[B]] 2.2.7 Evaluasi Kegiatan BBK
+Keberhasilan mahasiswa dalam mengikuti BBK Tematik dievaluasi secara komprehensif 
+untuk mengukur tercapainya kompetensi soft skills maupun hard skills mahasiswa. Evaluasi 
+Program BBK Reguler dilaksanakan oleh LPMB Universitas Airlangga. Evaluasi dilakukan secara 
+formatif dan sumatif. 
+Evaluasi formatif yakni pada saat BBK berlangsung dengan tujuan untuk memastikan bahwa 
+kegiatan dilaksanakan sesuai dengan ketentuan selain itu juga fokus pada tahap pelaksanaan terkait 
+dengan pengelolaan, pelaksanaan kegiatan di lapangan, penyusunan laporan dan penilaian. 
+Evaluasi sumatif dilaksanakan pada saat BBK suatu periode dinyatakan selesai untuk menentukan 
+perbaikan-perbaikan yang diperlukan sehingga BBK pada periode selanjutnya dapat berlangsung 
+lebih baik dan juga fokus pada hasil terkait dengan kajian tentang capaian tujuan dan pengaruh 
+atau dampak baik bagi mahasiswa, pemerintah, masyarakat maupun Universitas Airlangga. 
+[[B]] 2.3 BBK Penyetaraan
+Berdasarkan Peraturan Rektor No 4 Tahun 2020, pada Bab II Pasal 2, BBK Penyetaraan 
+didefinisikan sebagai hasil kegiatan mahasiswa yang meliputi riset, kompetisi karya ilmiah, 
+presentasi ilmiah di tingkat nasional yang diselenggarakan oleh Kementerian Pendidikan dan 
+Kebudayaan dan di tingkat internasional yang diselenggarakan oleh Perguruan Tinggi di luar 
+negeri atau lembaga-lembaga tingkat dunia yang berbasis pengabdian masyarakat, serta kegiatan 
+pengabdian masyarakat yang sifat dan kondisinya khusus antara lain, seperti: proyek kemanusiaan 
+di bidang kesehatan, relawan bencana dan bentuk pengabdian lainnya. Berdasarkan Peraturan 
+Rektor Universitas Airlangga Nomor 23 Tahun 2020 tentang Panduan Pelaksanaan Pembelajaran 
+di Luar Program Studi Universitas Airlangga, kegiatan  PIMNAS kategori Program Kreativitas 
+Mahasiswa Bidang Pengabdian Masyarakat (PKMM) dan Program Hibah Bina Desa (PHBD) 
+yang lolos pendanaan oleh Dikti juga dapat disetarakan sebagai BBK Penyetaraan. 
+BBK Penyetaraan secara umum dapat dibagi menjadi dua kelompok, yaitu: 
+1. BBK Penyetaraan berdasarkan proses, yaitu kegiatan yang diikuti oleh mahasiwa dengan 
+penilaian penyetaraan berdasarkan proses, serta melalui tahapan yang telah ditetapkan 
+dengan kriteria sebagai berikut: 
+a. Segala bentuk kegiatan (merujuk PR 4/2020), yang diselenggarakan oleh 
+Kementerian/Lembaga Republik Indonesia dengan peserta lebih dari 5 universitas 
+di Indonesia. 
+b. Segala bentuk kegiatan (merujuk PR 4/2020), yang diselenggarakan oleh suatu 
+Universitas di Indonesia yang peringkat per-rangking-an setara dengan Universitas 
+Airlangga atau diatasnya, dengan peserta lebih dari 5 universitas di Indonesia. 
+
+=== HALAMAN 31 ===
+ 
+31 
+ 
+ 
+c. Segala bentuk kegiatan (merujuk PR 4/2020), yang diselenggarakan oleh suatu 
+institusi di luar Indonesia dengan kredibilitas dan reputasi tingkat internasional, 
+dengan peserta lebih dari 3 universitas/institusi di luar Indonesia. 
+d. Segala bentuk kegiatan (merujuk PR 4/2020), yang diselenggarakan oleh suatu 
+Universitas di luar Indonesia yang peringkat per-rangking-an setara dengan 
+Universitas Airlangga atau diatasnya, dengan peserta lebih dari 3 universitas di luar 
+Indonesia. 
+2. BBK Penyetaraan berdasarkan pencapaian/prestasi, yaitu pencapaian/prestasi yang 
+didapatkan oleh mahasiswa dari suatu kegiatan yang telah ditetapkan kriterianya dengan 
+kriteria sebagai berikut: 
+a. Mahasiswa lolos pendanaan oleh Dikti di kegiatan PIMNAS pada kategori PKMM 
+(poster dan/atau presenter) dan di kegiatan Program Hibah Bina Desa (PHBD). 
+b. Mahasiswa meraih juara dan/atau penghargaan pada kegiatan-kegiatan yang 
+diselenggarakan oleh institusi-institusi dengan kriteria seperti yang tercantum pada 
+kriteria poin a. 
+c. Mahasiswa Universitas Airlangga yang sudah memenuhi syarat untuk mengambil 
+mata kuliah BBK dan mempunyai kegiatan yang tersebut diatas, dapat 
+menyetarakan kegiatan tersebut dengan mata kuliah BBK. Sehingga mahasiswa 
+yang bersangkutan tidak perlu mengikuti kegiatan BBK Reguler yang diadakan 
+pada setiap semesternya oleh Universitas Airlangga. Khusus untuk BBK 
+Penyetaraan 
+berdasarkan 
+pencapaian/prestasi, 
+persyaratan 
+diatas 
+dapat 
+dikecualikan. 
+3. KKN Penyetaraan berdasarkan konversi kegiatan pengabdian yaitu kegiatan yang dilakukan 
+oleh mahasiswa baik secara individu maupun kelompok dalam kegiatan pengabdian berupa 
+pelayanan (community service) maupun pengembangan (community development). 
+a. Kegiatan pelayanan di instansi pemerintahan maupun DUDIKA termasuk kegiatan di 
+laboratorium 
+b. Kegiatan penyuluhan, pengabdian, pendampingan, peningkatan kapasitas sasaran 
+kelompok atau Masyarakat 
+c. Durasi pelaksanaan setara dengan 3 sks KKN= 136 jam (170 x 16 tatap muka x 3 SKS = 
+8160 menit/60 menit ) 1 sks=170 menit 
+ 
+ 
+
+=== HALAMAN 32 ===
+ 
+32 
+ 
+ 
+[[B]] 2.3.1 Syarat Peserta, Tahapan dan Waktu Pelaksanaan
+[[B]] 1. Syarat Peserta
+Syarat peserta BBK Penyetaraan adalah sebagai berikut: 
+a. Mahasiswa yang mengajukan kegiatan untuk BBK Penyetaraan telah memenuhi 
+jumlah SKS untuk mengambil mata kuliah BBK yaitu minimal 80 sks. 
+b. Mahasiswa yang mengikuti kegiatan harus memiliki dosen pembimbing untuk 
+kegiatan tersebut. Dosen pembimbing disahkan dengan surat tugas yang 
+ditandatangani oleh pimpinan suatu fakultas. 
+[[B]] 2. Tahapan Kegiatan
+Tahapan kegiatan BBK Penyetaraan adalah sebagai berikut: 
+a. Mahasiswa mengajukan kegiatan untuk disetarakan menjadi BBK berupa proposal 
+kegiatan yang ditandatangani oleh dosen pembimbing dan pimpinan suatu 
+fakultas/unit. 
+b. Mahasiswa melaporkan kegiatan yang dilakukan setiap harinya, secara berkala 
+selama kegiatan berlangsung kepada Fakultas. 
+c. Mahasiswa melaporkan hasil kegiatan kepada LPMB setelah disahkan oleh 
+pimpinan fakultas/unit. 
+[[B]] 3. Waktu Pelaksanaan
+Waktu Pelaksanaan BBK Penyetaraan adalah pada saat mahasiswa yang melaksanakan 
+kegiatan BBK Penyetaraan harus sudah memenuhi jumlah SKS yang disyaratkan untuk mengikuti 
+mata kuliah BBK yaitu minimal 80 sks. Apabila belum menempuh 80 sks saat melaksanakan 
+kegiatan BBK Penyetaraan, maka kegiatan tersebut dapat diajukan sebagai BBK Penyetaraan 
+maksimal 12 bulan sebelum KRS BBK. Jika melebihi 12 bulan maka kegiatan tersebut tidak dapat 
+diajukan sebagai BBK Penyetaraan. 
+[[B]] 2.3.2 Tahap Persiapan dan Penerjunan
+Persiapan yang dilakukan oleh mahasiswa yang melakukan kegiatan untuk disetarakan dengan 
+BBK ada beberapa hal, yaitu: 
+1. Melaporkan kepada LPMB bentuk aktivitas yang akan digunakan sebagai kegiatan yang 
+disetarakan BBK. 
+2. Melaporkan kepada LPMB dosen pembimbing kegiatan. 
+3. Menyampaikan proposal kegiatan yang akan diikuti oleh mahasiswa dan telah 
+ditandatangani oleh pimpinan fakultas/unit dan pembimbing kegiatan kepada LPMB. 
+ 
+
+=== HALAMAN 33 ===
+ 
+33 
+ 
+ 
+[[B]] 2.3.3 Tahap Pelaksanaan
+Melaksanakan program yang telah dirancang secara terkoordinasi, sistematis dan 
+bertanggungjawab serta kesesuaian dari rencana kegiatan yang telah dibuat dalam proposal 
+kegiatan. Kemampuan dan keberhasilan memanfaatkan dan menggali potensi, mengungkapkan, 
+serta menyelesaikan masalah, keterampilan dalam melaksanakan program pengembangan dan 
+pembangunan yang relevan, kemampuan mengevaluasi keberhasilan program yang telah 
+dilakukan. 
+[[B]] 2.3.4 Penilaian Mahasiswa Peserta BBK
+Komponen yang dinilai pada BBK Penyetaraan meliputi: 
+1. Proposal Rencana Kegiatan (PRK) yang diusulkan ke LPMB ini berisi rencana 
+pelaksanaan kegiatan yang telah disosialisasikan dan didiskusikan dengan berbagai pihak 
+atau pembimbing kegiatan. 
+2. Kinerja mahasiswa dengan komponen meliputi: 
+a. Disiplin yaitu ketepatan dalam penggunaan waktu dan kepatuhan terhadap tata tertib 
+yang berlaku. 
+b. Kerjasama yaitu kemampuan untuk mengadakan kerjasama antara mahasiswa lainnya 
+dan pembimbing. 
+3. Pelaksanaan program yaitu kemampuan dan keberhasilan memanfaatkan dan menggali 
+potensi, 
+mengungkapkan, 
+serta 
+menyelesaikan 
+masalah. 
+Keterampilan 
+dalam 
+melaksanakan program pengembangan dan pembangunan yang relevan serta kemampuan 
+mengevaluasi keberhasilan program yang telah dilakukan. 
+4. Laporan pelaksanaan merupakan laporan yang berisi data sesuai tematik yang telah 
+disusun dan disahkan oleh dosen pembimbing kegiatan dan pimpinan fakultas/unit. 
+5. Responsi dilakukan untuk mengukur tingkat keberhasilan pelaksanaan kegiatan 
+mahasiswa. 
+Bobot komponen penilaian pada BBK Penyetaraan meliputi: 
+1. Proposal Rencana Kegiatan (PRK) 
+ 
+10% 
+2. Kinerja mahasiswa 
+a. Disiplin  
+ 
+ 
+ 
+15% 
+b. Kerjasama 
+ 
+ 
+ 
+15% 
+3. Pelaksanaan program  
+ 
+ 
+20% 
+4. Laporan Pelaksanaan Kegiatan (LPK) 
+20% 
+5. Responsi 
+ 
+ 
+ 
+ 
+20% 
+ 
+ 
+
+=== HALAMAN 34 ===
+=== TABEL HALAMAN 34 #1 ===
+Nilai Angka: 86 - 100; Nilai Huruf: A; Nilai Mutu: 4
+Nilai Angka: 78 – < 86; Nilai Huruf: AB; Nilai Mutu: 3,5
+Nilai Angka: 70 - < 78; Nilai Huruf: B; Nilai Mutu: 3
+Nilai Angka: 62 - < 70; Nilai Huruf: BC; Nilai Mutu: 2,5
+Nilai Angka: 54 - < 62; Nilai Huruf: C; Nilai Mutu: 2
+Nilai Angka: 40,0 – < 54; Nilai Huruf: D; Nilai Mutu: 1
+Nilai Angka: < 40; Nilai Huruf: E; Nilai Mutu: 0
+=== AKHIR TABEL ===
+
+[[B]] 2.3.5 Evaluasi Kegiatan BBK
+Kegiatan ini dilakukan setiap akhir periode kegiatan dan pada akhir tahun akademik dari
+program BBK Penyetaraan yang dinamis sesuai dengan tuntutan perubahan. Evaluasi dibagi
+menjadi:
+a. Tahap pelaksanaan meliputi hal-hal yang berhubungan dengan pengelolaan, pelaksanaan
+kegiatan, penyusunan laporan dan penilaian.
+b. Evaluasi terhadap hasil meliputi kajian seberapa tujuan telah dapat dicapai dan pengaruh
+atau dampak yang timbul, baik atas diri mahasiswa maupun pada masyarakat.
+c. Indikator untuk menyatakan bahwa program BBK Penyetaraan telah berhasil, tentunya
+juga harus dilihat apakah telah terjadi perkembangan (perubahan) yang menjadi mitra
+kerja dalam pelaksanaannya sesuai dengan yang diharapkan (expected).
+[[B]] 2.3.6 Beban Studi dan Alokasi Waktu
+a. Beban studi mata kuliah BBK adalah tiga satuan kredit semester (3 sks)
+b. Alokasi waktu 1 sks = 170 menit
+170 menit x 16 tatap muka x 3 sks = 8.160 menit/60 menit = 136 jam
+[[B]] Kegiatan per hari efektif adalah 5 jam atau 300 menit
+[[B]] Minimal kegiatan dilaksanakan selama 27 hari
+[[B]] 2.4 BBK Internasional
+34
+
+=== HALAMAN 35 ===
+[[B]] LAMPIRAN
+[[B]] Lampiran 1
+[[B]] BIDANG GARAPAN : KESEHATAN
+
+=== TABEL HALAMAN 35 #1 ===
+NO: 1; BIDANG GARAPAN: Peningkatan Akses Pelayanan kesehatan; JUDUL KEGIATAN: • Peningkatan pengetahuan masyarakat ttg pelayanan kesehatan: jenis, cara mengakses; BENTUK KEGIATAN: • Penyuluhan • Skreening; TUJUAN/KELUARAN: • Peningkatan pengetahuan dan peningkatan kemauan masyarakat; KELOMPOK SASARAN: • Seluruh lapisan masyarakat
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 35 #1 ===
+NO: 1; BIDANG GARAPAN: Peningkatan Akses Pelayanan kesehatan; JUDUL KEGIATAN: • Pembentukan kelompok pembiayaan kesehatan mandiri; BENTUK KEGIATAN: • SosialisasiPembiayaan kesehatan • Penggalangan potensi yang dimiliki masyarakat terkait daya beli kesehatan • Membentuk kelompok asuransi mandiri; TUJUAN/KELUARAN: • Kesadaran akan jaminan kesehatan • Masyarakat mandir dalam menjaga kesehatan; KELOMPOK SASARAN: • Kepala keluarga • Kelompok masyarakat
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 35 #1 ===
+NO: 2; BIDANG GARAPAN: Peningkatan pola hidup bersih dan sehat; JUDUL KEGIATAN: • Peningkatan kesehatan keluarga: gizi, ga ya hidup sehat, lingkungan sehat; BENTUK KEGIATAN: • Penyuluhan pemilihan dan pengolahan makanan sehat dan bergizi seimbang yang tersedia di wilayah tersebut • Pemberian makan pada bayi dan anak • Penyuluhan ASI eksklusif • Penyuluhan kesehatan dan perawatan anak • Penyuluhan gaya hidup sehat (PHBS): tidak merokok, olah raga, kesehatan gigi, penggunaan obat yang baik dan benar, pertolongan persalinan yang aman; TUJUAN/KELUARAN: • Peningkatan pengetahuan masyarakat menuju kearah perubahan perilaku melalui adaopsi perilaku sehat; KELOMPOK SASARAN: • Balita • Pra sekolah • Sekolah • Remaja • Karang taruna • PUS • Lansia • Tokoh Masyarakat
+=== AKHIR TABEL ===
+
+35
+
+=== HALAMAN 36 ===
+=== TABEL HALAMAN 36 #1 ===
+NO: 2; BIDANG GARAPAN: Peningkatan pola hidup bersih dan sehat; JUDUL KEGIATAN: • Peningkatan kesehatan keluarga: gizi, ga ya hidup sehat, lingkungan sehat; BENTUK KEGIATAN: • Lingkungan sehat: rumah sehat, sanitasi, pengelolaan sampah • Penyuluhan kesehatan remaja: HIV/AIDS dan seks bebas • Kesehatan reproduksi & keluarga berencana; TUJUAN/KELUARAN: • Peningkatan pengetahuan masyarakat menuju kearah perubahan perilaku melalui adaopsi perilaku sehat; KELOMPOK SASARAN: • Balita • Pra sekolah • Sekolah • Remaja • Karang taruna • PUS • Lansia • Tokoh Masyarakat
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 36 #1 ===
+NO: 3; BIDANG GARAPAN: Pemberdayaan masyarakat terhadap persoalan kesehatan di lingkungann ya; JUDUL KEGIATAN: • Pengenalan tentang masalah kesehatan sehari- hari: kedaruratan, masyarakat rawan (disable, lansia, miskin), hazard • Pelatihan penanganan masalah kesehatan sehari- hari; BENTUK KEGIATAN: • Penyuluhan • Penanganan penanganan praktis persoalan kesehatan • Pemanfaatan TOGA; TUJUAN/KELUARAN: • Peningkatan pemberdayaan masyarakat dalam penanganan masalah kesehatan praktis menuju perubahan paradigma sehat; KELOMPOK SASARAN: • Keluarga • Tokoh masyarakat • Kader kesehatan • Dukun bayi • Stake holder kesehatan
+=== AKHIR TABEL ===
+
+[[B]] BIDANG GARAPAN : PERANCANGAN BISNIS
+
+=== TABEL HALAMAN 36 #2 ===
+NO: 1; BIDANG GARAPAN: Pengembangan wirausaha baru; JUDUL KEGIATAN: • Mengembangkan usaha rumah tangga dan industri kecil berbasis lokal; BENTUK KEGIATAN: • Penyusunan proposal usaha • Identifikasi potensi usaha • Pengajuan modal usaha • Pemanfaatan potensi lokal • Pelatihan dasar manajemen produksi, pemasaran, permodalan dan keuangan; TUJUAN/KELUARAN: • wirausahawan baru di tingkat rumah tangga; KELOMPOK SASARAN: • kepala keluarga • remaja • ibu-ibu • kelompok masyarakat yang memiliki waktu luang
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 36 #2 ===
+NO: 2; BIDANG GARAPAN: Meningkatkan kualitas manajemen usaha; JUDUL KEGIATAN: • Peningkatan kualitas manajemen usaha UMKM dan koperasi; BENTUK KEGIATAN: • Pelatihan tingkat lanjut manajemen produksi, pemasaran, permodalan dan keuangan • penyuluhan perijinan usaha; TUJUAN/KELUARAN: • penguasaan manajemen usaha yang berkualitas • perluasan pasar; KELOMPOK SASARAN: • unit/unit kelompo usaha mikro, kecil dan menengah koperasi
+=== AKHIR TABEL ===
+
+36
+
+=== HALAMAN 37 ===
+=== TABEL HALAMAN 37 #1 ===
+NO: 2; BIDANG GARAPAN: Meningkatkan kualitas manajemen usaha; JUDUL KEGIATAN: • Peningkatan kualitas manajemen usaha UMKM dan koperasi; BENTUK KEGIATAN: • pendampingan penguasaan informasi pasar; TUJUAN/KELUARAN: • penguasaan manajemen usaha yang berkualitas • perluasan pasar; KELOMPOK SASARAN: • unit/unit kelompo usaha mikro, kecil dan menengah koperasi
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 37 #1 ===
+NO: 2; BIDANG GARAPAN: Meningkatkan kualitas manajemen usaha; JUDUL KEGIATAN: • Profil dan performan usaha ternak hewan; BENTUK KEGIATAN: • Penelitian • Penyuluhan • Praktek • pendampingan; TUJUAN/KELUARAN: • peningkatan kapasitas produksi • peningkatan laba usaha • peningkatan kualitas produk • perluasan pasar; KELOMPOK SASARAN: • individu/ kelompok peternak ayam, kambing, sapi & jenis hewan ternak lainnya
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 37 #1 ===
+NO: 2; BIDANG GARAPAN: Meningkatkan kualitas manajemen usaha; JUDUL KEGIATAN: • Profil dan performan usaha perikanan; BENTUK KEGIATAN: • Penelitian • Penyuluhan • Praktek • pendampingan; TUJUAN/KELUARAN: • peningkatan kapasita produksi • peningkatan laba usaha • peningkatan kualitas produk • perluasan pasar; KELOMPOK SASARAN: • individu/kelompok petani tambak dan nelayan
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 37 #1 ===
+NO: 3; BIDANG GARAPAN: Disain produk unggulan daerah; JUDUL KEGIATAN: • Pengembangan produk unggulan UMKM; BENTUK KEGIATAN: • penyuluhan perijinan produk • pelatihan teknik pengemasan • penguasaan informasi ragam produk sejenis • penyuluhan pengajuan HAKI; TUJUAN/KELUARAN: • peningkatan kualitas produk berciri lokal • memilki hak paten • penguasaan terhadap informasi produk- produk sejenis; KELOMPOK SASARAN: • kelompok UMKM dengan basis usaha industri rumah tangga
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 37 #1 ===
+NO: 3; BIDANG GARAPAN: Disain produk unggulan daerah; JUDUL KEGIATAN: • Pengembangan produk olahan hasil perikanan; BENTUK KEGIATAN: • pelatihan olahan hasil perikanan • demo atau praktek pendampingan; TUJUAN/KELUARAN: • pengkayaan jenis produk usaha perikanan • peningkatan ketrampilan; KELOMPOK SASARAN: • petani tambak dan nelayan • Kelompok- kelompok usaha perempuan
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 37 #1 ===
+NO: 4; BIDANG GARAPAN: Pengembangan; JUDUL KEGIATAN: • Pengembangan pasar tradisional; BENTUK KEGIATAN: • penyusunan disain pasar tradisional modern; TUJUAN/KELUARAN: • kenyamanan usaha; KELOMPOK SASARAN: • perangkat daerah • kelompok usaha kecil
+=== AKHIR TABEL ===
+
+37
+
+=== HALAMAN 38 ===
+=== TABEL HALAMAN 38 #1 ===
+NO: 4; BIDANG GARAPAN: alternatif usaha baru; JUDUL KEGIATAN: ; BENTUK KEGIATAN: • penyusunan proposal usaha pengembangan permodalan; TUJUAN/KELUARAN: • kenyamanan/ konsumen pengunjung pasar • peningkatan kapasitas usaha • mereduksi potensi konflik; KELOMPOK SASARAN: • perangkat daerah • kelompok usaha kecil
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 38 #1 ===
+NO: 4; BIDANG GARAPAN: alternatif usaha baru; JUDUL KEGIATAN: • Penyusunan bisnis plan urban farm (hidroponik); BENTUK KEGIATAN: • penyusunan rencana pemasaran, keuangan produksi, SDM, dan operasional • pendampingan perhitungan unit cost • penyusunan audit internal; TUJUAN/KELUARAN: • kenyamanan • efesiensi pengelolaan lahan kosong/lingkungan sekitar • peningkatan pendapatan; KELOMPOK SASARAN: • RT/RW/PKK • Karang Taruna • Lansia
+=== AKHIR TABEL ===
+
+[[B]] BIDANG GARAPAN : PENDIDIKAN
+
+=== TABEL HALAMAN 38-40 #2 ===
+Program: Peningkatan kesadaran pendidikan; Tujuan: Meningkatkan Kesadaran pendidikan; Bentuk kegiatan: Penyuluhan Sadar Belajar; Metode: Dialog, Ceramah, pemutaran film, motivasi belajar; Sasaran: Orang tua; Media: Audio Visual; Mitra: Pemerintah setempat, tokoh masyarakat
+Program: Penguatan pendidikan karakter anak sejak dini; Tujuan: Menanamkan pendidikan karakter anak sejak dini (pra sekolah); Bentuk kegiatan: Membentuk dan memberdayaka n PAUD; Metode: Kerjasama dengan Yayasan/RT/RW; Sasaran: Orang tua didik, peserta didik, guru; Media: Bangunan, alat pembelajaran; Mitra: Pemerintah setempat, tokoh masyarakat
+Program: Pendampinga n; Tujuan: Meningkatkan kesadaran anak tentang; Bentuk kegiatan: Mengembalika n; Metode: Kerjasama dengan diknas dan desa; Sasaran: Anak putus sekolah sesuai jejang pendidikan,; Media: -; Mitra: Lembaga pendidikan formal, PKBM, tokoh masyarakat
+Program: pendidikan anak putus sekolah; Tujuan: pentingnya sekolah dan ketrampilan hidup menghadapi dunia kerja; Bentuk kegiatan: anak putus sekolah sesuai jenjangnya, memasukan ke PKBM bagi yang usia tidak sesuai jenjang; Sasaran: dan yang tidak sesuai jejangn ya
+Program: Pemberantas an buta aksara pada masyarakat; Tujuan: Meningkatkan kemampuan membaca dan menulis pada masyarakat; Bentuk kegiatan: Mendirikan rumah belajar bagi masyarakat; Metode: Tutorial; Sasaran: Manula buta aksara; Media: Alat baca tulis; Mitra: Pemerintahan setempat, tokoh
+Program: Peningkatan literasi masyarakat; Tujuan: Meningkatkan kesadaran gemar membaca dan menulis; Bentuk kegiatan: Mendirikan rumah baca/perpustak aan di desa/sekolah; Metode: Tutorial, penyuluhan; Sasaran: masyarakat; Media: Buku, rumah belajar, banner, spanduk; Mitra: Pemerintah setempat, perusahaan dengan CSRnya
+Program: Peningkatan kemampuan bahasa Inggris pada daerah wisata; Tujuan: Meningkatkan kualitasd dan Mempromosika n potensi desa sebagai tempat wisata; Bentuk kegiatan: Kursus bahasa Inggris; Metode: Tutorial dan pendampingan; Sasaran: masyarakat; Media: Alat pembelajaran; Mitra: Pemerintah setempat
+Program: Peningkatan IMTAQ; Tujuan: Meningkatkan kualitas keimanan dan ketaqwaan; Bentuk kegiatan: Pengajian,baca tulis Al Quran; Metode: Tutorial, ceramah; Sasaran: masyarakat; Media: Alat pembelajaran; Mitra: -
+Program: Sosialisasi Bidik Misi; Tujuan: Mempersiapkan; Bentuk kegiatan: -; Metode: Promosi, dialog; Sasaran: Anak SMA; Media: Leaflet,; Mitra: -
+Program: Sosialisasi Bidik Misi; Tujuan: peserta calon bidikmisi; Bentuk kegiatan: -; Metode: Promosi, dialog; Sasaran: Anak SMA; Media: materi ceramah, video, karya; Mitra: -
+=== AKHIR TABEL ===
+
+38
+
+=== HALAMAN 39 ===
+39
+
+=== HALAMAN 40 ===
+[[B]] BIDANG GARAPAN : LINGKUNGAN
+
+=== TABEL HALAMAN 40 #2 ===
+NO: 1; BIDANG GARAPAN: Pembenahan kawasan kumuh; JUDUL KEGIATAN: • Pembenahan kawasan perumuhan kumuh; BENTUK KEGIATAN: • pembuatan disian kawasan sehat • Memberikan saran dan contoh rumah sehat • penataan lingkungan tempat tinggal • pengelolaan limbah padat • penataan sanitasi lingkungan rumah; TUJUAN/KELUARAN: • terciptanya kawasan dan lingkungan perumahan yang sehat; KELOMPOK SASARAN: • kawasan perumahan miskin • kawasan perumahan masyarakat pesisir • kawasan perumahan stren kali • Pengambil kebijakan
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 40 #2 ===
+NO: 1; BIDANG GARAPAN: Pembenahan kawasan kumuh; JUDUL KEGIATAN: • Penataan kawasan dan lingkungan PKL sehat; BENTUK KEGIATAN: • pembuatan disian kawasan dan lingkungan PKL sehat • penataan lingkungan PKL • pengelolaan limbah • penataan sanitasi lingkungan PKL; TUJUAN/KELUARAN: • terciptanya kawasan dan lingkungan PKL yang sehat; KELOMPOK SASARAN: • aparatur daerah • kelompok PKL • Masyarakat sekitar lokasi
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 40 #2 ===
+NO: 2; BIDANG GARAPAN: Mengembangkan budaya lingkungan hidup sehat; JUDUL KEGIATAN: • Mengembangkan budaya lingkungan hidup sehat; BENTUK KEGIATAN: • penyuluhan tentang kelestarian lingkungan hidup • menyusun disain contoh rumah sehat • penyuluhan teknik menjaga dan merawat sanitasi lingkungan rumah; TUJUAN/KELUARAN: • kelestarian lingkungan • peningkatan jumlah contoh rumah • rendahnya angka kesakitan karena faktor lingkungan; KELOMPOK SASARAN: • semua lapisan masyarakat • LSM • Apartur daerah
+=== AKHIR TABEL ===
+
+40
+
+=== HALAMAN 41 ===
+=== TABEL HALAMAN 41 #1 ===
+NO: 2; BIDANG GARAPAN: Mengembangkan budaya lingkungan hidup sehat; JUDUL KEGIATAN: • Mengembangkan budaya lingkungan hidup sehat; BENTUK KEGIATAN: • penyuluhan ttg gangguan kesehatan karena faktor hewan pemeliharaan • penyuluhan ttg gagguan kesehatan akibat polusi dan limbah industri • PHBS (collaboration Mhs dan Unit kesehatan); TUJUAN/KELUARAN: • Peningkatan angka cakupan (RT berPHBS); KELOMPOK SASARAN: • semua lapisan masyarakat • LSM • Apartur daerah
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 41 #1 ===
+NO: 3; BIDANG GARAPAN: Pemberdayaan lingkungan rumah; JUDUL KEGIATAN: • Pemanfaatan lingkungan rumah yang produktif dan sehat; BENTUK KEGIATAN: • menyusun disain lingkungan rumah sehat dan menarik • penyuluhan pemanfaatan lingkungan rumah; TUJUAN/KELUARAN: • terciptanya lingkungan rumah yang sehat dan menarik • memberi nilai tambah • meningkatkan pendapatan • rendahnya angka kesakitan karena faktor lingkungan; KELOMPOK SASARAN: • semua lapisan masyarakat • kelompok masyarakat • LSM • Aparatur pemerintah
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 41 #1 ===
+NO: 4; BIDANG GARAPAN: Pemberdayaan lingkungan fasum dan fasos; JUDUL KEGIATAN: • Peningkatan kesadaran pemanfaatan fasum dan fasos; BENTUK KEGIATAN: • Penyuluhan menjaga kelestarian fasum dan fasos • Penyuluhan hukum ttg pemanfaatan fasum dan fasos; TUJUAN/KELUARAN: • Peningkatan kepuasan dan kenyamanan masyarakat • Rendahnya potensi konflik antara masyarakat dengan aparatur daerah; KELOMPOK SASARAN: • semua lapisan masyarakat
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 41 #1 ===
+NO: 4; BIDANG GARAPAN: Pemberdayaan lingkungan fasum dan fasos; JUDUL KEGIATAN: • Studi pemulihan kerusakan sempadan sungai; BENTUK KEGIATAN: • Penghijauan pada sepanjang sepadan sungai; TUJUAN/KELUARAN: • teridentifikasi persepsi masyarakat; KELOMPOK SASARAN: • Masyarakat sempadan sungai dan apartur pemda
+=== AKHIR TABEL ===
+
+41
+
+=== HALAMAN 42 ===
+=== TABEL HALAMAN 42 #1 ===
+NO: 4; BIDANG GARAPAN: Pemberdayaan lingkungan fasum dan fasos; JUDUL KEGIATAN: • Pengelolahan wilayah pesisir; BENTUK KEGIATAN: • Penghijauan pada wilayah pesisir • Penyuluhan dan pelatihan pengelolaan sempadan sungai yang berkelanjutan • Pemanfaatan potensi pesisir; TUJUAN/KELUARAN: sempadan/bantaran sunga • Wilayah pesisir • rancangan strategi pemulihan kerusakan sempadan sungai • Wilayah pesisir; KELOMPOK SASARAN: • Masyarakat pesisir
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 42 #1 ===
+NO: 5; BIDANG GARAPAN: Diusulkan pada perancangan bisnis; JUDUL KEGIATAN: • Pengembangan pariwisata yang ramah lingkungan; BENTUK KEGIATAN: • penataan kawasan pariwisata • menyusun grand disain pariwisata daerah; TUJUAN/KELUARAN: • tersusunnya konsep pengembangan pariwisata yang ramah lingkungan; KELOMPOK SASARAN: • apartur daerah • pelaku usaha pariwisata
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 42 #1 ===
+NO: 6; BIDANG GARAPAN: Pemeliharaan kesehatan lingkungan rumah atau kawasan pemukiman; JUDUL KEGIATAN: • Pemeliharaan kesehatan lingkungan rumah atau kawasan pemukiman karena faktor eksternal; BENTUK KEGIATAN: • penyuluhan ttg gangguan kesehatan karena faktor hewan pemeliharaan • penyuluhan ttg gagguan kesehatan akibat polusi dan limbah industri; TUJUAN/KELUARAN: • tidak adanya atau turunnya angka kesakitan karena faktor lingkungan rumah seperti; diare, tipes, leptosirosis, flu burung, toksoplasma, dsb; KELOMPOK SASARAN: • semua lapisan masyarakat • LSM • Apartur daerah
+=== AKHIR TABEL ===
+
+42
+
+=== HALAMAN 43 ===
+[[B]] Lampiran 2
+[[B]] Fokus Indikator Tema SDGs untuk BBK
+[[B]] SDGs 1: No. Poverty (Tanpa Kemiskinan)
+
+=== TABEL HALAMAN 43 #1 ===
+Sub Indikator: Local start-up assistance; Definisi: Memberikan bantuan baik secara finansial maupun sosial kepada komunitas lokal dalam memulai bisnis berkelanjutan. Sasaran dari indikator ini adalah masyarakat yang akan atau sudah memiliki bisnis.; Contoh Program: • Pelatihan gratis • Pendanaan padaUMKM • Akses gratis pada fasilitas universitas
+Sub Indikator: Local start-up financial assistance; Definisi: Menyediakan bantuan keuangan untuk komunitas lokal dalam memulai bisnis berkelanjutan; Contoh Program: • Dana hibah UMKM • Bantuan modal dan monitoring kewirausahaan
+Sub Indikator: Programmes for Services Acces; Definisi: Mengadakan pelatihan atau program untuk meningkatkan akses terhadap layanan dasar bagi semua. Sasaran dari kegiatan ini adalah masyarakat.; Contoh Program: • Pemasangan filtrasi air • Pelatihan pembuatan obat tradisional • Pemasangan penerangan untuk desa terpencil
+Sub Indikator: Policy addressing poverty; Definisi: Berpartisipasi dalam penyusunan kebijakan baik dalam skala lokal, regional, nasional, dan global untuk melaksanakan program/kebijakan dalam pengentasan kemiskinan di semua dimensi; Contoh Program: • Penyusunan regulasi pengentasan kemiskinan • Riset kebijakan penanggulangan kemiskinan
+=== AKHIR TABEL ===
+
+[[B]] SDGs 2: Zero Hunger (Tanpa Kelaparan)
+
+=== TABEL HALAMAN 43-44 #2 ===
+Sub Indikator: Public Resources (life long leraning); Definisi: menyediakan akses fasilitas / sumber daya pendidikan (komputer, buku, jurnal, perpustakaan, kursus online, fasilitas belajar) bagi masyarakat umum atau pihak di luar mahasiswa universitas.; Contoh Program: • Akses perpustakaan umum • Kursus untuk masyarakat
+Sub Indikator: Public Events (lifelong learning); Definisi: Menyelenggarakan acara pendidikan yang terbuka untuk umum (kuliah umum, acara pendidikan untuk suatu komunitas).; Contoh Program: • Kuliah umum untuk masyarakat umum • Seminar teknologi untuk komunitas start up lokal
+Sub Indikator: Vocational Training events (lifelong learning); Definisi: Menyelenggarakan pelatihan vokasi atau program pendidikan non- gelar yang terbuka untuk masyarakat umum (bukan mahasiswa aktif), seperti executive education atau pelatihan keterampilan kerja, untuk mendukung pembelajaran sepanjang hayat.; Contoh Program: • Pelatihan digital marketing • Pelatihan manajemen usaha umkm dan koperasi
+Sub Indikator: PolicyEducation outreach activities beyond campus; Definisi: Melakukan kegiatan pendidikan di luar kampus, seperti kuliah umum, demosntrasi, atau pelatihan yang disesuaikan untuk sekolah, komunitas lokal, atau kelompok masyarakat lainnya. Kegiatan dapat melibatkan dosen maupun mahasiswa secara sukarela.; Contoh Program: • Kelas inspirasi di SMA oleh dosen/mahasiswa • Pelatihan literasi digital di desa
+=== AKHIR TABEL ===
+
+43
+
+=== HALAMAN 44 ===
+[[B]] SDGs 3: Good Health and Well-Being(Kehidupan Sehat dan Sejahtera)
+
+=== TABEL HALAMAN 44-45 #2 ===
+Sub Indikator: Public Resources (life long leraning); Definisi: menyediakan akses fasilitas / sumber daya pendidikan (komputer, buku, jurnal, perpustakaan, kursus online, fasilitas belajar) bagi masyarakat umum atau pihak di luar mahasiswa universitas.; Contoh Program: • Akses perpustakaan umum • Kursus untuk masyarakat
+Sub Indikator: Public Events (lifelong learning); Definisi: Menyelenggarakan acara pendidikan yang terbuka untuk umum (kuliah umum, acara pendidikan untuk suatu komunitas).; Contoh Program: • Kuliah umum untuk masyarakat umum • Seminar teknologi untuk komunitas start up lokal
+Sub Indikator: Vocational Training events (lifelong learning); Definisi: Menyelenggarakan pelatihan vokasi atau program pendidikan non- gelar yang terbuka untuk masyarakat umum (bukan mahasiswa aktif), seperti executive education atau; Contoh Program: • Pelatihan digital marketing • Pelatihan manajemen usaha umkm dan koperasi
+Sub Indikator: Vocational Training events (lifelong learning); Definisi: pelatihan keterampilan kerja, untuk mendukung pembelajaran sepanjang hayat.; Contoh Program: • Pelatihan digital marketing • Pelatihan manajemen usaha umkm dan koperasi
+Sub Indikator: PolicyEducation outreach activities beyond campus; Definisi: Melakukan kegiatan pendidikan di luar kampus, seperti kuliah umum, demosntrasi, atau pelatihan yang disesuaikan untuk sekolah, komunitas lokal, atau kelompok masyarakat lainnya. Kegiatan dapat melibatkan dosen maupun mahasiswa secara sukarela.; Contoh Program: • Kelas inspirasi di SMA oleh dosen/mahasiswa • Pelatihan literasi digital di desa
+=== AKHIR TABEL ===
+
+44
+
+=== HALAMAN 45 ===
+[[B]] SDGs 4: Quality Education (Pendidikan Berkualitas)
+
+=== TABEL HALAMAN 45 #2 ===
+Sub Indikator: Public Resources (life long leraning); Definisi: menyediakan akses fasilitas / sumber daya pendidikan (komputer, buku, jurnal, perpustakaan, kursus online, fasilitas belajar) bagi masyarakat umum atau pihak di luar mahasiswa universitas.; Contoh Program: • Akses perpustakaan umum • Kursus untuk masyarakat
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 45 #2 ===
+Sub Indikator: Public Events (lifelong learning); Definisi: Menyelenggarakan acara pendidikan yang terbuka untuk umum (kuliah umum, acara pendidikan untuk suatu komunitas).; Contoh Program: • Kuliah umum untuk masyarakat umum • Seminar teknologi untuk komunitas start up lokal
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 45 #2 ===
+Sub Indikator: Vocational Training events (lifelong learning); Definisi: Menyelenggarakan pelatihan vokasi atau program pendidikan non- gelar yang terbuka untuk masyarakat umum (bukan mahasiswa aktif), seperti executive education atau pelatihan keterampilan kerja, untuk mendukung pembelajaran sepanjang hayat.; Contoh Program: • Pelatihan digital marketing • Pelatihan manajemen usaha umkm dan koperasi
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 45 #2 ===
+Sub Indikator: PolicyEducation outreach activities beyond campus; Definisi: Melakukan kegiatan pendidikan di luar kampus, seperti kuliah umum, demosntrasi, atau pelatihan yang disesuaikan untuk sekolah, komunitas lokal, atau kelompok masyarakat lainnya. Kegiatan dapat melibatkan dosen maupun mahasiswa secara sukarela.; Contoh Program: • Kelas inspirasi di SMA oleh dosen/mahasiswa • Pelatihan literasi digital di desa
+=== AKHIR TABEL ===
+
+45
+
+=== HALAMAN 46 ===
+[[B]] SDGs 5: Gender Equality (Kesetaraan Gender)
+
+=== TABEL HALAMAN 46 #1 ===
+Sub Indikator: Public Resources (life long leraning); Definisi: menyediakan akses fasilitas / sumber daya pendidikan (komputer, buku, jurnal, perpustakaan, kursus online, fasilitas belajar) bagi masyarakat umum atau pihak di luar mahasiswa universitas.; Contoh Program: • Akses perpustakaan umum • Kursus untuk masyarakat
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 46 #1 ===
+Sub Indikator: Public Events (lifelong learning); Definisi: Menyelenggarakan acara pendidikan yang terbuka untuk umum (kuliah umum, acara pendidikan untuk suatu komunitas).; Contoh Program: • Kuliah umum untuk masyarakat umum • Seminar teknologi untuk komunitas start up lokal
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 46 #1 ===
+Sub Indikator: Vocational Training events (lifelong learning); Definisi: Menyelenggarakan pelatihan vokasi atau program pendidikan non- gelar yang terbuka untuk masyarakat umum (bukan mahasiswa aktif), seperti executive education atau pelatihan keterampilan kerja, untuk mendukung pembelajaran sepanjang hayat.; Contoh Program: • Pelatihan digital marketing • Pelatihan manajemen usaha umkm dan koperasi
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 46 #1 ===
+Sub Indikator: PolicyEducation outreach activities beyond campus; Definisi: Melakukan kegiatan pendidikan di luar kampus, seperti kuliah umum, demosntrasi, atau pelatihan yang disesuaikan untuk sekolah, komunitas lokal, atau kelompok masyarakat lainnya. Kegiatan dapat melibatkan dosen maupun mahasiswa secara sukarela.; Contoh Program: • Kelas inspirasi di SMA oleh dosen/mahasiswa • Pelatihan literasi digital di desa
+=== AKHIR TABEL ===
+
+[[B]] SDG 6: Clean Water and Sanitation (Air Bersih dan Sanitasi Layak)
+
+=== TABEL HALAMAN 46-47 #2 ===
+Sub Indikator: Water management educational opportunities; Definisi: Memberikan edukasi kepada komunitas lokal tentang konservasi, pemanfaatan berkelanjutan, perlindungan kualitas , dan teknologi pengelolaan air; Contoh Program: • Workshop konservasi air untuk petani, nelayan atau pelaku UMKM • Pelatihan pemanfaatan air
+Sub Indikator: Water management educational opportunities; Definisi: Memberikan edukasi kepada komunitas lokal tentang konservasi, pemanfaatan berkelanjutan, perlindungan kualitas , dan teknologi pengelolaan air; Contoh Program: hujan dan sistem filtrasi sederhana
+Sub Indikator: Off-campus water conservation support; Definisi: Mendukung upaya konsevrasi air di luar kampus bersama masyarakat, industri, atau pemerintag; Contoh Program: • Pemasangan irigasi tetas di lahan pertanian desa • Pembangunan sumur resapan dan daerah resapan air
+Sub Indikator: Cooperation on water security; Definisi: Bekerja sama dengan pemerintah lokal, regional, nasional, dan global dalam upaya menjaga keamanan air, termasuk ketersediaan, kualitas, pengelolaan, dan perlindungan sumber daya air; Contoh Program: • Proyek monitoring kualitas air bersama DLH • Forum kebijakan keamanan air tingkat regional
+Sub Indikator: Promoting conscious wataer usage in the wider community; Definisi: Mempromosikan perilaku hemat air di masyarakat luas melalui edukasi, kampanye, dan program kolaboratif untuk mendorong perilaku hemat air serta pengelolaan sumber daya air yang berkelanjutan; Contoh Program: • Penyuluhan hemat air di desa dan sekolah • Pelatihan efisiensi air untuk pertanian dan umkm
+=== AKHIR TABEL ===
+
+46
+
+=== HALAMAN 47 ===
+[[B]] SDGs 7: Affordable and Clean Energi (Energi Bersih dan Terjangkau)
+
+=== TABEL HALAMAN 47-48 #2 ===
+Sub Indikator: Public Resources (life long leraning); Definisi: menyediakan akses fasilitas / sumber daya pendidikan (komputer, buku, jurnal, perpustakaan, kursus online, fasilitas belajar) bagi masyarakat umum atau pihak di luar mahasiswa universitas.; Contoh Program: • Akses perpustakaan umum • Kursus untuk masyarakat
+Sub Indikator: Public Events (lifelong learning); Definisi: Menyelenggarakan acara pendidikan yang terbuka untuk umum (kuliah umum, acara pendidikan untuk suatu komunitas).; Contoh Program: • Kuliah umum untuk masyarakat umum • Seminar teknologi untuk komunitas start up lokal
+Sub Indikator: Vocational Training events (lifelong learning); Definisi: Menyelenggarakan pelatihan vokasi atau program pendidikan non- gelar yang terbuka untuk masyarakat umum (bukan mahasiswa aktif), seperti executive education atau; Contoh Program: • Pelatihan digital marketing • Pelatihan manajemen usaha umkm dan koperasi
+Sub Indikator: Vocational Training events (lifelong learning); Definisi: pelatihan keterampilan kerja, untuk mendukung pembelajaran sepanjang hayat.; Contoh Program: • Pelatihan digital marketing • Pelatihan manajemen usaha umkm dan koperasi
+Sub Indikator: PolicyEducation outreach activities beyond campus; Definisi: Melakukan kegiatan pendidikan di luar kampus, seperti kuliah umum, demosntrasi, atau pelatihan yang disesuaikan untuk sekolah, komunitas lokal, atau kelompok masyarakat lainnya. Kegiatan dapat melibatkan dosen maupun mahasiswa secara sukarela.; Contoh Program: • Kelas inspirasi di SMA oleh dosen/mahasiswa • Pelatihan literasi digital di desa
+=== AKHIR TABEL ===
+
+47
+
+=== HALAMAN 48 ===
+[[B]] SDGs 8 Decent Work and Economic Growth (Perkerjaan Layak dan Pertumbuhan
+[[B]] Ekonomi
+
+=== TABEL HALAMAN 48 #2 ===
+Sub Indikator: Education for entrepeneurs hip and decent work; Definisi: Menyediakan pembelajaran atau pelatihan tentang kewirausahaan, keterampilan kerja, dan ekonomi inklusif.; Contoh Program: • Workshop pembuatan dan pemasaran produk lokal • Kursus mengenai digital marketing keuangan sederhana, dna keterampilan teknis
+Sub Indikator: Community outreach for inclusive economic growth; Definisi: Melaksanakan Pengabdian masyarakat yang mendorong kemandirian ekonomi komunitas; Contoh Program: • Pelatihan digital marketing
+Sub Indikator: Student involement in sustainable economy projects; Definisi: Mahasisiwa terlibat aktif dalam proyek ekonomi berkelanjutan yang berdampak pada masyarakat; Contoh Program: • Proyek pendampingan umkm oleh mahasisiwa • Mahasisiwa bersama masyarakat mengembangkan usaha berbasis ramah lingkungan
+=== AKHIR TABEL ===
+
+[[B]] SDGs 9: Industry, Innovation, and Infrastructutre (Industri, Inovasi, dan Infrastruktur)
+No Sub Indikator Definisi Contoh Program
+48
+
+=== HALAMAN 49 ===
+=== TABEL HALAMAN 49 #1 ===
+1: 2; Education for innovation and technology: Community based infrastructure and technology outreach; Menyelenggarakan pembelajran tentang inovasi, riset terapan, dan teknologi tepat guna: Melaksanakan pengabdian masyarakat dengan penerapan teknologi untuk infrastruktur berkelanjutan; • E-learning desa 3T untuk sekolah • Bootcamp kewirausahaan berbasis teknologi: • Smart irrigation system sebagai teknologi IoT untuk irigasi • Panel surya desa untuk instalasi pembangkit tenaga listrik
+1: 3; Education for innovation and technology: Support for innovation and starrup incubation; Menyelenggarakan pembelajran tentang inovasi, riset terapan, dan teknologi tepat guna: Mendampingi, melatih, dan menginkubasi startup berbasis inovasi dan teknologi berkelanjutan yang sudah diaplikasikan pada masyarakat; • E-learning desa 3T untuk sekolah • Bootcamp kewirausahaan berbasis teknologi: • Matching menghubungkan startupa dengan investor • Pendampingan pada startup
+=== AKHIR TABEL ===
+
+[[B]] SDGs 10: Reduced Inequalities (Berkurangnya Kesenjangan)
+
+=== TABEL HALAMAN 49 #2 ===
+Sub Indikator: Support for underrepresented group; Definisi: Memberikan pendampingan, konseling, dan dukungan sebaya untuk kelompok minoritas atau kurang terwakili; Contoh Program: • Sesi mentoring • Peer suport group
+Sub Indikator: Accessible facilities; Definisi: Menyediakan fasilitas yang ramah dan dapat diakses oleh penyandang disabilitas; Contoh Program: • Pemasangan fasilitas ramah disabilitas
+Sub Indikator: Disability support services; Definisi: Memberikan pelayanan khusus untuk mendukung studi dan pekerjaan bagi penyandang disabilitas; Contoh Program: • Penyediaan juru bahasa isyarat • Layanan peminjaan alat bantu dengar
+Sub Indikator: Disability acces scheme; Definisi: Memiliki skema dalam menyediakan layanan pendampingan dan fasilitas pendukung bagi penyandang disabilitas; Contoh Program: • Relawan untuk disabilitas • Waktu tambahan untuk disabilitas
+=== AKHIR TABEL ===
+
+[[B]] SDGs 11: Sustainable Cities and Communities (Kota dan Pemukiman yang Berkelanjutan)
+
+=== TABEL HALAMAN 49-50 #3 ===
+Sub Indikator: Public Resources (life long leraning); Definisi: menyediakan akses fasilitas / sumber daya pendidikan (komputer, buku, jurnal, perpustakaan, kursus online,; Contoh Program: • Akses perpustakaan umum
+Sub Indikator: Public Resources (life long leraning); Definisi: fasilitas belajar) bagi masyarakat umum atau pihak di luar mahasiswa universitas.; Contoh Program: • Kursus untuk masyarakat
+Sub Indikator: Public Events (lifelong learning); Definisi: Menyelenggarakan acara pendidikan yang terbuka untuk umum (kuliah umum, acara pendidikan untuk suatu komunitas).; Contoh Program: • Kuliah umum untuk masyarakat umum • Seminar teknologi untuk komunitas start up lokal
+Sub Indikator: Vocational Training events (lifelong learning); Definisi: Menyelenggarakan pelatihan vokasi atau program pendidikan non- gelar yang terbuka untuk masyarakat umum (bukan mahasiswa aktif), seperti executive education atau pelatihan keterampilan kerja, untuk mendukung pembelajaran sepanjang hayat.; Contoh Program: • Pelatihan digital marketing • Pelatihan manajemen usaha umkm dan koperasi
+Sub Indikator: PolicyEducation outreach activities beyond campus; Definisi: Melakukan kegiatan pendidikan di luar kampus, seperti kuliah umum, demosntrasi, atau pelatihan yang disesuaikan untuk sekolah, komunitas lokal, atau kelompok masyarakat lainnya. Kegiatan dapat melibatkan dosen maupun mahasiswa secara sukarela.; Contoh Program: • Kelas inspirasi di SMA oleh dosen/mahasiswa • Pelatihan literasi digital di desa
+=== AKHIR TABEL ===
+
+49
+
+=== HALAMAN 50 ===
+[[B]] SDGs 12: Responsible Consumption and Production (Konsumsi dan Produksi yang
+[[B]] Bertanggung Jawab)
+
+=== TABEL HALAMAN 50-51 #2 ===
+Sub Indikator: Public Resources (life long leraning); Definisi: menyediakan akses fasilitas / sumber daya pendidikan (komputer, buku, jurnal, perpustakaan, kursus online, fasilitas belajar) bagi masyarakat umum atau pihak di luar mahasiswa universitas.; Contoh Program: • Akses perpustakaan umum • Kursus untuk masyarakat
+Sub Indikator: Public Events (lifelong learning); Definisi: Menyelenggarakan acara pendidikan yang terbuka untuk umum (kuliah umum, acara pendidikan untuk suatu komunitas).; Contoh Program: • Kuliah umum untuk masyarakat umum • Seminar teknologi untuk komunitas start up lokal
+Sub Indikator: Vocational Training events (lifelong learning); Definisi: Menyelenggarakan pelatihan vokasi atau program pendidikan non- gelar yang terbuka untuk masyarakat umum (bukan mahasiswa aktif), seperti executive education atau pelatihan keterampilan kerja, untuk mendukung pembelajaran sepanjang hayat.; Contoh Program: • Pelatihan digital marketing • Pelatihan manajemen usaha umkm dan koperasi
+Sub Indikator: PolicyEducation outreach activities beyond campus; Definisi: Melakukan kegiatan pendidikan di luar kampus, seperti kuliah umum, demosntrasi, atau pelatihan yang disesuaikan untuk sekolah, komunitas lokal, atau kelompok masyarakat lainnya. Kegiatan dapat melibatkan dosen maupun mahasiswa secara sukarela.; Contoh Program: • Kelas inspirasi di SMA oleh dosen/mahasiswa • Pelatihan literasi digital di desa
+=== AKHIR TABEL ===
+
+50
+
+=== HALAMAN 51 ===
+[[B]] SDGs 13: Climate Action (Penanganan Perubahan Iklim)
+
+=== TABEL HALAMAN 51-52 #2 ===
+Sub Indikator: Public Resources (life long leraning); Definisi: menyediakan akses fasilitas / sumber daya pendidikan (komputer, buku, jurnal, perpustakaan, kursus online, fasilitas belajar) bagi masyarakat umum atau pihak di luar mahasiswa universitas.; Contoh Program: • Akses perpustakaan umum • Kursus untuk masyarakat
+Sub Indikator: Public Events (lifelong learning); Definisi: Menyelenggarakan acara pendidikan yang terbuka untuk umum (kuliah umum, acara pendidikan untuk suatu komunitas).; Contoh Program: • Kuliah umum untuk masyarakat umum • Seminar teknologi untuk komunitas start up lokal
+Sub Indikator: Vocational Training events (lifelong learning); Definisi: Menyelenggarakan pelatihan vokasi atau program pendidikan non- gelar yang terbuka untuk masyarakat umum (bukan mahasiswa aktif), seperti executive education atau pelatihan keterampilan kerja, untuk mendukung pembelajaran sepanjang hayat.; Contoh Program: • Pelatihan digital marketing • Pelatihan manajemen usaha umkm dan koperasi
+Sub Indikator: PolicyEducation outreach activities beyond campus; Definisi: Melakukan kegiatan pendidikan di luar kampus, seperti kuliah umum, demosntrasi, atau pelatihan yang disesuaikan; Contoh Program: • Kelas inspirasi di SMA oleh dosen/mahasiswa
+Sub Indikator: PolicyEducation outreach activities beyond campus; Definisi: untuk sekolah, komunitas lokal, atau kelompok masyarakat lainnya. Kegiatan dapat melibatkan dosen maupun mahasiswa secara sukarela.; Contoh Program: • Pelatihan literasi digital di desa
+=== AKHIR TABEL ===
+
+51
+
+=== HALAMAN 52 ===
+[[B]] SDGs 14: Life Below Water (Ekosistem Laut)
+
+=== TABEL HALAMAN 52 #2 ===
+Sub Indikator: Public Resources (life long leraning); Definisi: menyediakan akses fasilitas / sumber daya pendidikan (komputer, buku, jurnal, perpustakaan, kursus online, fasilitas belajar) bagi masyarakat umum atau pihak di luar mahasiswa universitas.; Contoh Program: • Akses perpustakaan umum • Kursus untuk masyarakat
+Sub Indikator: Public Events (lifelong learning); Definisi: Menyelenggarakan acara pendidikan yang terbuka untuk umum (kuliah umum, acara pendidikan untuk suatu komunitas).; Contoh Program: • Kuliah umum untuk masyarakat umum • Seminar teknologi untuk komunitas start up lokal
+Sub Indikator: Vocational Training events (lifelong learning); Definisi: Menyelenggarakan pelatihan vokasi atau program pendidikan non- gelar yang terbuka untuk masyarakat umum (bukan mahasiswa aktif), seperti executive education atau pelatihan keterampilan kerja, untuk mendukung pembelajaran sepanjang hayat.; Contoh Program: • Pelatihan digital marketing • Pelatihan manajemen usaha umkm dan koperasi
+Sub Indikator: PolicyEducation outreach activities beyond campus; Definisi: Melakukan kegiatan pendidikan di luar kampus, seperti kuliah umum, demosntrasi, atau pelatihan yang disesuaikan untuk sekolah, komunitas lokal, atau kelompok masyarakat lainnya. Kegiatan dapat melibatkan dosen maupun mahasiswa secara sukarela.; Contoh Program: • Kelas inspirasi di SMA oleh dosen/mahasiswa • Pelatihan literasi digital di desa
+=== AKHIR TABEL ===
+
+[[B]] SDGs 15: Life on Land (Ekosistem Daratan)
+
+=== TABEL HALAMAN 52-53 #3 ===
+Sub Indikator: Public Resources (life long leraning); Definisi: menyediakan akses fasilitas / sumber daya pendidikan (komputer, buku, jurnal,; Contoh Program: • Akses perpustakaan umum
+Sub Indikator: Public Resources (life long leraning); Definisi: perpustakaan, kursus online, fasilitas belajar) bagi masyarakat umum atau pihak di luar mahasiswa universitas.; Contoh Program: • Kursus untuk masyarakat
+Sub Indikator: Public Events (lifelong learning); Definisi: Menyelenggarakan acara pendidikan yang terbuka untuk umum (kuliah umum, acara pendidikan untuk suatu komunitas).; Contoh Program: • Kuliah umum untuk masyarakat umum • Seminar teknologi untuk komunitas start up lokal
+Sub Indikator: Vocational Training events (lifelong learning); Definisi: Menyelenggarakan pelatihan vokasi atau program pendidikan non- gelar yang terbuka untuk masyarakat umum (bukan mahasiswa aktif), seperti executive education atau pelatihan keterampilan kerja, untuk mendukung pembelajaran sepanjang hayat.; Contoh Program: • Pelatihan digital marketing • Pelatihan manajemen usaha umkm dan koperasi
+Sub Indikator: PolicyEducation outreach activities beyond campus; Definisi: Melakukan kegiatan pendidikan di luar kampus, seperti kuliah umum, demosntrasi, atau pelatihan yang disesuaikan untuk sekolah, komunitas lokal, atau kelompok masyarakat lainnya. Kegiatan dapat melibatkan dosen maupun mahasiswa secara sukarela.; Contoh Program: • Kelas inspirasi di SMA oleh dosen/mahasiswa • Pelatihan literasi digital di desa
+=== AKHIR TABEL ===
+
+52
+
+=== HALAMAN 53 ===
+[[B]] SDGs 16: Peace, Justice, and Strong Institution (Kedamaian, Keadilan, dan Kelembagaan
+[[B]] yang Tangguh)
+
+=== TABEL HALAMAN 53-54 #2 ===
+Sub Indikator: Public Resources (life long leraning); Definisi: menyediakan akses fasilitas / sumber daya pendidikan (komputer, buku, jurnal, perpustakaan, kursus online, fasilitas belajar) bagi masyarakat umum atau pihak di luar mahasiswa universitas.; Contoh Program: • Akses perpustakaan umum • Kursus untuk masyarakat
+Sub Indikator: Public Events (lifelong learning); Definisi: Menyelenggarakan acara pendidikan yang terbuka untuk umum (kuliah umum, acara pendidikan untuk suatu komunitas).; Contoh Program: • Kuliah umum untuk masyarakat umum • Seminar teknologi untuk komunitas start up lokal
+Sub Indikator: Vocational Training events (lifelong learning); Definisi: Menyelenggarakan pelatihan vokasi atau program pendidikan non- gelar yang terbuka untuk masyarakat umum (bukan mahasiswa aktif), seperti executive education atau pelatihan keterampilan kerja, untuk mendukung pembelajaran sepanjang hayat.; Contoh Program: • Pelatihan digital marketing • Pelatihan manajemen usaha umkm dan koperasi
+Sub Indikator: PolicyEducation outreach activities beyond campus; Definisi: Melakukan kegiatan pendidikan di luar kampus, seperti kuliah umum, demosntrasi, atau pelatihan yang disesuaikan untuk sekolah, komunitas lokal, atau kelompok masyarakat lainnya. Kegiatan dapat melibatkan dosen maupun mahasiswa secara sukarela.; Contoh Program: • Kelas inspirasi di SMA oleh dosen/mahasiswa • Pelatihan literasi digital di desa
+=== AKHIR TABEL ===
+
+53
+
+=== HALAMAN 54 ===
+[[B]] SDGs 17: Partnership for The Goals (Kemitraan untuk Mencapai Tujuan)
+
+=== TABEL HALAMAN 54-55 #2 ===
+Sub Indikator: Relationship with regional NGOs and Government for SDG policy; Definisi: terlibat langsung dalam proses pengembangan kebijakan TPB/ SDGs bersama pemerintah atau NGO dalam pemberian masukan, rekomendasi, atau dukungan dalam penyusunan kebijakan.; Contoh Program: • Kajian prevaliensi stunting bersama kemenkes • Penyusunan strategi pengentasan kemiskinan bersama Bappenas
+Sub Indikator: Cross sectoral dialogue about SDGs; Definisi: memfasilitasi atau ikut serta dalam dialog lintas sektor (pemerintah, NGO, industri, komunitas) untuk membahas isu dan solusi terkait SDGs.; Contoh Program: • FGD bersama DPRD dan komunitas tentang tata kelola desa berkelanjutan • Forum regulasi perlindungan lingkungan bersama NGO, DLH, dan akademisi
+Sub Indikator: International Collaboration data gathering for SDG; Definisi: Berpartisipasi dalam kolaborasi internasional untuk mengumpulkan atau mengukur data terkait pencapaian SDGs.; Contoh Program: • Penelitian bersama Univeritas Luar Negeri mengenai data kualitas air, • Konsorsium internasional untuk data SDGs
+Sub Indikator: Collaboration for SDG best practice; Definisi: Berkolaborasi dengan mitra internasional melalui riset atau kegiatan bersama untuk membandingkan pendekatan dan mengembangkan praktik terbaik dalam pencapaian SDGs.; Contoh Program: • Joint research project dengan univ LN untuk pengelolaan limbah • international conference tentang energi terbarukan
+Sub Indikator: Collaboration with NGOs for SDGs; Definisi: bekerja sama dengan LSM/NGO untuk mendukung pencapaian SDGs melalui kegiatan pengabdian masyarakat, riset, atau pengembangan materi edukasi.; Contoh Program: • Pengmas bersama NGO untuk konservasi • Kampanye bersama NGO terkait rehabilitasi mangrove
+Sub Indikator: Education for SDGs Commitment to meaningful education; Definisi: Berkomitmen memberikan pendidikan yang bermakna tentang SDGs kepada seluruh mahasiswa, relevan dengan bidang studi dan aplikatif dalam kehidupan nyata.; Contoh Program: • KKN untuk penyelesaian masalah SDGs • Proyek berbasis SDGs kepada masyarakat
+Sub Indikator: Education for SDGs: specific courses on sustainability; Definisi: Menyediakan program studi atau mata kuliah khusus (wajib atau pilihan) yang membahas keberlanjutan (SDGs) secara mendalam untuk mahasiswa.; Contoh Program: • Mata Kuliah Umum lintas Fakultas “Intro to SDGs” • Prodi khusus Magister Energi terbarukan, •
+=== AKHIR TABEL ===
+
+54
+
+=== HALAMAN 55 ===
+55
+
+=== HALAMAN 56 ===
+[[B]] FORMAT PROPOSAL
+Format Proposal:
+• Kertas ukuran A4
+• Font Times New Roman ukuran 12
+SAMPUL (COVER)
+Kementerian Pendidikan Tinggi, Sains, dan Teknologi
+Universitas Airlangga
+PROPOSAL
+Oleh :
+Nama Mahasiswa NIM
+1. ……
+2………
+3......
+Institusi/Lokasi : ……………
+Kelurahan/Desa : ……………
+Kecamatan : …………….
+Kab/Kota : ……………
+Lembaga Pengabdian Masyarakat Berkelanjutan
+Universitas Airlangga
+Surabaya
+2026
+56
+
+=== HALAMAN 57 ===
+HALAMAN PENGESAHAN LAPORAN
+BELAJAR BERSAMA KOMUNITAS (BBK) 8 UNIVERSITAS AIRLANGGA
+TAHUN 2026
+DI KELURAHAN/DESA ........... KECAMATAN ..................
+KAB / KOTA ...........
+Nama Mahasiswa NIM
+1. ...................................................... ...................
+2. ..................................................... ..................
+3. dst
+Rencana Biaya : Rp ..............................
+Sumber Dana : ...................................
+Lokasi Kab/Kota, ...............
+Kepala Desa/Lurah Ketua Kelompok
+................................ ...............................
+NIM
+Koordinator Kabupaten Dosen Pembimbing Lapangan
+................................ ...............................
+NIP NIM
+Mengetahui,
+Ketua LPMB
+Prof. Hery Purnobasuki, M.Si., Ph.D.
+NIP. 196705071991021001
+57
+
+=== HALAMAN 58 ===
+ 
+58 
+ 
+ 
+ 
+ 
+ 
+ 
+ISI PROPOSAL 
+ 
+ 
+ 
+ 
+ 
+[[B]] Sampul
+ 
+[[B]] Halaman Pengesahan Daftar Isi
+[[B]] Bab I    Pendahuluan
+1. Latar Belakang Masalah 
+2. Rumusan Masalah 
+3. Tujuan Kegiatan 
+4. Manfaat 
+ 
+[[B]] Bab II   Rencana Bidang Garapan
+Disesuaikan Dengan Kondisi Wilayah BBK 8 
+ 
+[[B]] Bab III  Rencana Anggaran
+1. Anggaran Kegiatan 
+2. Sumber Anggaran 
+ 
+[[B]] Penutup
+ 
+[[B]] Daftar Pustaka Lampiran (Bila Ada)
+
+=== HALAMAN 59 ===
+ 
+59 
+ 
+ 
+[[B]] Lampiran 3
+[[B]] FORMAT PENYUSUNAN LAPORAN AKHIR
+[[B]] BERUPA BOOK CHAPTER
+ 
+[[B]] Judul
+ (Tuliskan judul yang jelas dan mencerminkan fokus kegiatan pengabdian masyarakat serta 
+keterkaitannya dengan SDGs) 
+[[B]] Pendahuluan
+● Latar Belakang: (Berikan penjelasan mengenai konteks permasalahan yang dihadapi 
+masyarakat, serta relevansinya dengan salah satu atau beberapa Tujuan Pembangunan 
+Berkelanjutan/SDGs.) 
+● Tujuan Pengabdian: (Sampaikan tujuan spesifik dari kegiatan pengabdian masyarakat 
+yang dilakukan.) 
+● Tinjauan SDGs Terkait: (Jelaskan SDGs yang menjadi fokus dan bagaimana kegiatan 
+ini mendukung pencapaian indikator tujuan tersebut.) 
+[[B]] Pelaksanaan Kegiatan
+● Metodologi Pelaksanaan: (Jelaskan metode yang digunakan dalam menjalankan 
+program, seperti pelatihan, pendampingan, pendekatan partisipatif, dll.) 
+● Target Sasaran dan Lokasi: (Sebutkan siapa yang menjadi target kegiatan dan di mana 
+kegiatan dilakukan.) 
+● Deskripsi Kegiatan: (Uraikan secara kronologis kegiatan yang dilaksanakan, disertai 
+dokumentasi dan inovasi yang dilakukan untuk menjawab isu SDGs.) 
+● Keterlibatan Masyarakat dan Kolaborasi: (Jelaskan peran masyarakat dan mitra 
+kolaboratif dalam kegiatan ini.) 
+[[B]] Dampak dan Capaian
+● Capaian Kegiatan: (Sampaikan hasil yang dicapai, baik kuantitatif maupun kualitatif, 
+terhadap masyarakat dan indikator SDGs.) 
+● Dampak Jangka Panjang: (Analisis potensi keberlanjutan program dan 
+kontribusinya terhadap transformasi sosial atau lingkungan.) 
+[[B]] Penutup
+(Simpulkan poin-poin penting dari kegiatan dan berikan rekomendasi untuk pengembangan 
+kegiatan serupa di masa depan.) 
+[[B]] Daftar Pustaka
+(Jika ada referensi atau dasar teori/metodologi yang digunakan dalam pelaksanaan 
+kegiatan, cantumkan sesuai format kutipan yang diinginkan – APA, MLA, dll.) 
+ 
+
+=== HALAMAN 60 ===
+ 
+60 
+ 
+ 
+[[B]] Ketentuan Penulisan
+● Font  
+ 
+: Times New Roman 
+● Ukuran font  
+: 12 pt 
+● Jarak spasi 
+ 
+: 1,5 
+● Panjang tulisan 
+: Maks. 2.500 kata (tidak termasuk daftar pustaka) 
+● Ukuran kertas 
+: A4 
+● Margin 
+ 
+: 2 cm 
+ 
+
+=== HALAMAN 61 ===
+[[B]] Lampiran 4
+[[B]] JENIS-JENIS PENUGASAN BBK
+
+=== TABEL HALAMAN 61 #1 ===
+Jenis Penugasan: Harian; Deskripsi Penugasan: • Unggah Instagram Stories dan Post di Feed Instagram menggunakan akun instagram masing-masing kelompok dengan ketentuan sebagai berikut: a. Unggah foto selfie satu kelompok dan diberi keterangan lokasi dan waktu yang ada pada fitur instagram stories (hanya pada instagram stories) b. Unggah foto dan video saat pelaksanaan kegiatan/program kerja dan diberi keterangan (caption) program apa yang sedang dilaksanakan serta diberi lokasi dan waktu pelaksanaan kegiatan (instagram stories dan post di feed instagram)(bukan foto/video narsis/seremonial) c. Untuk instagram stories diberi hashtag #UniversitasAirlangga #BBK8UNAIR #SDGs d. Untuk post di feed instagram diberi hashtag #UniversitasAirlangga #BBK8UNAIR #UNAIRHEBAT #UNAIRWCU #GlobalSDGs #SDGs #UNAIRFORSDGs #UNAIRMengabdi #LPMBUNAIR e. Mengaktifkan fitur “simpan story pada arsip/save to archive” pada pengaturan instagram stories f. Akun instagram masing-masing kelompok tidak boleh diprivate
+=== AKHIR TABEL ===
+=== TABEL HALAMAN 61 #1 ===
+Jenis Penugasan: Mingguan; Deskripsi Penugasan: • Membuat rangkuman kegiatan dalam satu minggu dengan ketentuan sebagai berikut: a. Laporan mingguan dalam bentuk powerpoint yang berisi kegiatan/program kerja yang telah dilaksanakan selama satu minggu. Powerpoint berisi: • Jenis Bidang Garap • Nama Kegiatan • Deskripsi Kegiatan • Waktu Pelaksanaan Kegiatan • Target Sasaran Kegiatan • PIC Kegiatan • Tujuan dan Manfaat Kegiatan • Hasil/Output Kegiatan • Jumlah Peserta yang Hadir • Foto (minimal 2 foto setiap kegiatan) dan Video Dokumentasi Kegiatan b. Unggah URL/link foto dan video yang telah diunggah pada feed instagram selama satu minggu kegiatan dalam bentuk format c. Laporan Mingguan diunggah oleh perwakilan kelompok melalui link pengumpula yang disediakan
+=== AKHIR TABEL ===
+
+61
+
+=== HALAMAN 62 ===
+=== TABEL HALAMAN 62 #1 ===
+Jenis Penugasan: Laporan Akhir; Deskripsi Penugasan: • Laporan Akhir berupa Book Chapter dalam bentuk format MS Word sesuai template disertai lembar pengesahan DPL dan Koordinator Kabupaten • Artikel Berita dalam bentuk format PDF • Rangkuman kegiatan selama satu bulan dalam bentuk powerpoint yang berisi kegiatan/program kerja yang telah dilaksanakan dengan berisi: a. Jenis Bidang Garap b. Nama Kegiatan c. Deskripsi Kegiatan d. Waktu Pelaksanaan Kegiatan e. Target Sasaran Kegiatan f. PIC Kegiatan g. Tujuan dan Manfaat Kegiatan h. Hasil/Output Kegiatan i. Jumlah Peserta yang Hadir j. Foto (minimal 2 foto setiap kegiatan) • Dokumentasi Kegiatan berupa Video dengan ketentuan sebagai berikut: a. Ketentuan, Umum: • Video berdurasi selama 1-2 menit • Menayangkan salah satu program kerja unggulan yang dijalankan selama pelaksanaan BBK • Video disertai narasi penjelasan berupa voice over • Secara umum video berisi ringkasan kegiatan (5W+1H) • Video wajib menampilkan lokasi kegiatan, sasaran kegiatan, dan anggota kelompok BBK (tidak boleh foto) • Mencantumkan logo LPMB di kanan atas video yang disediakan • Intro video menggunakan bumper yang disediakan • Akhir video berupa credit yang disediakan • Kualitas video minimal 1080p b. Muatan, Isi: • Bagian awal: menampilkan salah satu mahasiswa yang menjadi reporter atau naralapor • Bagian tengah: penjelasan program kegiatan yang dilaksanakan secara ringkas • Bagian akhir: interaksi dengan masyarakat dari program kegiatan atau kerja dalam bentuk testimoni atau jargon bersama c. Muatan, Thumbnail: • Cover video menggunakan template yang disediakan • Judul thumbnail dibuat secara menarik, kreatif, substansi dan edukatif (bukan: After Movie Kegiatan Pendidikan BBK Desa Bengkak) • Deskripsi menjelaskan program kerja unggulan yang dijalankan
+=== AKHIR TABEL ===
+
+62
+
+=== HALAMAN 63 ===
+63
+
+=== HALAMAN 64 ===
+[[B]] Lampiran 5
+[[B]] FORMAT RINGKASAN KEGIATAN
+[[B]] RINGKASAN KEGIATAN
+[[B]] KULIAH KERJA NYATA – BELAJAR BERSAMA KOMUNITAS KE-8
+[[B]] UNIVERSITAS AIRLANGGA
+DESA/KELURAHAN: KECAMATAN: KABUPATEN/KOTA:
+
+64
+
+=== HALAMAN 65 ===
+[[B]] Lampiran 6
+[[B]] FORMAT DAFTAR HADIR MAHASISWA
+[[B]] DAFTAR KEHADIRAN MAHASISWA
+[[B]] KULIAH KERJA NYATA – BELAJAR BERSAMA KOMUNITAS KE-8
+[[B]] UNIVERSITAS AIRLANGGA
+DESA/KELURAHAN: KECAMATAN: KABUPATEN/KOTA:
+
+65
+
+=== HALAMAN 66 ===
+[[B]] Lampiran 7
+[[B]] FORMAT REALISASI ANGGARAN
+[[B]] REALISASI ANGGARAN
+[[B]] KULIAH KERJA NYATA – BELAJAR BERSAMA KOMUNITAS KE-8
+[[B]] UNIVERSITAS AIRLANGGA
+DESA/KELURAHAN :
+KECAMATAN :
+KABUPATEN/KOTA :
+
+66
+
+=== HALAMAN 67 ===
+[[B]] Lampiran 8
+[[B]] FORMAT DOKUMENTAS KEGIATAN
+[[B]] DOKUMENTASI KEGIATAN
+[[B]] KULIAH KERJA NYATA – BELAJAR BERSAMA KOMUNITAS KE-8
+[[B]] UNIVERSITAS AIRLANGGA
+DESA/KELURAHAN :
+KECAMATAN :
+KABUPATEN/KOTA :
+
+67
+
+=== HALAMAN 68 ===
+ 
+68 
+ 
+ 
+ 

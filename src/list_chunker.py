@@ -72,11 +72,11 @@ def _pack(blocks, first_head, carry, max_chars):
     return chunks
 
 
-def chunk_section(text, max_chars=2000):
+def chunk_section(text, max_chars=2000, fallback_title=""):
     preamble, units = _units(text)
     if not units:
         return [text.strip()]
-    carry = _lead_in(preamble) or (preamble[0] if preamble else "")   # tanpa kalimat pengantar: pakai judul bagian
+    carry = _lead_in(preamble) or fallback_title or (preamble[0] if preamble else "")   # tanpa kalimat pengantar: pakai judul bagian
     blocks = []
     for u in units:
         if sum(len(x) + 1 for x in u) <= max_chars or len(u) == 1:
@@ -143,4 +143,54 @@ def merge_siblings(sections, max_chars=2000, min_chars=250, sep=" > "):
             continue
         group.append((h, t))
     flush()
+    return out
+
+
+def pack_rows(chunks, max_chars=2000):
+    """Kemas chunk tabel berurutan yang section_heading-nya persis sama sampai max_chars.
+
+    chunks: list[dict] dengan kunci chunk_id, section_heading, text, page_start, page_end, is_table.
+    - jalur judul ditulis sekali di awal; baris berikutnya dipakai tanpa awalan judul
+    - hanya chunk tabel bersebelahan dengan section_heading sama; chunk teks tidak disentuh
+    - chunk hasil memakai chunk_id anggota pertama, halaman awal/akhir dari anggotanya,
+      dan merged_from berisi chunk_id asal (hanya bila ada penggabungan)
+    """
+    def body(c):
+        h = c["section_heading"]
+        return c["text"][len(h) + 1:] if h and c["text"].startswith(h + "\n") else None
+
+    def emit(group):
+        if len(group) == 1:
+            return dict(group[0])
+        first = group[0]
+        text = "\n".join([first["text"]] + [body(c) for c in group[1:]])
+        out = dict(first)
+        out.update(
+            text=text,
+            n_chars=len(text),
+            page_start=min(c["page_start"] for c in group),
+            page_end=max(c["page_end"] for c in group),
+            merged_from=[c["chunk_id"] for c in group],
+        )
+        if "n_tokens" in first:
+            out["n_tokens"] = sum(c["n_tokens"] for c in group)   # perkiraan: judul yang dibuang tak dikurangkan
+        return out
+
+    out, group, size = [], [], 0
+    for c in chunks:
+        add = None
+        if group and c.get("is_table") and group[0].get("is_table") \
+                and c["section_heading"] and c["section_heading"] == group[0]["section_heading"]:
+            b = body(c)
+            if b is not None and size + len(b) + 1 <= max_chars:
+                add = len(b) + 1
+        if add is None:
+            if group:
+                out.append(emit(group))
+            group, size = [c], len(c["text"])
+        else:
+            group.append(c)
+            size += add
+    if group:
+        out.append(emit(group))
     return out

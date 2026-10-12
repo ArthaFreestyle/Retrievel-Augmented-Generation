@@ -22,8 +22,10 @@ def _clean(rows):
 
 
 def _header_rows(rows):
-    # baris kedua dianggap bagian judul bila sel pertamanya kosong dan tabelnya masih punya isi
-    return 2 if len(rows) > 2 and not rows[1][0] else 1
+    # baris kedua dianggap bagian judul bila sel pertamanya kosong dan tabelnya masih punya isi;
+    # baris yang memuat "•" / "[diisi]" (daftar pilihan, isian) pasti data, bukan judul kolom
+    data = any("•" in c or "[diisi]" in c for c in rows[1]) if len(rows) > 1 else False
+    return 2 if len(rows) > 2 and not rows[1][0] and not data else 1
 
 
 def _ghost_merges(rows, h):
@@ -93,12 +95,45 @@ def _join_fragments(fragments, notes):
                             r[j] = f"{r[j]} {sisa}"
                             break
             frag = frag[h:]
+        if frag and body and _sambungan_baris(body[-1], frag[0]):
+            last = len(frag[0]) - 1   # sel butir disambung per baris, sel lain (mis. nama tema) dengan spasi
+            for j, c in enumerate(frag[0]):
+                if c:
+                    body[-1][j] = f"{body[-1][j]}{chr(10) if j == last else ' '}{c}"
+            frag = frag[1:]
         body += frag
         src += [n] * len(frag)
     return head, body, src
 
 
-def fix_table(fragments, drop=("No", "No."), ffill=True, with_pages=False):
+_BUTIR_RE = re.compile(r"^(?:([a-z])|(\d{1,2}))\.\s", re.M)
+
+
+def _butir(cell, last):
+    """Penanda butir terakhir/pertama sebuah sel: ("a", 0) untuk huruf, ("", 3) untuk angka; None bila tak ada."""
+    found = _BUTIR_RE.findall(cell)
+    if not found:
+        return None
+    letter, num = found[-1] if last else found[0]
+    return (letter, int(num)) if num else (letter, 0)
+
+
+def _sambungan_baris(prev, nxt):
+    """Baris pertama potongan halaman berikutnya yang sebenarnya lanjutan baris terakhir halaman
+    sebelumnya (sel tertutup batas halaman): kolom awal kosong dan butir di sel terakhirnya
+    melanjutkan urutan butir baris sebelumnya (a. b. | c. d. e.)."""
+    if nxt[0] or not nxt[-1]:
+        return False
+    a, b = _butir(prev[-1], True), _butir(nxt[-1], False)
+    if not a or not b or bool(a[0]) != bool(b[0]):
+        return False
+    return ord(b[0]) == ord(a[0]) + 1 if a[0] else b[1] == a[1] + 1
+
+
+MAX_KOSONG_DAFTAR = 5  # tabel satu kolom isi dengan >= 6 kolom kosong = bagan arsiran (mis. bulan Tabel 2.1), dibuang
+
+
+def fix_table(fragments, drop=("No", "No."), ffill=True, with_pages=False, info=None):
     """fragments: list tabel (tiap tabel = list baris) yang merupakan satu tabel utuh.
     with_pages=True: kembalikan juga indeks potongan asal tiap baris isi (urut dengan body)."""
     notes = []
@@ -123,6 +158,9 @@ def fix_table(fragments, drop=("No", "No."), ffill=True, with_pages=False):
     kosong = [header[j] for j in range(len(header)) if not any(r[j] for r in body) and header[j]]
     if kosong:
         notes.append(f"{len(kosong)} kolom tanpa isi dibuang")
+    if info is not None:
+        info["n_kosong"] = sum(1 for j in range(len(header)) if not any(r[j] for r in body))
+        info["kosong"] = kosong
     header = [header[j] for j in keep]
     body = [[r[j] for j in keep] for r in body]
     src = [s for r, s in zip(body, src) if any(r)]
@@ -167,8 +205,18 @@ def fix_table(fragments, drop=("No", "No."), ffill=True, with_pages=False):
 
 def table_to_text(fragments, caption="", with_rows=False, **kw):
     """with_rows=True: kembalikan (teks, catatan, [(indeks_potongan, teks_baris), ...])."""
-    header, body, notes, src = fix_table(fragments, with_pages=True, **kw)
+    info = {}
+    header, body, notes, src = fix_table(fragments, with_pages=True, info=info, **kw)
     if len(header) < 2:
+        isi = sorted(len(r[0]) for r in body)
+        if len(header) == 1 and len(body) >= 2 and isi[len(isi) // 2] >= 25 and info["n_kosong"] <= MAX_KOSONG_DAFTAR:
+            # daftar periksa (mis. Lampiran 13): satu kolom berisi + kolom Ya/Tidak yang masih kosong -> satu butir per baris
+            kolom = f"{header[0]}: " if header[0] else ""
+            lines = [f"{kolom}{r[0]}" for r in body]
+            if info["kosong"]:
+                lines.append("Kolom " + ", ".join(info["kosong"]) + " dikosongkan (diisi oleh penilai).")
+            text = "\n".join(x for x in [caption, *lines] if x)
+            return (text, notes, list(zip(src, lines))) if with_rows else (text, notes)
         empty = ("", notes + ["tabel tidak punya isi selain satu kolom, sebaiknya dibuang"])
         return empty + (([],) if with_rows else ())
 
@@ -196,3 +244,27 @@ def table_to_text(fragments, caption="", with_rows=False, **kw):
         line_frags.append(frag_no)
     text = "\n".join(x for x in [caption, *lines] if x)
     return (text, notes, list(zip(line_frags, lines))) if with_rows else (text, notes)
+
+
+def drop_ghost_spaces(page, margin=0.5):
+    """Buang karakter spasi yang posisinya jatuh di dalam huruf pada baris yang sama.
+
+    Sebagian PDF menyimpan spasi dengan koordinat di tengah kata ("Jenis" terbaca "Je nis",
+    "Nilai" -> "N ilai"). Spasi sungguhan berada di antara huruf, bukan menimpa huruf."""
+    by_line = {}
+    for c in page.chars:
+        by_line.setdefault(round(c["top"]), []).append(c)
+    bad = set()
+    for line in by_line.values():
+        letters = [c for c in line if c["text"].strip()]
+        for sp in (c for c in line if not c["text"].strip()):
+            if any(c["x0"] + 1 < sp["x0"] < c["x1"] - margin for c in letters):
+                bad.add((sp["x0"], sp["top"]))
+    if not bad:
+        return page
+    return page.filter(lambda o: o.get("object_type") != "char" or o["text"].strip() or (o["x0"], o["top"]) not in bad)
+
+
+def clean_pages(pdf):
+    """Halaman-halaman pdfplumber tanpa spasi hantu (lihat drop_ghost_spaces)."""
+    return [drop_ghost_spaces(p) for p in pdf.pages]

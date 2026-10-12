@@ -1,0 +1,175 @@
+=== HALAMAN 1 ===
+[[B]] PANDUAN PENGUSULAN PENGABDIAN
+[[B]] MASYARAKAT MELALUI CYBER V.2
+
+=== HALAMAN 2 ===
+[[B]] UNTUK KETUA PENGUSUL
+
+=== HALAMAN 3 ===
+Memasuki Cybercampus V2
+1. Buka cybercampus V2 atau link
+https://unairsatu.unair.ac.id/ pada
+browser Anda,
+2. kemudian masukkan username/NIP,
+dan Password
+3. Pilih aplikasi Dosen untuk menuju ke
+cybercampus V2
+
+=== HALAMAN 4 ===
+Memasuki Cybercampus V2
+Tampilan Awal setelah login
+Pilih menu
+[[B]] Pengabdian
+[[B]] Masyarakat
+kemudian pilih
+submenu
+[[B]] Usulan
+
+=== HALAMAN 5 ===
+[[B]] Menu Usulan
+2. Klik tambah/add untuk usulan
+baru
+Belum ada usulan
+
+=== HALAMAN 6 ===
+[[B]] Template Proposal
+Note: 
+Hanya diisi pada kolom
+yang disediakan
+Dilarang memodifikasi
+template
+
+=== HALAMAN 7 ===
+[[B]] Subtansi Usulan
+
+=== HALAMAN 8 ===
+[[B]] Substansi Usulan Lanjutan (1)
+
+=== HALAMAN 9 ===
+[[B]] Pemilihan SDG’s Item
+
+=== HALAMAN 10 ===
+[[B]] Pengisian Anggota Pengabdian,
+[[B]] baik dosen maupun mahasiswa
+
+=== HALAMAN 11 ===
+[[B]] Pengisian Dokumen Mitra
+Klik “button” untuk mengunduh surat
+pernyataan mitra sasaran maupun
+mitra pelaksana Pengmas
+Klik “button” untuk menambahkan mitra
+sasaran maupun mitra pelaksana PPM
+
+=== HALAMAN 12 ===
+[[B]] Lanjutan Pengisian Dokumen Mitra
+Tombol “unggah” surat
+kesediaan mitra
+
+=== HALAMAN 13 ===
+[[B]] Pengisian Target Luaran Wajib
+Klik “BUTTON” untuk
+menambahkan luaran wajib
+
+=== HALAMAN 14 ===
+[[B]] Pengisian Target Luaran Wajib (2)
+Isian “luaran wajib” sudah
+lengkap
+
+=== HALAMAN 15 ===
+[[B]] Pengisian Target Luaran Tambahan
+Isian “luaran
+tambahan” apabila ada
+Klik “LANJUTKAN” untuk
+langkah selanjutnya
+
+=== HALAMAN 16 ===
+[[B]] Pengisian RAB
+Tombol untuk input RAB
+[[B]] Maksimal Total RAB sesuai lokasi
+mitra yang telah ditentukan
+Klik “LANJUTKAN” untuk
+langkah selanjutnya
+
+=== HALAMAN 17 ===
+Klik “LANJUTKAN” untuk
+langkah selanjutnya
+[[B]] Pengisian RAB
+
+=== HALAMAN 18 ===
+[[B]] Pengisian Jadwal Kegiatan
+Klik “BUTTON” untuk
+menambah jadwal kegiatan
+Klik “LANJUTKAN” untuk
+langkah selanjutnya
+
+=== HALAMAN 19 ===
+[[B]] Tahap Akhir (Preview)
+Silahkan di-cek kembali seluruh isian, Apabila
+masih terdapat ketidaksesuaian silahkan untuk
+[[B]] kembali ke menu sebelumnya
+Apabila terdapat isian yang belum terisi akan
+muncul peringatan bewarna merah diatas
+sub-isian seperti pada gambar
+
+=== HALAMAN 20 ===
+[[B]] Tahap Akhir (Preview)
+Tombol “Kirim Usulan” muncul apabila
+sudah melengkapi semua substansi. 
+
+=== HALAMAN 21 ===
+[[B]] Kirim Usulan
+Klik “Kirim Usulan” apabila sudah selesai. Silahkan di klik apabila
+telah mengoreksi kembali seluruh isian dalam preview
+
+=== HALAMAN 22 ===
+[[B]] UNTUK ANGGOTA PENGUSUL
+
+=== HALAMAN 23 ===
+Memasuki Cybercampus V2
+1. Buka cybercampus V2 atau link
+https://unairsatu.unair.ac.id/ pada
+browser Anda,
+2. kemudian masukkan username/NIP,
+dan Password
+3. Pilih aplikasi Dosen untuk menuju ke
+cybercampus V2
+
+=== HALAMAN 24 ===
+Memasuki Cybercampus V2
+Tampilan Awal setelah login
+Pilih menu
+[[B]] Pengabdian
+[[B]] Masyarakat
+kemudian pilih
+submenu
+[[B]] Persetujuan
+
+=== HALAMAN 25 ===
+[[B]] Persetujuan sebagai Anggota (1)
+Klik “view&action” untuk konfirmasi
+
+=== HALAMAN 26 ===
+[[B]] Persetujuan sebagai Anggota (2)
+Klik “Bersedia” sebagai anggota pengusul
+
+=== HALAMAN 27 ===
+[[B]] UNTUK SELURUH PENGUSUL
+
+=== HALAMAN 28 ===
+[[B]] (!) PERLU
+[[B]] DIPERHATIKAN
+[[B]] PROFIL PENGUSUL
+1.REKAM JEJAK (PENELITIAN,
+PENGABDIAN MASYARAKAT,
+PUBLIKASI JURNAL, PUBLIKASI
+BUKU, SEMINAR)
+2.SEBAGAI CV PENGUSUL
+MELEKAT PADA USULAN
+3.DAPAT
+DIMUTAKHIRKAN/UPDATE
+SETIAP SAAT OLEH PENGUSUL 
+
+=== HALAMAN 29 ===
+[[B]] TERIMA KASIH
+[[B]] #MengabdiTanpaHenti
+[[B]] #UnairHebat
